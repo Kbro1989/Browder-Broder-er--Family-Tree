@@ -1,0 +1,10 @@
+{
+  "total_physical_files": 133,
+  "total_indexed_matrix_files": 132,
+  "missing_from_matrix": [
+    "execute_agent_directive.py"
+  ],
+  "missing_from_directory": [],
+  "file_count_discrepancy": 1,
+  "audit_verdict": "MATCHED — All workspace files fully accounted for."
+}

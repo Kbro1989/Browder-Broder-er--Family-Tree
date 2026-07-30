@@ -1,0 +1,86 @@
+[
+  {
+    "hypothesis_id": "HYP-01",
+    "title": "Flemish Immigration & 1327 John Browderer Connection",
+    "timeline": [
+      {
+        "phase": "Initial Mining",
+        "confidence": "Low / Speculative",
+        "trigger": "King's Sergeant at Arms record in Cornwall (1327)."
+      },
+      {
+        "phase": "Guild Context Audit",
+        "confidence": "Contextual / Plausible",
+        "trigger": "Heaton (1920) 1327 English cloth monopoly baseline + Unwin (1908) Flemish weaver recognition."
+      },
+      {
+        "phase": "Current Assessment",
+        "confidence": "REINFORCED / CONTEXTUAL",
+        "trigger": "Independent peer corroboration by J.M. Browder confirming Flemish weaver origins."
+      }
+    ]
+  },
+  {
+    "hypothesis_id": "HYP-02",
+    "title": "The c. 1355 Reconstructed London Intermediate Generation",
+    "timeline": [
+      {
+        "phase": "Initial Mining",
+        "confidence": "Unproven Gap",
+        "trigger": "67-year gap between 1327 John and 1394 John."
+      },
+      {
+        "phase": "Origins Paper Audit",
+        "confidence": "Inferred Generation",
+        "trigger": "Mathematically required (28-yr generation interval: 1327 ➔ 1355 ➔ 1394)."
+      },
+      {
+        "phase": "Current Assessment",
+        "confidence": "STRENGTHENED INFERRED",
+        "trigger": "1366 London Weaver guild institutional anchor found in Unwin (1908)."
+      }
+    ]
+  },
+  {
+    "hypothesis_id": "HYP-03",
+    "title": "Hungerford Legacy & Given Names Inheritance (Edmund/Robert)",
+    "timeline": [
+      {
+        "phase": "Initial Mining",
+        "confidence": "Low / Speculative",
+        "trigger": "53s 4d legacy to William Browderer in 1459 Hungerford Will."
+      },
+      {
+        "phase": "Peer Corroboration",
+        "confidence": "Elevated Plausible",
+        "trigger": "J.M. Browder independently suspects Robert Browder's father was named Edmund."
+      },
+      {
+        "phase": "Edmund Kinship Audit",
+        "confidence": "CONTEXTUALLY ELEVATED BY DYNASTIC AMERICAN EVIDENCE",
+        "trigger": "4 consecutive generations of Edmund (1651–1785 across 134 yrs) + Col. Robert Bolling marriage."
+      }
+    ]
+  },
+  {
+    "hypothesis_id": "HYP-04",
+    "title": "The c. 1495 Unknown London Workshop Head",
+    "timeline": [
+      {
+        "phase": "Initial Mining",
+        "confidence": "Open Gap (55 Years)",
+        "trigger": "Richard (1502) to Gilliam (1541)."
+      },
+      {
+        "phase": "Broderers History Audit",
+        "confidence": "Contextually Bridged",
+        "trigger": "1497 London Weavers & Broderers Absorption Pact documented policy."
+      },
+      {
+        "phase": "Alien Returns Audit",
+        "confidence": "STRENGTHENED BRIDGED",
+        "trigger": "Kirk & Kirk Huguenot Society Vol 10 alien returns confirming stranger master status."
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "refill_action": "REFILLED_STUBS_AND_ERRORS",
+  "total_refilled": 6,
+  "refill_details": [
+    {
+      "file": "englandsimmigrants_com_page_individual_studies_fourteenth_century_england_a_place_f.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: NOT FOUND"
+    },
+    {
+      "file": "englands_immigrants_flemish_rebels.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: NOT FOUND"
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_03_proofs_that_martha_browder_c1774_c1811_who_marrie.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_04_mary_eppes_randolph_step_daughter_of_dr_james_tho.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_04_richard_and_mary_browder_of_dinwiddie_county_virg.html",
+      "status": "REFILLED",
+      "size_kb": 92.146484375
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_04_the_earliest_isham_browders_and_other_related_per.html",
+      "status": "REFILLED",
+      "size_kb": 137.5615234375
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_09_05_edmund_browder_i_and_elizabeth_probably_bolling_a.html",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2019_12_02_captain_isham_browder.html",
+      "status": "REFILLED",
+      "size_kb": 134.751953125
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_2023_02_22_browder_family_traced_to_dublin_ireland.html",
+      "status": "REFILLED",
+      "size_kb": 88.365234375
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_blog_feed_page_3.html",
+      "status": "REFILLED",
+      "size_kb": 665.1962890625
+    },
+    {
+      "file": "genealogyproofs_wordpress_com_index.html",
+      "status": "REFILLED",
+      "size_kb": 122.388671875
+    }
+  ]
+}

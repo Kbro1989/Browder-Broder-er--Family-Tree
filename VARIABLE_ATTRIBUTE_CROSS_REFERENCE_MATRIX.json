@@ -1,0 +1,5966 @@
+{
+  "Person Node IDs": {
+    "john_browderer_1327": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "john_browderer_1394": [
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "thome_browderer_1406": [
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "joh_browdere_1412": [
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "william_browderer_1419": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "richard_browderer_1466": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "gilliam_browderer_1521": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "thomas_browder_1575": [
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "alphonse_browder_1610": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "robert_browder_1604": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "mary_hulme_1601": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "thomas_browder_1624": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "george_browder_1624": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "john_broadar_1674": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "integrate_gdoc_discoveries.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "edmund_browder_1651": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "elizabeth_parsons_1655": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "john_browder_1690": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "elizabeth_jones_1695": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "edmund_w_browder_1699": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "george_andrew_browder_1700": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "william_browder_1702": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "edmund_browder_sr_1716": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "edmund_browder_jr_1740": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "captain_isham_browder_1747": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "lt_joseph_browder_1750": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "jesse_browder_1752": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "charles_browder_1754": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "darius_browder_1785": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "joseph_browder_1789": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "albert_browder_1830": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "george_thomas_browder_1860": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "albert_edgar_browder_1890": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "paul_eugene_browder_1920": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "kevin_browder_1_1955": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "kevin_browder_2_1985": [
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ]
+  },
+  "HTML Data Attributes": {
+    "data-name": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "check_svg_connectors.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compare_lineage.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "final_sanity_check.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "data-dates": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "data-location": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "data-notes": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "inject_parsed_evidence_into_html.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "person-card": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 9
+      },
+      {
+        "file_name": "check_svg_connectors.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "connector": [
+      {
+        "file_name": "brain_harvested_.system_generated_messages_9c9b38f4-af26-482e-a7a0-9985fa2beb61.json",
+        "category": "root",
+        "occurrences": 45
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "check_svg_connectors.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "compare_lineage.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "compile_final_corpus_summary.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FINAL_RESEARCH_CORPUS_SUMMARY.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "final_sanity_check.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "direct": [
+      {
+        "file_name": "brain_harvested_.system_generated_messages_9c9b38f4-af26-482e-a7a0-9985fa2beb61.json",
+        "category": "root",
+        "occurrences": 15
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_mining_summary.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_edmund_kinship_and_diff_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_final_corpus_summary.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "deep_fetch_protected_sources.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "extract_speech_and_dialogue.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FINAL_RESEARCH_CORPUS_SUMMARY.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "harvest_download_pack.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_dialogue_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_master_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_parsed_evidence_into_html.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_timeline_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inject_variable_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "link_local_source_pages.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 25
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MANCHESTER_CATHEDRAL_SEARCH_PROTOCOL.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 28
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 12
+      },
+      {
+        "file_name": "parse_relationships_from_papers.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 17
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 20
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_04_the_earliest_isham_browders_and_other_related_per.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2019_12_02_captain_isham_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_4.html",
+        "category": "archive",
+        "occurrences": 8
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_browder_as_opposed_to_broderbund.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_captain_isham_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_clearing_up_some_early_browder_family_research.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_richard_and_mary_browder.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_browder_and_talitha_cox_of_guilford_rockingham_county_north_carolina_our_founding_pioneers.html",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_c_browder_and_martha_browder_of_rockingham_county_north_carolina.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_richard_browder_and_mary_ann_harris_and_their_children.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_mary_eppes_randolph_step_daughter_of_dr_james_thompson_and_wife_of_richard_browder_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_south_carolina_browder_family.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_parthenia_theney_browder_bailey_never_existed_and_heres_proof.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_proofs_that_martha_browder_c1774_c1811_who_married_isham_c_browder_c1774_1832_was_a_daughter_of_richard_browder_c1719_c1807_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_earliest_isham_browders_and_other_related_persons.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_evidence_that_arthur_browder_son_of_john_and_elizaneth_browder_married_mary_isham_randolph_daughter_of_thomas_randolph_and_judith_fleming.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 18
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 8
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_70140_early_english_cotton_industry.txt",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 18
+      },
+      {
+        "file_name": "downloaded_source_pages/mcminntnhistorical_org_wills.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "branch": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_9c9b38f4-af26-482e-a7a0-9985fa2beb61.json",
+        "category": "root",
+        "occurrences": 33
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "elevate_hyp03_with_dynastic_evidence.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 115
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 74
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 52
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 8
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 29
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history_broderers.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 12
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 17
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_4.html",
+        "category": "archive",
+        "occurrences": 17
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_descendants_of_thomas_isham_browder_and_talitha_cox.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_john_and_elizabeth_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_richard_and_mary_browder.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_browder_and_talitha_cox_of_guilford_rockingham_county_north_carolina_our_founding_pioneers.html",
+        "category": "archive",
+        "occurrences": 14
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_browder_of_the_revolutionary_war.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_c_browder_and_martha_browder_of_rockingham_county_north_carolina.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_richard_browder_and_mary_ann_harris_and_their_children.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_cox_and_related_family_history.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_isham_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_randolph_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_browder_family_surname.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_thrasher_john_sen_to_john_thrasher_jr_17_feb_1788.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 17
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_70140_early_english_cotton_industry.txt",
+        "category": "archive",
+        "occurrences": 28
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/mcminntnhistorical_org_wills.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/saffron_walden_historical_society_baptisms.html",
+        "category": "archive",
+        "occurrences": 4
+      }
+    ]
+  },
+  "Primary Record Identifiers": {
+    "20990": [
+      {
+        "file_name": "brain_harvested_.system_generated_messages_3c56f5e4-82a0-4fec-9ed6-c6cb597cf533.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_6b1ce918-f967-4fcd-bb42-973ff96c7136.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "extract_speech_and_dialogue.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "fetch_all_source_pages.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "link_local_source_pages.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 2
+      }
+    ],
+    "Papal Letters": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Lateran Regesta": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Tudor Subsidy Roll": [
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "Hungerford": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "elevate_hyp03_with_dynastic_evidence.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "HYPOTHESIS_CONFIDENCE_TRACKER.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "HYPOTHESIS_CONFIDENCE_TRACKER.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 71
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 27
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 27
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 53
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 26
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_cox_and_related_family_history.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "lancashireparis03socigoog": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_11ffa54a-0140-4c81-a4a2-fff4a23ece05.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_archive_pipeline_results.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "inspect_vol.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MANCHESTER_CATHEDRAL_SEARCH_PROTOCOL.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "search_browderer_variations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "search_vol.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_details_lancashireparis03socigoog.html",
+        "category": "archive",
+        "occurrences": 2
+      }
+    ],
+    "Land Patents Book 6": [
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "Hearth Money": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 20
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 21
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 24
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Deed Book": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_mining_summary.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 84
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 62
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 11
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 15
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_4.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_john_and_elizabeth_browder.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_richard_and_mary_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_edmund_browder_i_and_elizabeth_probably_bolling_and_their_earliest_descendants.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_browder_and_talitha_cox_of_guilford_rockingham_county_north_carolina_our_founding_pioneers.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_richard_browder_and_mary_ann_harris_and_their_children.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_mary_eppes_randolph_step_daughter_of_dr_james_thompson_and_wife_of_richard_browder_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_south_carolina_browder_family.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_bolling_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_cox_and_related_family_history.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_eppes_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_isham_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_randolph_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_proofs_that_martha_browder_c1774_c1811_who_married_isham_c_browder_c1774_1832_was_a_daughter_of_richard_browder_c1719_c1807_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_ancestry_of_isham_browder_1762_1830_solved_at_last.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_thrasher_john_sen_to_john_thrasher_jr_17_feb_1788.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 15
+      }
+    ],
+    "Statutes at Large": [
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_edmund_browder_i_and_elizabeth_probably_bolling_and_their_earliest_descendants.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ]
+  },
+  "Geographic Locations": {
+    "London": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_3c56f5e4-82a0-4fec-9ed6-c6cb597cf533.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_6b1ce918-f967-4fcd-bb42-973ff96c7136.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_6f1fd88a-c370-41ac-89be-f79b6226fb5f.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_adabe1e2-7b36-4d2a-bcb0-ea12ffc85462.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 30
+      },
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 24
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 14
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_edmund_kinship_and_diff_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "compile_final_corpus_summary.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 21
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "elevate_hyp03_with_dynastic_evidence.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 12
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 18
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 17
+      },
+      {
+        "file_name": "extract_speech_and_dialogue.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "fetch_all_source_pages.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FINAL_RESEARCH_CORPUS_SUMMARY.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 14
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 28
+      },
+      {
+        "file_name": "HYPOTHESIS_CONFIDENCE_TRACKER.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "HYPOTHESIS_CONFIDENCE_TRACKER.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "integrate_gdoc_discoveries.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 30
+      },
+      {
+        "file_name": "lancashireparis03socigoog_djvu.txt",
+        "category": "root",
+        "occurrences": 12
+      },
+      {
+        "file_name": "link_local_source_pages.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 6617
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 66
+      },
+      {
+        "file_name": "MANCHESTER_CATHEDRAL_SEARCH_PROTOCOL.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 82
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 90
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 96
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 41
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 14
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 12
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 14
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "retry_failed_fetches.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SEAX_LOOKUP_EMAIL_ZOFIA_EVERETT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 28
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 28
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 259
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 538
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 136
+      },
+      {
+        "file_name": "downloaded_source_pages/bho_london_record_soc_vol29.html",
+        "category": "archive",
+        "occurrences": 66
+      },
+      {
+        "file_name": "downloaded_source_pages/british-history_ac_uk_london_record_soc_vol29.html",
+        "category": "archive",
+        "occurrences": 66
+      },
+      {
+        "file_name": "downloaded_source_pages/british-history_ac_uk_no_series_london_subisdies_1541.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history_broderers.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_twenty_questions.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/en_wikipedia_org_wiki_Worshipful_Company_of_Broderers.html",
+        "category": "archive",
+        "occurrences": 11
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 15
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 31
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_4.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_correcting_hopeless_errors_concerning_browder_family_genealogy.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_browder_of_the_revolutionary_war.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_on_surnames_and_coats_of_arms.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 30
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_bolling_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_cox_and_related_family_history.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_eppes_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_isham_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_randolph_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_browder_family_surname.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 31
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 483
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 73
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 62
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_70140_early_english_cotton_industry.txt",
+        "category": "archive",
+        "occurrences": 59
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 483
+      },
+      {
+        "file_name": "downloaded_source_pages/weavers_org_uk_about_history_1300_2.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/weavers_org_uk_history.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/wikipedia_worshipful_company_of_broderers.html",
+        "category": "archive",
+        "occurrences": 11
+      }
+    ],
+    "Queenhithe": [
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 57
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/bho_london_record_soc_vol29.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/british-history_ac_uk_london_record_soc_vol29.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 3
+      }
+    ],
+    "Manchester": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_6f1fd88a-c370-41ac-89be-f79b6226fb5f.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 13
+      },
+      {
+        "file_name": "browder_archive_pipeline_results.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 16
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "browder_mining_summary.txt",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "compile_final_corpus_summary.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "extract_speech_and_dialogue.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "FINAL_RESEARCH_CORPUS_SUMMARY.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 13
+      },
+      {
+        "file_name": "lancashireparis03socigoog_djvu.txt",
+        "category": "root",
+        "occurrences": 1224
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 9657
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 37
+      },
+      {
+        "file_name": "MANCHESTER_CATHEDRAL_SEARCH_PROTOCOL.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 58
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 59
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 51
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 20
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "run_pipeline.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "search_all_variants.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 3151
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 17
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 11
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_on_surnames_and_coats_of_arms.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_cox_and_related_family_history.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_browder_family_surname.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_70140_early_english_cotton_industry.txt",
+        "category": "archive",
+        "occurrences": 325
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 7
+      }
+    ],
+    "Lancashire": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_archive_pipeline_results.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "lancashireparis03socigoog_djvu.txt",
+        "category": "root",
+        "occurrences": 12
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 1300
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "MANCHESTER_CATHEDRAL_SEARCH_PROTOCOL.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 38
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 38
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "run_pipeline.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 281
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_details_lancashireparis03socigoog.html",
+        "category": "archive",
+        "occurrences": 9
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 33
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 12
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_70140_early_english_cotton_industry.txt",
+        "category": "archive",
+        "occurrences": 118
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Saffron Walden": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_final_corpus_summary.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FINAL_RESEARCH_CORPUS_SUMMARY.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 190
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "SEAX_LOOKUP_EMAIL_ZOFIA_EVERETT.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 35
+      },
+      {
+        "file_name": "downloaded_source_pages/saffron_walden_historical_society_baptisms.html",
+        "category": "archive",
+        "occurrences": 28
+      }
+    ],
+    "Suffolk": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 9
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 166
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 38
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 37
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 17
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "SOVEREIGN_PROOF_FINAL_SYNTHESIS.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 13
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_isham_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_51885_trade_signs_of_essex.txt",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 2
+      }
+    ],
+    "Coldharbour": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_family_tree_warnings.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "GAP_04_CLOSURE_INTELLIGENCE_REPORT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 16
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Tipperary": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 6
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 91
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 19
+      },
+      {
+        "file_name": "master_file_cross_reference.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 23
+      },
+      {
+        "file_name": "MASTER_FILE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 22
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 18
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_on_surnames_and_coats_of_arms.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 5
+      }
+    ],
+    "Dublin": [
+      {
+        "file_name": "audit_and_refill_bad_downloads.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "blog_feed_audit_results.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_messages_6b1ce918-f967-4fcd-bb42-973ff96c7136.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 11
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_edmund_kinship_and_diff_matrix.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "inject_location_matrix_link.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 137
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 23
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 95
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 8
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2023_02_22_browder_family_traced_to_dublin_ireland.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_browder_family_traced_to_dublin_ireland.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_edmund_browder_i_and_elizabeth_probably_bolling_and_their_earliest_descendants.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_randolph_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_parthenia_theney_browder_bailey_never_existed_and_heres_proof.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_thrasher_john_sen_to_john_thrasher_jr_17_feb_1788.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 6
+      }
+    ],
+    "Elizabeth River": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "integrate_gdoc_discoveries.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 35
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 35
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2023_02_22_browder_family_traced_to_dublin_ireland.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_browder_family_traced_to_dublin_ireland.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Gravelly Run": [
+      {
+        "file_name": "add_associates_and_inlaws.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_edmund_kinship_and_diff_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 223
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 133
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_04_richard_and_mary_browder_of_dinwiddie_county_virg.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_04_the_earliest_isham_browders_and_other_related_per.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_1.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 21
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_clearing_up_some_early_browder_family_research.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_richard_and_mary_browder.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_edmund_browder_i_and_elizabeth_probably_bolling_and_their_earliest_descendants.html",
+        "category": "archive",
+        "occurrences": 7
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_isham_c_browder_and_martha_browder_of_rockingham_county_north_carolina.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_john_browder_i_and_elizabeth_jones_the_welsh_lady.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_bolling_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_proofs_that_martha_browder_c1774_c1811_who_married_isham_c_browder_c1774_1832_was_a_daughter_of_richard_browder_c1719_c1807_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_richard_and_mary_browder_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_earliest_isham_browders_and_other_related_persons.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 21
+      }
+    ],
+    "Appomattox": [
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 115
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 11
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_edmund_browder_i_and_elizabeth_probably_bolling_and_their_earliest_descendants.html",
+        "category": "archive",
+        "occurrences": 9
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_mary_eppes_randolph_step_daughter_of_dr_james_thompson_and_wife_of_richard_browder_of_dinwiddie_county_virginia.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_eppes_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_our_randolph_and_related_family_heritage.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 11
+      }
+    ],
+    "McMinn": [
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 18
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "gap_analysis_audit.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 387
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 19
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 10
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/findagrave_com_virtual_cemetery_216063.html",
+        "category": "archive",
+        "occurrences": 6
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_04_the_earliest_isham_browders_and_other_related_per.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_earliest_known_descendants_of_john_and_elizabeth_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_earliest_isham_browders_and_other_related_persons.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/mcminntnhistorical_org_wills.html",
+        "category": "archive",
+        "occurrences": 138
+      }
+    ]
+  },
+  "Guilds & Insignia": {
+    "Worshipful Company of Broderers": [
+      {
+        "file_name": "brain_harvested_.system_generated_messages_9c9b38f4-af26-482e-a7a0-9985fa2beb61.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_research_brief.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "build_pog3_and_protocol.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "extract_speech_and_dialogue.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 32
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_history_broderers.html",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/broderers_co_uk_twenty_questions.html",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/en_wikipedia_org_wiki_Worshipful_Company_of_Broderers.html",
+        "category": "archive",
+        "occurrences": 9
+      },
+      {
+        "file_name": "downloaded_source_pages/wikipedia_worshipful_company_of_broderers.html",
+        "category": "archive",
+        "occurrences": 9
+      }
+    ],
+    "Worshipful Company of Weavers": [
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 1
+      }
+    ],
+    "Master John Parr": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "Master Edmund Harrison": [
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      }
+    ],
+    "Flemish Weavers": [
+      {
+        "file_name": "brain_harvested_.system_generated_messages_9c9b38f4-af26-482e-a7a0-9985fa2beb61.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "brain_harvested_.system_generated_steps_259_content.md",
+        "category": "root",
+        "occurrences": 21
+      },
+      {
+        "file_name": "BRODERERS_GUILD_CRAFT_CONTEXT.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 7
+      },
+      {
+        "file_name": "browder_broderers_lineage.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "compile_gap04_intelligence_and_broderers_craft.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "evaluate_gap_filling_data.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_agent_directive.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "execute_all_three_tasks.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "john_mark_browder_origins_paper.txt",
+        "category": "root",
+        "occurrences": 21
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 137
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 8
+      },
+      {
+        "file_name": "parsed_name_relationships.json",
+        "category": "root",
+        "occurrences": 5
+      },
+      {
+        "file_name": "parsed_name_relationships.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "pog3_lineage_ingestion.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "PRE_1604_GAP_FILLING_EVALUATION.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 4
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_annals_of_manchester_ocr.txt",
+        "category": "archive",
+        "occurrences": 3
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_gilds_and_companies_of_london_ocr.txt",
+        "category": "archive",
+        "occurrences": 5
+      },
+      {
+        "file_name": "downloaded_source_pages/archive_org_yorkshire_woollen_industry_ocr.txt",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_2.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html",
+        "category": "archive",
+        "occurrences": 20
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_on_surnames_and_coats_of_arms.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_origins_of_the_browder_surname_and_everyone_prior_to_edmund_browder.html",
+        "category": "archive",
+        "occurrences": 20
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_com_the_browder_family_surname.html",
+        "category": "archive",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/genealogyproofs_wordpress_page3.html",
+        "category": "archive",
+        "occurrences": 20
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_55862_industrial_history_of_england.txt",
+        "category": "archive",
+        "occurrences": 4
+      },
+      {
+        "file_name": "downloaded_source_pages/weavers_org_uk_about_history_1300_2.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/weavers_org_uk_history.html",
+        "category": "archive",
+        "occurrences": 2
+      }
+    ],
+    "Ulster Plantation": [
+      {
+        "file_name": "browder_broderers_family_tree.html",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "create_readme.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "cross_reference_locations.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "generate_timeline_1300_1990.py",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "location_cross_reference_matrix.json",
+        "category": "root",
+        "occurrences": 9
+      },
+      {
+        "file_name": "location_cross_reference_matrix.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "README.md",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.json",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "TIMELINED_EVENTS_1300_1990_MATRIX.md",
+        "category": "root",
+        "occurrences": 2
+      },
+      {
+        "file_name": "update_readme_with_exact_tree.py",
+        "category": "root",
+        "occurrences": 3
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "variable_cross_reference_matrix.py",
+        "category": "root",
+        "occurrences": 1
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html",
+        "category": "archive",
+        "occurrences": 2
+      },
+      {
+        "file_name": "downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html",
+        "category": "archive",
+        "occurrences": 2
+      }
+    ]
+  }
+}

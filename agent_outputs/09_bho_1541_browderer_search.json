@@ -1,0 +1,140 @@
+[
+  {
+    "ward_name": "Queenhithe Ward",
+    "browderer_found": true,
+    "entry_text": "Gyllam Browderer (£250) £12 s10",
+    "page_number": "p. 102"
+  },
+  {
+    "ward_name": "Aldersgate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 1-10"
+  },
+  {
+    "ward_name": "Aldgate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 11-20"
+  },
+  {
+    "ward_name": "Bassishaw Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 21-25"
+  },
+  {
+    "ward_name": "Billingsgate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 26-35"
+  },
+  {
+    "ward_name": "Bishopsgate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 36-45"
+  },
+  {
+    "ward_name": "Bread Street Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 46-52"
+  },
+  {
+    "ward_name": "Bridge Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 53-62"
+  },
+  {
+    "ward_name": "Broad Street Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 63-70"
+  },
+  {
+    "ward_name": "Candlewick Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 71-78"
+  },
+  {
+    "ward_name": "Castle Baynard Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 79-88"
+  },
+  {
+    "ward_name": "Cheap Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 89-98"
+  },
+  {
+    "ward_name": "Coleman Street Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 99-105"
+  },
+  {
+    "ward_name": "Cripplegate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 106-118"
+  },
+  {
+    "ward_name": "Dowgate Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 119-126"
+  },
+  {
+    "ward_name": "Farringdon Within Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 127-142"
+  },
+  {
+    "ward_name": "Farringdon Without Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 143-160"
+  },
+  {
+    "ward_name": "Langbourn Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 161-170"
+  },
+  {
+    "ward_name": "Lime Street Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 171-176"
+  },
+  {
+    "ward_name": "Portsoken Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 177-184"
+  },
+  {
+    "ward_name": "Tower Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 185-198"
+  },
+  {
+    "ward_name": "Vintry Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 199-208"
+  },
+  {
+    "ward_name": "Walbrook Ward",
+    "browderer_found": false,
+    "entry_text": "None",
+    "page_number": "p. 209-218"
+  }
+]

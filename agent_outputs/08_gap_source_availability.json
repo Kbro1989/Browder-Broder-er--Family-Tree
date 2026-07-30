@@ -1,0 +1,26 @@
+[
+  {
+    "gap_id": "GAP-01 (1327-1394)",
+    "source_location": "Papal Letters Vol. IV p. 488 & St. Hilary Parish Website",
+    "harvested_status": "harvested_in_corpus",
+    "extracted_format": "john_mark_browder_origins_paper.txt & genealogyproofs_wordpress_page3.html"
+  },
+  {
+    "gap_id": "GAP-02 (1394-1412)",
+    "source_location": "Ancient Accounts of Mettingham College, Suffolk (Rev. C.R. Manning)",
+    "harvested_status": "harvested_in_corpus",
+    "extracted_format": "john_mark_browder_origins_paper.txt & genealogyproofs_wordpress_page3.html"
+  },
+  {
+    "gap_id": "GAP-03 (1466-1541)",
+    "source_location": "Tudor Subsidy Roll 1541 (London Record Society Vol 29, p. 102) & 1459 Hungerford Will",
+    "harvested_status": "harvested_in_corpus",
+    "extracted_format": "bho_london_record_soc_vol29.html & john_mark_browder_origins_paper.txt"
+  },
+  {
+    "gap_id": "GAP-04 (1541-1623)",
+    "source_location": "Manchester Cathedral Registers (LPRS Vol 31, 1573-1616)",
+    "harvested_status": "harvested_in_corpus",
+    "extracted_format": "lancashireparis03socigoog_djvu.txt (1.70 MB OCR Transcript)"
+  }
+]

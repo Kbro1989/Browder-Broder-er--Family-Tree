@@ -1,0 +1,49 @@
+[
+  {
+    "hypothesis_id": "HYP-01",
+    "title": "Flemish Immigration & 1327 John Browderer Connection",
+    "author_statement": "John Browderer (King's Sergeant at Arms, 1327) arrived in London/Cornwall following Edward III's invitation to Flemish weavers.",
+    "speculative_cues": [
+      "probably",
+      "tenuous",
+      "it seems possible"
+    ],
+    "confidence_score": "MODERATE / CONTEXTUAL",
+    "impact_on_gap_confidence": "Does not prove direct blood descent to 1394 John, but establishes historical Flemish occupational context in London and Cornwall."
+  },
+  {
+    "hypothesis_id": "HYP-02",
+    "title": "The c. 1355 Reconstructed London Intermediate Generation",
+    "author_statement": "A John Browderere was born c. 1355 in London as the son of 1327 John and father of 1394 John.",
+    "speculative_cues": [
+      "might have been",
+      "chronologically required"
+    ],
+    "confidence_score": "INFERRED GENERATION",
+    "impact_on_gap_confidence": "Gap 1 (1327➔1394) must remain classified as 'INFERRED GENERATION' rather than 'PROVEN'. Black Death (1348-1350) record loss prevents primary probate proof."
+  },
+  {
+    "hypothesis_id": "HYP-03",
+    "title": "Hungerford Family Connection & Given Names Inheritance",
+    "author_statement": "William Browderer (1459 Hungerford Will) named his sons Edmund and Robert after Baron Robert Hungerford and Sir Edmund Hungerford.",
+    "speculative_cues": [
+      "tenuous",
+      "speculative",
+      "suggestive"
+    ],
+    "confidence_score": "CONTEXTUALLY ELEVATED BY DYNASTIC AMERICAN EVIDENCE",
+    "impact_on_gap_confidence": "Explains the sudden appearance of given names 'Edmund' and 'Robert' in the Browder family tree, but lacks explicit baptismal proof.",
+    "dynastic_proof": "Supported by 4 consecutive generations of Edmund (1651-1785, 134 years) and J.M. Browder independent peer corroboration."
+  },
+  {
+    "hypothesis_id": "HYP-04",
+    "title": "The c. 1495 Reconstructed London Workshop Head",
+    "author_statement": "An unknown Browderer headed the London embroidery workshop c. 1495 connecting Richard (Cornwall 1466/1502) to Gilliam (London 1541).",
+    "speculative_cues": [
+      "likely",
+      "plausible reconstruction"
+    ],
+    "confidence_score": "INFERRED / CONTEXTUALLY BRIDGED",
+    "impact_on_gap_confidence": "1497 Weavers Guild Absorption Pact is proven guild history, but the specific father-son link between Richard and Gilliam is inferred."
+  }
+]

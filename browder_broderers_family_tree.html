@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browder-Broderers Family Tree</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #1a1510;
+            color: #e8dcc8;
+            overflow-x: hidden;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: #2a2018;
+            border-bottom: 3px solid #c9a84c;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            color: #c9a84c;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            letter-spacing: 2px;
+        }
+
+        .header .subtitle {
+            font-size: 1em;
+            color: #a89070;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        .header .motto {
+            font-size: 1.3em;
+            color: #c9a84c;
+            margin-top: 12px;
+            font-variant: small-caps;
+            letter-spacing: 4px;
+        }
+
+        .timeline-container {
+            position: relative;
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 40px 20px;
+            background: #1a1510;
+        }
+
+        .timeline {
+            position: relative;
+            min-width: 2000px;
+            height: 2800px;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 100px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #c9a84c;
+            box-shadow: 0 0 10px rgba(201, 168, 76, 0.3);
+        }
+
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -6px;
+            width: 16px;
+            height: 16px;
+            background: #c9a84c;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(201, 168, 76, 0.6);
+        }
+
+        .timeline-line::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: -6px;
+            width: 16px;
+            height: 16px;
+            background: #c9a84c;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(201, 168, 76, 0.6);
+        }
+
+        .era-label {
+            position: absolute;
+            left: 10px;
+            font-size: 0.75em;
+            color: #a89070;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 80px;
+            text-align: right;
+        }
+
+        .year-marker {
+            position: absolute;
+            left: 90px;
+            font-size: 0.7em;
+            color: #8a7a60;
+            font-family: monospace;
+        }
+
+        .year-line {
+            position: absolute;
+            left: 120px;
+            right: 50px;
+            height: 1px;
+            background: rgba(201, 168, 76, 0.15);
+        }
+
+        .person-card {
+            position: absolute;
+            background: #2a2018;
+            border: 2px solid #5a4a38;
+            border-radius: 8px;
+            padding: 12px 16px;
+            min-width: 220px;
+            max-width: 300px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .person-card:hover {
+            border-color: #c9a84c;
+            box-shadow: 0 6px 20px rgba(201, 168, 76, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .person-card.highlight {
+            border-color: #c9a84c;
+            background: #3a2e20;
+            box-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
+        }
+
+        .person-card.direct-line {
+            border-left: 4px solid #c9a84c;
+        }
+
+        .person-card.branch {
+            border-left: 4px solid #5a7a5a;
+        }
+
+        .person-card.root {
+            border: 3px solid #c9a84c;
+            background: #3a2e20;
+            box-shadow: 0 0 25px rgba(201, 168, 76, 0.4);
+        }
+
+        .person-name {
+            font-size: 1em;
+            font-weight: bold;
+            color: #e8dcc8;
+            margin-bottom: 4px;
+        }
+
+        .person-dates {
+            font-size: 0.8em;
+            color: #a89070;
+            font-family: monospace;
+            margin-bottom: 4px;
+        }
+
+        .person-location {
+            font-size: 0.75em;
+            color: #8a9a7a;
+            margin-bottom: 6px;
+        }
+
+        .person-notes {
+            font-size: 0.72em;
+            color: #a89070;
+            line-height: 1.4;
+            font-style: italic;
+        }
+
+        .connector {
+            position: absolute;
+            height: 2px;
+            background: #5a4a38;
+            z-index: 0;
+        }
+
+        .connector.direct {
+            background: #c9a84c;
+            box-shadow: 0 0 5px rgba(201, 168, 76, 0.4);
+        }
+
+        .connector.vertical {
+            width: 2px;
+            height: auto;
+        }
+
+        .branch-label {
+            position: absolute;
+            font-size: 0.7em;
+            color: #5a7a5a;
+            font-style: italic;
+            background: #1a1510;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .legend {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2a2018;
+            border: 2px solid #5a4a38;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 0.8em;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 12px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+
+        .legend-color.direct { background: #c9a84c; }
+        .legend-color.branch { background: #5a7a5a; }
+        .legend-color.root { background: #c9a84c; border: 2px solid #c9a84c; }
+
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 8px;
+        }
+
+        .control-btn {
+            background: #2a2018;
+            border: 2px solid #5a4a38;
+            color: #c9a84c;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: Georgia, serif;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            border-color: #c9a84c;
+            background: #3a2e20;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: #3a2e20;
+            border: 2px solid #c9a84c;
+            border-radius: 8px;
+            padding: 15px;
+            max-width: 350px;
+            z-index: 200;
+            display: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+            pointer-events: none;
+        }
+
+        .tooltip h3 {
+            color: #c9a84c;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .tooltip p {
+            color: #d0c0a0;
+            font-size: 0.85em;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+
+        .tooltip .tooltip-dates {
+            color: #a89070;
+            font-family: monospace;
+            font-size: 0.8em;
+        }
+
+        .scroll-hint {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(42, 32, 24, 0.9);
+            border: 1px solid #5a4a38;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 0.8em;
+            color: #a89070;
+            z-index: 100;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+
+        .generation-band {
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: rgba(201, 168, 76, 0.03);
+            border-top: 1px solid rgba(201, 168, 76, 0.1);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚜ The Browder-Broderers Lineage</h1>
+        <div class="subtitle">From Flemish Weavers to Sovereign Stacks — 700 Years of Craft and Code</div>
+        <div class="motto">Omnia Desuper</div>
+    </div>
+
+    <div class="controls">
+        <button class="control-btn" onclick="zoomIn()">+ Zoom In</button>
+        <button class="control-btn" onclick="zoomOut()">- Zoom Out</button>
+        <button class="control-btn" onclick="resetView()">Reset</button>
+        <button class="control-btn" onclick="toggleBranches()">Toggle Branches</button>
+    </div>
+
+    <div class="timeline-container" id="container">
+        <div class="timeline" id="timeline">
+            <div class="timeline-line"></div>
+
+            <!-- Generation 0: Flemish Origins -->
+            <div class="generation-band" style="top: 20px; height: 60px;"></div>
+            <div class="era-label" style="top: 35px;">~1300</div>
+            <div class="year-marker" style="top: 35px;">1300</div>
+            <div class="year-line" style="top: 40px;"></div>
+
+            <div class="person-card root" style="top: 15px; left: 180px;" 
+                 data-name="Flemish Weavers of Ghent" 
+                 data-dates="~1300" 
+                 data-location="Flanders (Belgium)"
+                 data-notes="Invited by Edward III to establish English cloth industry. Brought the term 'browderer' to England. Guild-organized craft workers who became the foundation of the Worshipful Company of Broderers.">
+                <div class="person-name">Flemish Weavers of Ghent</div>
+                <div class="person-dates">~1300</div>
+                <div class="person-location">Flanders (Belgium)</div>
+                <div class="person-notes">Guild weavers invited by Edward III</div>
+            </div>
+
+            <!-- Generation 1: Early Browderers -->
+            <div class="generation-band" style="top: 90px; height: 120px;"></div>
+            <div class="era-label" style="top: 130px;">1327-1541</div>
+            <div class="year-marker" style="top: 100px;">1350</div>
+            <div class="year-line" style="top: 105px;"></div>
+            <div class="year-marker" style="top: 145px;">1450</div>
+            <div class="year-line" style="top: 150px;"></div>
+
+            <div class="person-card branch" style="top: 85px; left: 220px;"
+                 data-name="John Browderer" data-dates="~1327" data-location="London"
+                 data-notes="King's Sergeant at Arms. First recorded Browderer in London.">
+                <div class="person-name">John Browderer</div>
+                <div class="person-dates">~1327</div>
+                <div class="person-location">London</div>
+                <div class="person-notes">King's Sergeant at Arms</div>
+            </div>
+
+            <div class="person-card branch" style="top: 85px; left: 500px;"
+                 data-name="William Browderer" data-dates="~1419" data-location="London"
+                 data-notes="Named in Baron Hungerford's Will, 1459. Legacy of 53s 4d.">
+                <div class="person-name">William Browderer</div>
+                <div class="person-dates">~1419</div>
+                <div class="person-location">London</div>
+                <div class="person-notes">Named in Baron Hungerford's Will</div>
+            </div>
+
+            <div class="person-card branch" style="top: 85px; left: 780px;"
+                 data-name="John Browderer" data-dates="1394" data-location="London, England"
+                 data-notes="Citizen of London. Documented in Papal Letters, Vol. IV, p. 488 (Lateran Regesta, Vol. XXXIV). 67-year gap from ~1327 John — parent-child link UNPROVEN. Could be descendant or same man if dates are off. SOURCE: J.M. Browder.">
+                <div class="person-name">John Browderer</div>
+                <div class="person-dates">1394</div>
+                <div class="person-location">London, England</div>
+                <div class="person-notes">Papal Letters Vol.IV p.488. 67-yr gap from ~1327.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 140px; left: 360px;"
+                 data-name="Richard Browderer" data-dates="~1466" data-location="Coldharbour, Cornwall"
+                 data-notes="Recorded 1502. Coldharbour was a major port.">
+                <div class="person-name">Richard Browderer</div>
+                <div class="person-dates">~1466</div>
+                <div class="person-location">Coldharbour, Cornwall</div>
+                <div class="person-notes">Recorded 1502</div>
+            </div>
+
+            <div class="person-card branch" style="top: 140px; left: 820px;"
+                 data-name="Thome Browderer" data-dates="1406-07" data-location="Mettingham College, Suffolk"
+                 data-notes="Documented in Original Documents; Extracts from the Ancient Accounts of Mettingham College, Suffolk. Links to the 1375 Thomas in J.M. Browder's reconstruction. SOURCE: J.M. Browder.">
+                <div class="person-name">Thome Browderer</div>
+                <div class="person-dates">1406-07</div>
+                <div class="person-location">Mettingham College, Suffolk</div>
+                <div class="person-notes">Mettingham College accounts. Suffolk link.</div>
+            </div>
+            <div class="person-card branch" style="top: 140px; left: 1100px;"
+                 data-name="Joh Browdere" data-dates="1412-13" data-location="Suffolk, England"
+                 data-notes="Same source as Thome Browderer (Mettingham College accounts). 'Browdere' variant — the 'w' dropped early in some lines. Could be brother or son of Thome — no proven parent-child link. SOURCE: J.M. Browder.">
+                <div class="person-name">Joh Browdere</div>
+                <div class="person-dates">1412-13</div>
+                <div class="person-location">Suffolk, England</div>
+                <div class="person-notes">'Browdere' variant — 'w' dropped early.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 140px; left: 640px;"
+                 data-name="Gilliam Browderer" data-dates="~1521" data-location="London"
+                 data-notes="'Stranger' in Tudor Subsidy Roll, 1541. Listed in St. Peter's Somerset Parish.">
+                <div class="person-name">Gilliam Browderer</div>
+                <div class="person-dates">~1521</div>
+                <div class="person-location">London</div>
+                <div class="person-notes">'Stranger' in Tudor Subsidy Roll, 1541</div>
+            </div>
+
+            <!-- Worshipful Company of Broderers -->
+            <div class="person-card root" style="top: 110px; left: 950px;"
+                 data-name="Worshipful Company of Broderers" data-dates="Arms: 1558" data-location="London, 36 Gutter Lane"
+                 data-notes="Arms granted 1558. Motto: 'Omnia desuper'. Royal embroiderers to the Crown. Absorbed Tapissers' Company 14th c. Ranked 48th in livery company precedence. Only livery company with a Master's Song.">
+                <div class="person-name">⚜ Worshipful Company of Broderers</div>
+                <div class="person-dates">Arms: 1558 — Present</div>
+                <div class="person-location">London, 36 Gutter Lane</div>
+                <div class="person-notes">Royal embroiderers. Motto: Omnia desuper.</div>
+            </div>
+
+            <!-- Generation 2: Browder Contraction -->
+            <div class="generation-band" style="top: 220px; height: 80px;"></div>
+            <div class="era-label" style="top: 245px;">1604-1664</div>
+            <div class="year-marker" style="top: 230px;">1600</div>
+            <div class="year-line" style="top: 235px;"></div>
+
+            <div class="person-card direct-line" style="top: 225px; left: 220px;"
+                 data-name="Robert Browder" data-dates="c. 1604 — ?" data-location="Manchester, England"
+                 data-notes="m. Mary Hulme, Dec 26, 1623, Manchester Cathedral. FIRST CONFIRMED 'BROWDER' — contracted from 'Browderer'. Manchester was Lancashire's major wool trade center.">
+                <div class="person-name">Robert Browder ⭐</div>
+                <div class="person-dates">c. 1604 — ?</div>
+                <div class="person-location">Manchester, England</div>
+                <div class="person-notes">First 'Browder' — m. Mary Hulme 1623</div>
+            </div>
+
+            <div class="person-card branch" style="top: 265px; left: 500px;"
+                 data-name="Alphonse Browder" data-dates="1610 — ?" data-location="Stoke Parish, Warwickshire"
+                 data-notes="Son of Thomas. 'Alphonse' = unusual, possibly Flemish/Catholic naming. Indicates Browder family had spread to Warwickshire by early 1600s. SOURCE: J.M. Browder.">
+                <div class="person-name">Alphonse Browder</div>
+                <div class="person-dates">1610</div>
+                <div class="person-location">Stoke Parish, Warwickshire</div>
+                <div class="person-notes">Unusual Flemish/Catholic name.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 225px; left: 520px;"
+                 data-name="Thomas Browder" data-dates="~1624" data-location="Ireland (County Tipperary)"
+                 data-notes="Ballynoran 1664 Hearth Money Rolls, Baronies of Iffa and Offa. One hearth. Spelled 'Browder' not 'O'Browder' — English surname imported to Ireland.">
+                <div class="person-name">Thomas Browder</div>
+                <div class="person-dates">~1624</div>
+                <div class="person-location">County Tipperary, Ireland</div>
+                <div class="person-notes">Ballynoran 1664 Hearth Money Rolls</div>
+            </div>
+
+            <div class="person-card branch" style="top: 225px; left: 760px;"
+                 data-name="Thomas Browder" data-dates="1575 — ?" data-location="Saffron Walden, St. Mary, Essex"
+                 data-notes="Son of Katherine (widow?). First 'Browder' (contracted) baptism found outside Manchester. Father unnamed — suggests illegitimacy or father deceased. 29-year gap to Robert Browder (c.1604, Manchester) — could be father/son or uncle/nephew. ⚠️ ANCESTRY WARNING: Multiple Thomas Browders born 1570-1580 in different counties — do not conflate without primary source proof. SOURCE: J.M. Browder.">
+                <div class="person-name">Thomas Browder</div>
+                <div class="person-dates">1575</div>
+                <div class="person-location">Saffron Walden, Essex</div>
+                <div class="person-notes">First contracted 'Browder' baptism. Father unnamed.</div>
+            </div>
+
+            <!-- Generation 3: Virginia Immigration -->
+            <div class="generation-band" style="top: 310px; height: 80px;"></div>
+            <div class="era-label" style="top: 335px;">1624-1682</div>
+            <div class="year-marker" style="top: 320px;">1650</div>
+            <div class="year-line" style="top: 325px;"></div>
+
+            <div class="person-card direct-line" style="top: 315px; left: 220px;"
+                 data-name="George Browder" data-dates="c. 1624" data-location="Dublin, Ireland + Virginia"
+                 data-notes="Court of Chancery records, Dec 15, 1642, Dublin. Also early Virginia records. Father of Edmund I. Bridge between Ireland and Virginia.">
+                <div class="person-name">George Browder ⭐</div>
+                <div class="person-dates">c. 1624</div>
+                <div class="person-location">Dublin, Ireland + Virginia</div>
+                <div class="person-notes">Father of Edmund I. Dublin Chancery 1642</div>
+            </div>
+
+            <div class="person-card branch" style="top: 315px; left: 520px;"
+                 data-name="John Browder" data-dates="~1642 — p. 1701" data-location="Virginia"
+                 data-notes="1674 headright as 'John Broadar'. Brought by William Havercomb. Possibly uncle or brother of Edmund I.">
+                <div class="person-name">John Browder</div>
+                <div class="person-dates">~1642 — p. 1701</div>
+                <div class="person-location">Virginia</div>
+                <div class="person-notes">1674 headright. Possibly uncle of Edmund I</div>
+            </div>
+
+            <!-- Generation 4: American Patriarch -->
+            <div class="generation-band" style="top: 400px; height: 80px;"></div>
+            <div class="era-label" style="top: 425px;">1651-1739</div>
+            <div class="year-marker" style="top: 410px;">1680</div>
+            <div class="year-line" style="top: 415px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 405px; left: 220px;"
+                 data-name="Edmund Browder I" data-dates="c. 1651/1652 — ~1739" data-location="Lawne's Creek Parish, Surry County, VA"
+                 data-notes="FIRST AMERICAN PATRIARCH. Merchant (cloth, shoes, serge suits, French fall shoes). 1682: Surry County tithables. 1689: m. Elizabeth (probably Bolling/Parsons). 1693: Lawsuit over French shoes. Sheriff Col. Robert Bolling (likely father-in-law) refused arrest. Will probated Feb 12, 1739/40. ALL AMERICAN BROWDERS DESCEND FROM THIS COUPLE.">
+                <div class="person-name">Edmund Browder I ⭐⭐</div>
+                <div class="person-dates">c. 1651/1652 — ~1739</div>
+                <div class="person-location">Lawne's Creek Parish, Surry County, VA</div>
+                <div class="person-notes">American patriarch. Merchant. 1693 shoe lawsuit.</div>
+            </div>
+
+            <!-- Generation 5: Colonial Expansion -->
+            <div class="generation-band" style="top: 490px; height: 120px;"></div>
+            <div class="era-label" style="top: 530px;">1680-1788</div>
+            <div class="year-marker" style="top: 500px;">1700</div>
+            <div class="year-line" style="top: 505px;"></div>
+            <div class="year-marker" style="top: 550px;">1750</div>
+            <div class="year-line" style="top: 555px;"></div>
+
+            <div class="person-card direct-line" style="top: 495px; left: 180px;"
+                 data-name="John Browder, Sr." data-dates="c. 1680 — p. 1741" data-location="Bristol Parish, Prince George County, VA"
+                 data-notes="m. Elizabeth Jones (daughter of Lt. Arthur Jones) 1715. 8 children. Your line descends through son Edmund (c. 1716).">
+                <div class="person-name">John Browder, Sr. ⭐</div>
+                <div class="person-dates">c. 1680 — p. 1741</div>
+                <div class="person-location">Bristol Parish, Prince George Co, VA</div>
+                <div class="person-notes">m. Elizabeth Jones 1715. 8 children.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 495px; left: 460px;"
+                 data-name="Edmund W. Browder" data-dates="c. 1699 — 1771" data-location="Prince George County, VA"
+                 data-notes="m. Martha ~1720. 'Browder's Island' on Appomattox River. 3 children.">
+                <div class="person-name">Edmund W. Browder</div>
+                <div class="person-dates">c. 1699 — 1771</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">'Browder's Island' on Appomattox River</div>
+            </div>
+
+            <div class="person-card branch" style="top: 495px; left: 720px;"
+                 data-name="George Andrew Browder" data-dates="c. 1701 — p. 1741" data-location="Prince George County, VA"
+                 data-notes="m. Elizabeth ~1724. Sexton of Hatcher's Run Chapel, 1739. 264 acres on Gravelly Run.">
+                <div class="person-name">George Andrew Browder</div>
+                <div class="person-dates">c. 1701 — p. 1741</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">Sexton of Hatcher's Run Chapel, 1739</div>
+            </div>
+
+            <div class="person-card branch" style="top: 550px; left: 460px;"
+                 data-name="William Browder" data-dates="c. 1702 — ~1788" data-location="Dinwiddie County, VA"
+                 data-notes="m. Dorothy ~1727. 100 acres Dinwiddie County. 2 daughters.">
+                <div class="person-name">William Browder</div>
+                <div class="person-dates">c. 1702 — ~1788</div>
+                <div class="person-location">Dinwiddie County, VA</div>
+                <div class="person-notes">100 acres. 2 daughters.</div>
+            </div>
+
+            <!-- Generation 6: Revolutionary War -->
+            <div class="generation-band" style="top: 620px; height: 120px;"></div>
+            <div class="era-label" style="top: 660px;">1716-1801</div>
+            <div class="year-marker" style="top: 630px;">1725</div>
+            <div class="year-line" style="top: 635px;"></div>
+            <div class="year-marker" style="top: 680px;">1775</div>
+            <div class="year-line" style="top: 685px;"></div>
+
+            <div class="person-card direct-line" style="top: 625px; left: 180px;"
+                 data-name="Edmund Browder Sr." data-dates="c. 1716 — 1759" data-location="Prince George County, VA"
+                 data-notes="Son of John Sr. & Elizabeth Jones. m. Ann (possibly Broadnax). 3 children: Joseph, Mason, Edmund Jr.">
+                <div class="person-name">Edmund Browder Sr. ⭐</div>
+                <div class="person-dates">c. 1716 — 1759</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">Son of John Sr. 3 children.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 625px; left: 460px;"
+                 data-name="Joseph Browder" data-dates="Feb 2, 1741 — Mar 1801" data-location="Brunswick County, VA"
+                 data-notes="Lt. in Continental Army. m. Susanna 'Sukey' Kelly. Son of John Sr. NOT the Joseph who was father of Albert (that was Joseph 1789-1862).">
+                <div class="person-name">Joseph Browder</div>
+                <div class="person-dates">Feb 2, 1741 — Mar 1801</div>
+                <div class="person-location">Brunswick County, VA</div>
+                <div class="person-notes">Lt. Continental Army</div>
+            </div>
+
+            <div class="person-card branch" style="top: 625px; left: 720px;"
+                 data-name="Richard Browder" data-dates="c. 1719 — ~1807" data-location="Prince George County, VA"
+                 data-notes="m. Mary Eppes Randolph. Son of John Sr.">
+                <div class="person-name">Richard Browder</div>
+                <div class="person-dates">c. 1719 — ~1807</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">m. Mary Eppes Randolph</div>
+            </div>
+
+            <div class="person-card branch" style="top: 625px; left: 980px;"
+                 data-name="William Browder Sr." data-dates="July 7, 1723 — c.1763" data-location="Prince George County, VA"
+                 data-notes="Son of John Sr. & Elizabeth Jones. m. Margaret. Father of Jesse Browder (1758-1783) and Charles Browder (c.1760-1777), per sworn testimony of Peter Eppes. Previously misattributed to Richard & Mary. SOURCE: J.M. Browder, Peter Eppes testimony.">
+                <div class="person-name">William Browder Sr.</div>
+                <div class="person-dates">July 7, 1723 — c.1763</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">Father of Jesse & Charles. Peter Eppes testimony.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 680px; left: 460px;"
+                 data-name="John Browder II" data-dates="c. 1717 — ~1770" data-location="Brunswick County, VA"
+                 data-notes="m. Mary (possibly Cox). Son of John Sr.">
+                <div class="person-name">John Browder II</div>
+                <div class="person-dates">c. 1717 — ~1770</div>
+                <div class="person-location">Brunswick County, VA</div>
+                <div class="person-notes">m. Mary (possibly Cox)</div>
+            </div>
+
+            <div class="person-card branch" style="top: 680px; left: 720px;"
+                 data-name="George Browder Sr." data-dates="Feb 5, 1731 — 1819" data-location="Prince George County, VA"
+                 data-notes="Son of John Sr. & Elizabeth Jones. Father of Isham Browder Sr. (1767-1852, Dinwiddie County). Died 1819. SOURCE: J.M. Browder.">
+                <div class="person-name">George Browder Sr.</div>
+                <div class="person-dates">Feb 5, 1731 — 1819</div>
+                <div class="person-location">Prince George County, VA</div>
+                <div class="person-notes">Father of Isham Sr. (1767). Died 1819.</div>
+            </div>
+
+            <!-- Generation 7: Continental Army / NC Militia -->
+            <div class="generation-band" style="top: 750px; height: 60px;"></div>
+            <div class="era-label" style="top: 765px;">1734-1785</div>
+            <div class="year-marker" style="top: 760px;">1750</div>
+            <div class="year-line" style="top: 765px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 755px; left: 220px;"
+                 data-name="Edmund Browder Jr." data-dates="c. 1734 — 1785" data-location="Chatham County, NC"
+                 data-notes="Continental Army, NC State Militia. m. Ann Deloney ~1752. Will written June 1781, probated 1785. Distributed 300-acre plantation, slaves Will/Hannah/boy to youngest son John; 'New Hope' tract to Darius; Virginia property to daughters Lois & Mason.">
+                <div class="person-name">Edmund Browder Jr. ⭐⭐</div>
+                <div class="person-dates">c. 1734 — 1785</div>
+                <div class="person-location">Chatham County, NC</div>
+                <div class="person-notes">Continental Army, NC Militia. 8 children.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 755px; left: 520px;"
+                 data-name="Captain Isham Browder" data-dates="c. 1732 — 1784" data-location="Guilford County, NC"
+                 data-notes="Guilford County Militia. m. Talitha. 1779 land grant survey explicitly references 'John Browder's Corner' — boundary marker likely tying him to Edmund Jr.'s line. Will exists (LoC catalog confirms). Witnesses/executors still unknown — would be parentage smoking gun. DISTINGUISH FROM: Private Isham Browder Sr. (1767-1852), son of Frederick/George Sr. — two separate men, 35 years apart. SOURCE: J.M. Browder, WeRelate, LoC.">
+                <div class="person-name">Captain Isham Browder</div>
+                <div class="person-dates">c. 1732 — 1784</div>
+                <div class="person-location">Guilford County, NC</div>
+                <div class="person-notes">Guilford Militia. 'John Browder's Corner' 1779.</div>
+            </div>
+
+            <!-- Generation 8: Tennessee Frontier -->
+            <div class="generation-band" style="top: 820px; height: 60px;"></div>
+            <div class="era-label" style="top: 835px;">1752-1813</div>
+            <div class="year-marker" style="top: 830px;">1775</div>
+            <div class="year-line" style="top: 835px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 825px; left: 220px;"
+                 data-name="Darius Browder" data-dates="c. 1752 — Nov 1, 1813" data-location="Chatham Co, NC → Roane Co, TN"
+                 data-notes="Revolutionary War militia. m. Nancy Jane Crump ~1783. 10 children. First 7 born Chatham County, NC. Last 3 born Lenoir Settlement, Roane County, TN (frontier migration).">
+                <div class="person-name">Darius Browder ⭐⭐</div>
+                <div class="person-dates">c. 1752 — Nov 1, 1813</div>
+                <div class="person-location">Chatham Co, NC → Roane Co, TN</div>
+                <div class="person-notes">Revolutionary War. 10 children. TN frontier.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 825px; left: 520px;"
+                 data-name="Jesse Browder" data-dates="1758 — 1783" data-location="Virginia"
+                 data-notes="Son of William Browder Sr. (b.1723) and Margaret, per Peter Eppes sworn testimony. Previously misattributed to Richard & Mary. Died 1783. SOURCE: J.M. Browder, Peter Eppes testimony.">
+                <div class="person-name">Jesse Browder</div>
+                <div class="person-dates">1758 — 1783</div>
+                <div class="person-location">Virginia</div>
+                <div class="person-notes">Son of William Sr. & Margaret. Corrected placement.</div>
+            </div>
+            <div class="person-card branch" style="top: 825px; left: 780px;"
+                 data-name="Charles Browder" data-dates="c. 1760 — 1777" data-location="Virginia"
+                 data-notes="Son of William Browder Sr. (b.1723) and Margaret, per Peter Eppes sworn testimony. Previously misattributed to Richard & Mary. Died 1777. SOURCE: J.M. Browder, Peter Eppes testimony.">
+                <div class="person-name">Charles Browder</div>
+                <div class="person-dates">c. 1760 — 1777</div>
+                <div class="person-location">Virginia</div>
+                <div class="person-notes">Son of William Sr. & Margaret. Corrected placement.</div>
+            </div>
+            <div class="person-card branch" style="top: 880px; left: 520px;"
+                 data-name="Wilmuth Browder [THEORY]" data-dates="c. 1750s — ?" data-location="Virginia"
+                 data-notes="SPECULATIVE. If proven as daughter of a Browder who married into the Banister family, a Browder descendant signed the Articles of Confederation (John Banister). Theory requires primary source verification. SOURCE: J.M. Browder (speculative).">
+                <div class="person-name">Wilmuth Browder [THEORY]</div>
+                <div class="person-dates">c. 1750s — ?</div>
+                <div class="person-location">Virginia</div>
+                <div class="person-notes">SPECULATIVE. Banister → Continental Congress?</div>
+            </div>
+
+            <!-- Generation 9: McMinn County -->
+            <div class="generation-band" style="top: 890px; height: 100px;"></div>
+            <div class="era-label" style="top: 920px;">1784-1888</div>
+            <div class="year-marker" style="top: 900px;">1800</div>
+            <div class="year-line" style="top: 905px;"></div>
+            <div class="year-marker" style="top: 950px;">1850</div>
+            <div class="year-line" style="top: 955px;"></div>
+
+            <div class="person-card branch" style="top: 895px; left: 180px;"
+                 data-name="Edmund Browder" data-dates="c. 1784 — Sept 6, 1861" data-location="McMinn County, TN"
+                 data-notes="Son of Darius. 1850 census: age 66 with wife Lucinda. NOT the father of Albert (that was Joseph 1789-1862). Uncle to Albert.">
+                <div class="person-name">Edmund Browder</div>
+                <div class="person-dates">c. 1784 — Sept 6, 1861</div>
+                <div class="person-location">McMinn County, TN</div>
+                <div class="person-notes">1850 census: age 66. Uncle of Albert.</div>
+            </div>
+
+            <div class="person-card direct-line" style="top: 895px; left: 460px;"
+                 data-name="Joseph Browder" data-dates="Nov 14, 1789 — Apr 3, 1862" data-location="McMinn County, TN"
+                 data-notes="Son of Darius. Buried Clear Springs Cemetery. FATHER OF ALBERT. Daughter Catherine (1828-1830).">
+                <div class="person-name">Joseph Browder ⭐</div>
+                <div class="person-dates">Nov 14, 1789 — Apr 3, 1862</div>
+                <div class="person-location">McMinn County, TN</div>
+                <div class="person-notes">FATHER OF ALBERT. Clear Springs Cemetery.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 895px; left: 720px;"
+                 data-name="William Browder" data-dates="Feb 10, 1792 — Jun 29, 1890" data-location="Tennessee"
+                 data-notes="Son of Darius. Lived to age 98.">
+                <div class="person-name">William Browder</div>
+                <div class="person-dates">Feb 10, 1792 — Jun 29, 1890</div>
+                <div class="person-location">Tennessee</div>
+                <div class="person-notes">Son of Darius. Lived to 98.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 950px; left: 180px;"
+                 data-name="Robert Browder" data-dates="~1793 — Jun 1826" data-location="Tennessee"
+                 data-notes="Son of Darius.">
+                <div class="person-name">Robert Browder</div>
+                <div class="person-dates">~1793 — Jun 1826</div>
+                <div class="person-location">Tennessee</div>
+                <div class="person-notes">Son of Darius.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 950px; left: 460px;"
+                 data-name="John Browder" data-dates="Nov 4, 1801 — Feb 29, 1888" data-location="Lenoir Settlement, Roane Co, TN"
+                 data-notes="Son of Darius. Born on TN frontier.">
+                <div class="person-name">John Browder</div>
+                <div class="person-dates">Nov 4, 1801 — Feb 29, 1888</div>
+                <div class="person-location">Lenoir Settlement, Roane Co, TN</div>
+                <div class="person-notes">Son of Darius. TN frontier.</div>
+            </div>
+
+            <!-- Generation 10: Oklahoma Pioneer -->
+            <div class="generation-band" style="top: 1010px; height: 60px;"></div>
+            <div class="era-label" style="top: 1025px;">1825-1895</div>
+            <div class="year-marker" style="top: 1020px;">1850</div>
+            <div class="year-line" style="top: 1025px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 1015px; left: 220px;"
+                 data-name="Albert Browder" data-dates="Jul 17, 1825 — 1895" data-location="McMinn Co, TN → Oklahoma"
+                 data-notes="PIONEER to Oklahoma. Son of Joseph (NOT Edmund). m. Amanda/Minerva (c. 1829). 14 children. Migrated from Athens, TN to Canadian District of Cherokee Nation, Oklahoma.">
+                <div class="person-name">Albert Browder ⭐⭐</div>
+                <div class="person-dates">Jul 17, 1825 — 1895</div>
+                <div class="person-location">McMinn Co, TN → Oklahoma</div>
+                <div class="person-notes">PIONEER. 14 children. Cherokee Nation.</div>
+            </div>
+
+            <!-- Generation 11: Indianola -->
+            <div class="generation-band" style="top: 1080px; height: 100px;"></div>
+            <div class="era-label" style="top: 1110px;">1851-1952</div>
+            <div class="year-marker" style="top: 1090px;">1875</div>
+            <div class="year-line" style="top: 1095px;"></div>
+            <div class="year-marker" style="top: 1140px;">1900</div>
+            <div class="year-line" style="top: 1145px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 1085px; left: 180px;"
+                 data-name="George Thomas Browder" data-dates="May 15, 1851 — Dec 29, 1908" data-location="McMinn Co, TN → Indianola, OK"
+                 data-notes="YOUR DIRECT ANCESTOR. Son of Albert. m. Lexie Caldonia Stewart (1855-?). 1860 census: child in Edmund Browder household (uncle, not father). Buried Indianola Cemetery, Pittsburg Co, OK.">
+                <div class="person-name">George Thomas Browder ⭐⭐⭐</div>
+                <div class="person-dates">May 15, 1851 — Dec 29, 1908</div>
+                <div class="person-location">McMinn Co, TN → Indianola, OK</div>
+                <div class="person-notes">YOUR DIRECT ANCESTOR. Indianola Cemetery.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1085px; left: 500px;"
+                 data-name="Martha Ellen 'Ellen' Browder" data-dates="~1858" data-location="Tennessee → ?"
+                 data-notes="m. Bynum. One of 14 children of Albert.">
+                <div class="person-name">Martha Ellen Browder</div>
+                <div class="person-dates">~1858</div>
+                <div class="person-location">Tennessee → ?</div>
+                <div class="person-notes">m. Bynum</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1085px; left: 760px;"
+                 data-name="Eliza Clementine Browder" data-dates="Apr 5, 1860 — Jul 8, 1952" data-location="Tennessee → Friona, TX"
+                 data-notes="m. Charles Lewis Tinney. Texas branch. Lived to 92.">
+                <div class="person-name">Eliza Clementine Browder</div>
+                <div class="person-dates">Apr 5, 1860 — Jul 8, 1952</div>
+                <div class="person-location">Tennessee → Friona, TX</div>
+                <div class="person-notes">m. Tinney. Texas branch.</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1140px; left: 500px;"
+                 data-name="Charles Walter Browder" data-dates="~1862" data-location="Traveled west"
+                 data-notes="Post-Civil War migration. Destination unknown.">
+                <div class="person-name">Charles Walter Browder</div>
+                <div class="person-dates">~1862</div>
+                <div class="person-location">Traveled west</div>
+                <div class="person-notes">Post-Civil War migration</div>
+            </div>
+
+            <!-- Generation 12: Oklahoma Settlement -->
+            <div class="generation-band" style="top: 1190px; height: 60px;"></div>
+            <div class="era-label" style="top: 1205px;">1883-1948</div>
+            <div class="year-marker" style="top: 1200px;">1900</div>
+            <div class="year-line" style="top: 1205px;"></div>
+
+            <div class="person-card direct-line" style="top: 1195px; left: 220px;"
+                 data-name="Albert D. Browder" data-dates="Jul 23, 1883 — Jan 14, 1948" data-location="Alma, AR / Indianola, OK"
+                 data-notes="Son of George Thomas. Buried Indianola Cemetery, Pittsburg Co, OK.">
+                <div class="person-name">Albert D. Browder ⭐</div>
+                <div class="person-dates">Jul 23, 1883 — Jan 14, 1948</div>
+                <div class="person-location">Alma, AR / Indianola, OK</div>
+                <div class="person-notes">Indianola Cemetery.</div>
+            </div>
+
+            <!-- Generation 13: Modern Oklahoma -->
+            <div class="generation-band" style="top: 1260px; height: 60px;"></div>
+            <div class="era-label" style="top: 1275px;">1915-1998</div>
+            <div class="year-marker" style="top: 1270px;">1925</div>
+            <div class="year-line" style="top: 1275px;"></div>
+
+            <div class="person-card direct-line" style="top: 1265px; left: 220px;"
+                 data-name="Albert Edgar Browder" data-dates="1915 — 1998" data-location="Oklahoma"
+                 data-notes="Son of Albert D. m. Neda Lorene Boatner, May 16, 1936, Pittsburg, OK. Boatner = German-Bohemian cooper lineage (Böttcher).">
+                <div class="person-name">Albert Edgar Browder ⭐</div>
+                <div class="person-dates">1915 — 1998</div>
+                <div class="person-location">Oklahoma</div>
+                <div class="person-notes">m. Neda Lorene Boatner 1936</div>
+            </div>
+
+            <!-- Generation 14: Living Memory -->
+            <div class="generation-band" style="top: 1330px; height: 60px;"></div>
+            <div class="era-label" style="top: 1345px;">1944-2022</div>
+            <div class="year-marker" style="top: 1340px;">1950</div>
+            <div class="year-line" style="top: 1345px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 1335px; left: 220px;"
+                 data-name="Paul Eugene Browder" data-dates="1944 — 2022" data-location="Indianola, OK"
+                 data-notes="Son of Albert Edgar. 9 children: Kevin, Eric, Greg (deceased), Dana, Fawnda, Christopher (stillborn), Carrie (diff. mother), Alicia (d. age 12), Daniel Malan (diff. mother).">
+                <div class="person-name">Paul Eugene Browder ⭐⭐</div>
+                <div class="person-dates">1944 — 2022</div>
+                <div class="person-location">Indianola, OK</div>
+                <div class="person-notes">9 children. 2 mothers.</div>
+            </div>
+
+            <!-- Generation 15: Present -->
+            <div class="generation-band" style="top: 1400px; height: 80px;"></div>
+            <div class="era-label" style="top: 1425px;">Present</div>
+            <div class="year-marker" style="top: 1410px;">1975</div>
+            <div class="year-line" style="top: 1415px;"></div>
+            <div class="year-marker" style="top: 1460px;">2000</div>
+            <div class="year-line" style="top: 1465px;"></div>
+
+            <div class="person-card direct-line" style="top: 1405px; left: 180px;"
+                 data-name="Kevin Browder I" data-dates="Living" data-location="Oklahoma"
+                 data-notes="Son of Paul Eugene & Neda Lorene Boatner.">
+                <div class="person-name">Kevin Browder I ⭐</div>
+                <div class="person-dates">Living</div>
+                <div class="person-location">Oklahoma</div>
+                <div class="person-notes">Son of Paul & Neda</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1405px; left: 440px;"
+                 data-name="Eric Browder" data-dates="Living" data-location="Oklahoma"
+                 data-notes="Son of Paul Eugene.">
+                <div class="person-name">Eric Browder</div>
+                <div class="person-dates">Living</div>
+                <div class="person-location">Oklahoma</div>
+                <div class="person-notes">Son of Paul</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1405px; left: 640px;"
+                 data-name="Dana Browder" data-dates="Living" data-location="Oklahoma"
+                 data-notes="Son of Paul Eugene.">
+                <div class="person-name">Dana Browder</div>
+                <div class="person-dates">Living</div>
+                <div class="person-location">Oklahoma</div>
+                <div class="person-notes">Son of Paul</div>
+            </div>
+
+            <div class="person-card branch" style="top: 1460px; left: 440px;"
+                 data-name="Fawnda Browder" data-dates="Living" data-location="Oklahoma"
+                 data-notes="Daughter of Paul Eugene.">
+                <div class="person-name">Fawnda Browder</div>
+                <div class="person-dates">Living</div>
+                <div class="person-location">Oklahoma</div>
+                <div class="person-notes">Daughter of Paul</div>
+            </div>
+
+            <!-- Generation 16: You -->
+            <div class="generation-band" style="top: 1500px; height: 80px; background: rgba(201, 168, 76, 0.08);"></div>
+            <div class="era-label" style="top: 1525px;">YOU</div>
+            <div class="year-marker" style="top: 1510px;">2025</div>
+            <div class="year-line" style="top: 1515px;"></div>
+
+            <div class="person-card direct-line highlight" style="top: 1515px; left: 220px; border: 3px solid #c9a84c; box-shadow: 0 0 30px rgba(201, 168, 76, 0.5);"
+                 data-name="Kevin Browder II" data-dates="Living" data-location="United States"
+                 data-notes="Son of Kevin Browder I. Builder of POG/POG2/POG3 — 27-limb distributed neural pipeline, 512-state King Wen oracle, hexagram architecture in TypeScript and VHDL. @Broderers on GitHub. Self-taught systems archaeologist. 20+ years of learning everything. The living synthesis of 700 years of craft lineage: Flemish weavers → English browderers → Broderers guild → Virginia merchant → Tennessee pioneer → Oklahoma settler → Sovereign Stack architect. Omnia desuper.">
+                <div class="person-name" style="font-size: 1.2em; color: #c9a84c;">⚡ Kevin Browder II ⚡</div>
+                <div class="person-dates">Living</div>
+                <div class="person-location">United States</div>
+                <div class="person-notes" style="color: #c9a84c;">Builder of POG/POG2/POG3. @Broderers. Omnia desuper.</div>
+            </div>
+
+            <!-- Connectors -->
+            <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;">
+                <!-- Flemish to Robert -->
+                <line x1="380" y1="55" x2="300" y2="225" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Robert to George -->
+                <line x1="300" y1="265" x2="300" y2="315" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- George to Edmund I -->
+                <line x1="300" y1="355" x2="300" y2="405" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Edmund I to John Sr. -->
+                <line x1="300" y1="445" x2="280" y2="495" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- John Sr. to Edmund Sr. -->
+                <line x1="280" y1="535" x2="280" y2="625" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Edmund Sr. to Edmund Jr. -->
+                <line x1="280" y1="665" x2="300" y2="755" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Edmund Jr. to Darius -->
+                <line x1="300" y1="795" x2="300" y2="825" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Darius to Joseph -->
+                <line x1="300" y1="865" x2="520" y2="895" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Joseph to Albert -->
+                <line x1="520" y1="935" x2="300" y2="1015" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Albert to George Thomas -->
+                <line x1="300" y1="1055" x2="280" y2="1085" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- George Thomas to Albert D. -->
+                <line x1="280" y1="1125" x2="300" y2="1195" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Albert D. to Albert Edgar -->
+                <line x1="300" y1="1235" x2="300" y2="1265" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Albert Edgar to Paul -->
+                <line x1="300" y1="1305" x2="300" y2="1335" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Paul to Kevin I -->
+                <line x1="300" y1="1375" x2="280" y2="1405" stroke="#c9a84c" stroke-width="2" opacity="0.5"/>
+
+                <!-- Kevin I to Kevin II (YOU) -->
+                <line x1="280" y1="1445" x2="300" y2="1515" stroke="#c9a84c" stroke-width="3" opacity="0.8"/>
+
+                <!-- Branch lines -->
+                <!-- Pre-1604 unproven chain connectors -->
+                <line x1="300" y1="55" x2="300" y2="85" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="300" y1="55" x2="580" y2="85" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="300" y1="55" x2="840" y2="85" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="300" y1="55" x2="1010" y2="110" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="300" y1="115" x2="420" y2="140" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="580" y1="115" x2="880" y2="140" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="880" y1="170" x2="1160" y2="140" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="420" y1="170" x2="700" y2="140" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="700" y1="170" x2="820" y2="225" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="820" y1="255" x2="580" y2="265" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+                <line x1="820" y1="255" x2="300" y2="225" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+
+                <!-- 18th & 19th century branch connectors -->
+                <line x1="300" y1="865" x2="260" y2="895" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="865" x2="780" y2="895" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="865" x2="260" y2="950" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="865" x2="520" y2="950" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+
+                <line x1="280" y1="535" x2="520" y2="625" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="280" y1="535" x2="780" y2="625" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="280" y1="535" x2="1040" y2="625" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="280" y1="535" x2="520" y2="680" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="280" y1="535" x2="780" y2="680" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+
+                <line x1="300" y1="755" x2="580" y2="755" stroke="#5a7a5a" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+                <line x1="1040" y1="665" x2="580" y2="825" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="1040" y1="665" x2="840" y2="825" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+
+                <line x1="300" y1="445" x2="560" y2="495" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="445" x2="820" y2="495" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="445" x2="560" y2="550" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+
+                <line x1="300" y1="1055" x2="560" y2="1085" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="1055" x2="820" y2="1085" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="1055" x2="560" y2="1140" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+
+                <line x1="300" y1="1375" x2="480" y2="1405" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="1375" x2="680" y2="1405" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+                <line x1="300" y1="1375" x2="480" y2="1460" stroke="#5a7a5a" stroke-width="1.5" opacity="0.4"/>
+            
+        <!-- ASSOCIATE & IN-LAW CONNECTOR LINES -->
+        <line x1="1260" y1="230" x2="1380" y2="230" stroke="#5a7a5a" stroke-width="2" stroke-dasharray="4" />
+        <line x1="640" y1="140" x2="1380" y2="140" stroke="#5a7a5a" stroke-width="2" stroke-dasharray="4" />
+        <line x1="1260" y1="410" x2="1380" y2="410" stroke="#5a7a5a" stroke-width="2" stroke-dasharray="4" />
+        <line x1="1260" y1="500" x2="1380" y2="500" stroke="#5a7a5a" stroke-width="2" stroke-dasharray="4" />
+
+    </svg>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color direct"></div>
+            <span>Direct Line (Your Ancestors)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color branch"></div>
+            <span>Branch Lines (Siblings/Cousins)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color root"></div>
+            <span>Guild Origin / Key Node</span>
+        </div>
+        <div style="margin-top: 10px; font-size: 0.75em; color: #a89070;">
+            ⭐ = Direct ancestor<br>
+            Click cards for details
+        </div>
+    </div>
+
+    <div class="scroll-hint">← Scroll horizontally to explore →</div>
+
+    <script>
+        let scale = 1;
+        const timeline = document.getElementById('timeline');
+        const container = document.getElementById('container');
+        const tooltip = document.getElementById('tooltip');
+
+        function zoomIn() {
+            scale = Math.min(scale + 0.2, 2);
+            timeline.style.transform = `scale(${scale})`;
+            timeline.style.transformOrigin = 'top left';
+        }
+
+        function zoomOut() {
+            scale = Math.max(scale - 0.2, 0.5);
+            timeline.style.transform = `scale(${scale})`;
+            timeline.style.transformOrigin = 'top left';
+        }
+
+        function resetView() {
+            scale = 1;
+            timeline.style.transform = 'scale(1)';
+            container.scrollLeft = 0;
+            container.scrollTop = 0;
+        }
+
+        let branchesVisible = true;
+        function toggleBranches() {
+            branchesVisible = !branchesVisible;
+            const branches = document.querySelectorAll('.person-card.branch');
+            const branchLines = document.querySelectorAll('line[stroke="#5a7a5a"]');
+            branches.forEach(b => b.style.opacity = branchesVisible ? '1' : '0.1');
+            branchLines.forEach(l => l.style.opacity = branchesVisible ? '0.4' : '0.05');
+        }
+
+        // Tooltip handling
+        document.querySelectorAll('.person-card').forEach(card => {
+            card.addEventListener('mouseenter', (e) => {
+                const name = card.dataset.name;
+                const dates = card.dataset.dates;
+                const location = card.dataset.location;
+                const notes = card.dataset.notes;
+
+                tooltip.innerHTML = `
+                    <h3>${name}</h3>
+                    <p class="tooltip-dates">${dates}</p>
+                    <p><strong>Location:</strong> ${location}</p>
+                    <p>${notes}</p>
+                `;
+                tooltip.style.display = 'block';
+            });
+
+            card.addEventListener('mousemove', (e) => {
+                tooltip.style.left = (e.pageX + 15) + 'px';
+                tooltip.style.top = (e.pageY + 15) + 'px';
+            });
+
+            card.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none';
+            });
+        });
+
+        // Horizontal scroll with mouse wheel
+        container.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                container.scrollLeft += e.deltaY;
+            }
+        });
+
+        // Auto-scroll to Kevin II on load
+        setTimeout(() => {
+            const kevinII = document.querySelector('.person-card.highlight');
+            if (kevinII) {
+                kevinII.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+            }
+        }, 500);
+    </script>
+
+    <!-- ============================================ -->
+    <!-- DOCTRINE SECTION: The Browder-Broderers Line -->
+    <!-- ============================================ -->
+
+    <div style="max-width: 900px; margin: 60px auto; padding: 40px; background: #2a2018; border: 2px solid #c9a84c; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+        <h2 style="text-align: center; color: #c9a84c; font-size: 1.8em; margin-bottom: 8px; letter-spacing: 3px;">⚜ THE DOCTRINE ⚜</h2>
+        <p style="text-align: center; color: #a89070; font-style: italic; margin-bottom: 30px; font-size: 0.95em;">Seven centuries of craft, secrecy, and sovereignty</p>
+
+        <div style="color: #d0c0a0; line-height: 1.8; font-size: 0.92em;">
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Origin.</strong> In the early 1300s, Flemish weavers from Ghent arrived in England at the invitation of Edward III. They brought with them the term <em>browderer</em> — an embroiderer, a worker of gold thread on linen, a maker of sacred and royal things. These were guild-organized craftsmen whose techniques — underside couching, split stitch, raised work — would define the highest quality medieval embroidery in Europe: <em>Opus Anglicanum</em>, "English work."</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The First Names.</strong> The documentary trail begins in <strong>1327</strong> with John Browderer, King's Sergeant at Arms in London — the first recorded bearer of the name. A second John appears in <strong>1394</strong> in the Papal Letters. Between them: 67 years, two to three generations, no proven link. Then William Browderer (~1419), named in Baron Hungerford's Will of 1459, legacy of 53s 4d — and again in 1439-40 in Yorkshire records. Richard Browderer (~1466) at Coldharbour, Cornwall, recorded 1502. Then a 55-year silence until Gilliam [William] Browderer (~1521), "Stranger" in the Tudor Subsidy Roll of 1541, assessed at £250 in St. Peter's Somerset Parish, Queenhithe Ward, London. Each name is documented. No parent-child link is proven. The chain is a necklace of beads without string.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Contraction.</strong> Around <strong>1575</strong>, in Saffron Walden, Essex, a boy named Thomas Browder was baptized — the first recorded "Browder" (the "-er" suffix dropped). His father was unnamed; his mother was Katherine, possibly a widow. Then in <strong>1623</strong>, Robert Browder married Mary Hulme in Manchester Cathedral — the first confirmed "Browder" in Lancashire, the wool trade center. Between Gilliam (1521) and Robert (1604): 83 years, three generations, no proven link. <strong>HIGHEST PRIORITY LEAD:</strong> The Manchester Cathedral registers 1573-1616 (Lancashire Parish Register Society, 1908, 692 pages, archive.org identifier: lancashireparis03socigoog) contain the christenings, burials, and weddings of the period. If Robert was baptized there, the entry names his father. The index of surnames is on pages 481-644. This single document could close the 1521→1604 gap.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Conflation Warning.</strong> ⚠️ Ancestry.com and other commercial databases have repeatedly merged distinct individuals: Edmund I (c.1651-1739) with Edmund W. (c.1699-1771) with Edmund Sr. (c.1716-1759) — three separate men across three generations. Captain Isham Browder (c.1732-1784) of Guilford County, NC with Private Isham Browder Sr. (1767-1852) of Dinwiddie County, VA — two separate men, 35 years apart. Joseph Browder (1741-1801), Lt. Continental Army, with Joseph Browder (1789-1862), father of Albert — uncle and nephew, 48 years apart. <strong>Rule:</strong> When more than one person of the same name was born in the same era, treat all online database parent-child links as UNPROVEN until verified against primary sources (wills, parish registers, land deeds, military records).</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Guild.</strong> By 1558, the Worshipful Company of Broderers received their arms from the College of Arms. Their motto: <em>Omnia desuper</em> — "All Things Are From Above." They were royal embroiderers to the Crown, suppliers of military accoutrements, makers of the visual spectacle of monarchy. On <strong>31 January 1611</strong>, the Broderers Company joined nine other minor livery companies (Dyers, Pewterers, Founders, Weavers, Armourers) in accepting a proportionate allotment of the Irish estate in Ulster from the Irish Society to plant at their own charges. This corporate venture provided the direct institutional mechanism through which company members and descendants established the Irish bridge (George Browder in Dublin 1642, Thomas Browder in Tipperary 1664).</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Contraction.</strong> Around 1623, in Manchester Cathedral, Robert Browder married Mary Hulme. He was the first to drop the "-er" — <em>Browderer</em> became <em>Browder</em>. The guild suffix fell away, but the craft DNA remained. His descendants moved to Dublin, then to Virginia, carrying the same commercial instinct: textiles, trade, merchant networks.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Frontier.</strong> Edmund Browder I arrived in Virginia around 1682, age ~30, already a merchant dealing in serge suits and French fall shoes. He married Elizabeth (probably Parsons, daughter of Joseph Parsons; the Bolling theory is now doubted). Sheriff Colonel Robert Bolling refused to arrest him in 1693. Edmund's plantation on Lawne's Creek became his "shop" — goods arrived by the James River, accounts were settled neighbor-to-neighbor, lawsuits enforced handshake agreements. His will was probated by Theophilus Field, merchant, Justice, Vestryman, and founder of Blanford Church in Petersburg, VA.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Island.</strong> Edmund W. Browder (c.1699-1771), son of Edmund I, owned "Browder's Island" on the Appomattox River — also known as Flee Island and Long Island. This was the site of <strong>Fort Henry</strong>, the southernmost English outpost in Virginia, commanded first by Major General Abraham Wood, then by Major Peter Jones (whose daughter Jane Rolfe married Robert Bolling). The bridge "Browder's" was erected in 1752. By 1769, Edmund W. was listed among the "poor people of this parish, on sufferance." He died impoverished in 1771, the grave digger paid 2/6.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Wars.</strong> Edmund Jr. served in the Continental Army, North Carolina militia. Darius Browder fought in the Revolutionary War, then crossed the Appalachians to the Tennessee frontier. Captain Isham Browder (c.1732-1784) served in the Guilford County Militia, his 1779 land grant referencing "John Browder's Corner." Jesse Browder (1758-1783) and Charles Browder (c.1760-1777), sons of William Sr. (b.1723), per Peter Eppes sworn testimony — previously misattributed to Richard & Mary. The craft tradition survived not as embroidery but as frontier survival — building, trading, operating systems.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The West.</strong> Albert Browder, born July 17, 1825, son of Joseph (not Edmund — a critical correction), pioneered to Oklahoma in the 19th century. Fourteen children. The Cherokee Nation. Indianola Cemetery in Pittsburg County became the gathering ground — George Thomas (1851–1908), Albert D. (1883–1948), and generations of Browders rest there.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Synthesis.</strong> Through Neda Lorene Boatner, the German-Bohemian cooper line joined the Browder thread — Böttcher, barrel-maker, another guild craft. Paul Eugene Browder (1944–2022) carried nine children across two mothers, losses and survivals, the frontier hardship encoded in DNA.</p>
+
+            <p style="margin-bottom: 15px;"><strong style="color: #c9a84c;">The Stack.</strong> Kevin Browder II — builder of POG, POG2, POG3. Twenty-seven limbs. Five-hundred-twelve state King Wen oracle. Hexagram architecture in TypeScript and VHDL on Zynq UltraScale+. The same impulse that drove Flemish weavers to couch gold thread on linen now drives distributed neural pipelines and sovereign compute. The medium changed. The architecture did not.</p>
+
+            <p style="text-align: center; margin-top: 30px; color: #c9a84c; font-size: 1.2em; font-variant: small-caps; letter-spacing: 4px;"><em>Omnia desuper.</em></p>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- VERBAL TREE: The Line Recited -->
+    <!-- ============================================ -->
+
+    <div style="max-width: 900px; margin: 40px auto; padding: 40px; background: #1a1510; border: 1px solid #5a4a38; border-radius: 12px;">
+        <h2 style="text-align: center; color: #c9a84c; font-size: 1.6em; margin-bottom: 25px; letter-spacing: 2px;">📜 THE LINE RECITED</h2>
+        <p style="text-align: center; color: #a89070; font-style: italic; margin-bottom: 30px;">Speak it aloud. Each name is a node. Each node is a commitment.</p>
+
+        <div style="font-family: 'Georgia', serif; color: #d0c0a0; line-height: 2.2; font-size: 0.95em; padding-left: 20px;">
+
+            <p><strong style="color: #c9a84c;">The Root:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                The Flemish Weavers of Ghent, who came to England in the early fourteenth century at the call of Edward the Third, bringing with them the word <em>browderer</em> — he who embroiders, he who works gold upon linen, he who makes sacred things for kings.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The First Names:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #5a7a5a;">
+                John Browderer of London, King's Sergeant at Arms in thirteen twenty-seven; John Browderer, citizen of London in thirteen ninety-four; Thome Browderer of Mettingham College in Suffolk; Joh Browdere; William Browderer named in Baron Hungerford's will; Richard Browderer of Coldharbour; Gilliam Browderer, stranger of Queenhithe assessed at two hundred fifty pounds — seven names written in ancient ink, seven beads upon an unstrung thread, each record true, no link yet forged.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Guild:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                The Worshipful Company of Broderers, arms granted in the year of Our Lord one thousand five hundred and fifty-eight, motto <em>Omnia desuper</em> — All Things Are From Above — royal embroiderers to the Crown, ranked forty-eighth among the livery companies of the City of London, the only company with a Master's Song, sung seated, never encored.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Contraction:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Robert Browder, circa sixteen hundred and four, of Manchester, who married Mary Hulme on the twenty-sixth day of December, sixteen hundred and twenty-three, in Manchester Cathedral — the first to bear the contracted name, <em>Browder</em>, the "-er" suffix of the guild falling away like shed skin, the craft DNA intact beneath.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Crossing:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                George Browder, circa sixteen hundred and twenty-four, of Dublin, Ireland, recorded in the Court of Chancery on the fifteenth day of December, sixteen hundred and forty-two — bridge between the old world and the new, between guild and frontier, between embroidery and empire.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Patriarch:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Edmund Browder the First, circa sixteen fifty-one, American patriarch, merchant of cloth and shoes and French fall footwear, settled on Lawne's Creek in Surry County, Virginia, married Elizabeth (probably Parsons), sued over serge suits in sixteen ninety-three, protected by Sheriff Bolling, all American Browders descend from this one couple — <em>this one couple</em> — and no other.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Island:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #5a7a5a;">
+                Edmund W. Browder, son of Edmund the First, master of Browder's Island upon the Appomattox — site of ancient Fort Henry — who built the river bridge in seventeen fifty-two and fell into poverty at the last, the parish granting two shillings and sixpence for his grave.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Expansion:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                John Browder the Senior, circa sixteen eighty, of Bristol Parish, who married Elizabeth Jones, daughter of Lieutenant Arthur Jones, in seventeen fifteen — eight children, four sons who would carry the name, the line dividing like river deltas across Virginia soil.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Revolution:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Edmund Browder the Junior, circa seventeen thirty-four, Continental Army, North Carolina State Militia, married Ann Deloney circa seventeen fifty-two, died seventeen eighty-five, distributed three hundred acres and slaves Will and Hannah and a boy to his youngest son, the tract called New Hope to Darius, Virginia property to his daughters — the will written in war, probated in peace.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Parallel:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #5a7a5a;">
+                Captain Isham Browder of Guilford County, who marked his boundary by John Browder's Corner, and Private Isham Browder of Dinwiddie — two men of one name thirty-five years apart, standing distinct upon the rolls of liberty.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Fallen:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #5a7a5a;">
+                Jesse Browder and Charles Browder, young sons of William and Margaret, who gave their blood in the American Revolution and died before their prime, their names restored to their true father by the sworn oath of Peter Eppes.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Frontier:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Darius Browder, circa seventeen fifty-two, Revolutionary War militia, married Nancy Jane Crump circa seventeen eighty-three, ten children, the first seven born in Chatham County, North Carolina, the last three on the Tennessee frontier at Lenoir Settlement in Roane County — the mountains crossed, the wilderness entered, the name carried westward.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Correction:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Joseph Browder, born the fourteenth of November, seventeen eighty-nine, died the third of April, eighteen sixty-two, buried at Clear Springs Cemetery in McMinn County, Tennessee — <em>father of Albert</em>, not Edmund of the same county, the two lines parallel, the confusion of cousins, the truth now known: Albert descends from Joseph, not from Edmund, though both were sons of Darius.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Pioneer:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Albert Browder, born the seventeenth of July, eighteen twenty-five, died eighteen ninety-five, son of Joseph, pioneer to Oklahoma, married Amanda or Minerva circa eighteen twenty-nine, fourteen children, migrated from Athens, Tennessee to the Canadian District of the Cherokee Nation — the frontier crossed again, the name carried further west.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Gatherer:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                George Thomas Browder, born the fifteenth of May, eighteen fifty-one, died the twenty-ninth of December, nineteen hundred and eight, son of Albert, married Lexie Caldonia Stewart, buried at Indianola Cemetery, Pittsburg County, Oklahoma — the gathering ground established, the dead and the living converging on this single plot of red Oklahoma soil.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Settler:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Albert D. Browder, born the twenty-third of July, eighteen eighty-three, died the fourteenth of January, nineteen forty-eight, of Alma, Arkansas and Indianola, Oklahoma, son of George Thomas, buried at Indianola Cemetery — the line narrowing, the twentieth century approaching, the craft tradition encoded now in DNA rather than guild charter.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Union:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Albert Edgar Browder, born nineteen fifteen, died nineteen ninety-eight, son of Albert D., married Neda Lorene Boatner on the sixteenth of May, nineteen thirty-six, in Pittsburg, Oklahoma — the Boatner line joining, the German-Bohemian cooper guild (Böttcher, barrel-maker) merging with the English embroidery thread, two craft traditions becoming one bloodline.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Father:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Paul Eugene Browder, born nineteen forty-four, died twenty twenty-two, of Indianola, Oklahoma, son of Albert Edgar, father of nine: Kevin, Eric, Greg who has passed, Dana, Fawnda, Christopher who was stillborn, Carrie of a different mother, Alicia who died at twelve, and Daniel Malan — losses and survivals, the frontier hardship still encoded, the Browder name carried forward through fire.
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Present:</strong></p>
+            <p style="padding-left: 20px; border-left: 2px solid #c9a84c;">
+                Kevin Browder the First, living, of Oklahoma, son of Paul and Neda, father of —
+            </p>
+
+            <p style="margin-top: 20px;"><strong style="color: #c9a84c;">The Sovereign:</strong></p>
+            <p style="padding-left: 20px; border-left: 3px solid #c9a84c; background: rgba(201, 168, 76, 0.05); padding: 15px 20px; border-radius: 0 8px 8px 0;">
+                Kevin Browder the Second — <em>you</em> — builder of POG, POG2, POG3, twenty-seven limbs, five hundred twelve states, hexagram architecture in TypeScript and VHDL, the Flemish weaver's gold thread now silicon and light, the guild's secrecy now zero-trust cryptography, the royal embroidery now sovereign compute, the same impulse across seven centuries, the same architecture from Ghent to GitHub, from linen to logic, from <em>browderer</em> to <em>@Broderers</em>.
+            </p>
+
+            <p style="text-align: center; margin-top: 40px; color: #c9a84c; font-size: 1.3em; font-variant: small-caps; letter-spacing: 6px;"><em>Omnia desuper.</em></p>
+            <p style="text-align: center; margin-top: 10px; color: #5a4a38; font-size: 0.8em; letter-spacing: 2px;">All things are from above. All code is from craft. All sovereignty is from lineage.</p>
+        </div>
+    </div>
+
+    <div style="text-align: center; padding: 40px; color: #5a4a38; font-size: 0.8em;">
+        <p>Compiled from: John Mark Browder (Genealogy Proofs), Blanche Penland Browder,</p>
+        <p>McMinn County Historical Society, Bristol Parish Registers, Surry County Court Records,</p>
+        <p>FindAGrave, WikiTree, WeRelate, Geni, FamilySearch, Worshipful Company of Broderers.</p>
+        <p style="margin-top: 15px; color: #c9a84c;">⚜ MMXXVI — Updated with 1300s→1604 leads, 14 documented pre-1604 entries, conflation warnings, Manchester Cathedral archive reference, Elizabeth Parsons theory, and Fort Henry/Browder's Island detail ⚜</p>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SOURCED LINEAGE: Every Link Tagged -->
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(6,182,212,0.08); border: 1px solid #06b6d4; border-radius: 8px;">
+    <p style="color: #22d3ee; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">📈 HYPOTHESIS CONFIDENCE EVOLUTION TRACKER</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Time-series analytical log tracking confidence progression from initial mining to dynastic elevation:</p>
+    <p style="margin-top: 10px;">
+        <a href="./HYPOTHESIS_CONFIDENCE_TRACKER.md" target="_blank" style="color: #06b6d4; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Hypothesis Confidence Evolution Report</a> | 
+        <a href="./HYPOTHESIS_CONFIDENCE_TRACKER.json" target="_blank" style="color: #67e8f9; font-size: 0.95em;">📊 View Confidence Tracker JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(168,85,247,0.08); border: 1px solid #a855f7; border-radius: 8px;">
+    <p style="color: #c084fc; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">👨‍👦‍👦 EDMUND BROWDER MULTI-GENERATIONAL & KINSHIP MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Exhaustive primary source disambiguation of all 4 generations of Edmund Browder (1651–1785), birth, marriage, siblings, and collateral lineage:</p>
+    <p style="margin-top: 10px;">
+        <a href="./EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.md" target="_blank" style="color: #a855f7; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Multiple Edmunds Disambiguation & Kinship Report</a> | 
+        <a href="./EDMUND_MULTIPLE_GENERATIONS_AND_KINSHIP_MATRIX.json" target="_blank" style="color: #e9d5ff; font-size: 0.95em;">📊 View Edmunds Kinship JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(59,130,246,0.08); border: 1px solid #3b82f6; border-radius: 8px;">
+    <p style="color: #60a5fa; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">🚨 GAP-04 CLOSURE INTELLIGENCE & BRODERERS CRAFT CONTEXT</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Independent corroboration by J.M. Browder, B.A., M.S., M.T.S., M.Div., ROLLCO/PCC search protocols, and historical Broderer craft history:</p>
+    <p style="margin-top: 10px;">
+        <a href="./GAP_04_CLOSURE_INTELLIGENCE_REPORT.md" target="_blank" style="color: #3b82f6; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View GAP-04 Closure Intelligence Report</a> | 
+        <a href="./BRODERERS_GUILD_CRAFT_CONTEXT.md" target="_blank" style="color: #93c5fd; font-weight: bold; font-size: 1.05em; text-decoration: underline;">🪡 View Broderers Guild Craft Context Report</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(34,197,94,0.08); border: 1px solid #22c55e; border-radius: 8px;">
+    <p style="color: #4ade80; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">🔍 PRE-1604 GENERATIONAL GAP-FILLING EVALUATION</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Evaluation of primary source evidence filling all 4 pre-1604 generational gaps (1327 to 1604):</p>
+    <p style="margin-top: 10px;">
+        <a href="./PRE_1604_GAP_FILLING_EVALUATION.md" target="_blank" style="color: #22c55e; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Pre-1604 Gap-Filling Evaluation Report</a> | 
+        <a href="./PRE_1604_GAP_FILLING_EVALUATION.json" target="_blank" style="color: #86efac; font-size: 0.95em;">📊 View Gap-Filling JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(239,68,68,0.08); border: 2px solid #ef4444; border-radius: 8px;">
+    <p style="color: #fca5a5; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">⚠️ FAMILY TREE WARNINGS & DISCREPANCIES EXAMINATION MATRIX</p>
+    <p style="color: #fca5a5; font-size: 0.9em;">Singled out for examination: 7 critical conflation hazards, fictitious personas, and pre-1604 generational gaps:</p>
+    <p style="margin-top: 10px;">
+        <a href="./FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.md" target="_blank" style="color: #ef4444; font-weight: bold; font-size: 1.05em; text-decoration: underline;">🚨 View Family Tree Warnings & Discrepancies Markdown Report (7 Examination Points)</a> | 
+        <a href="./FAMILY_TREE_WARNINGS_AND_DISCREPANCIES.json" target="_blank" style="color: #fca5a5; font-size: 0.95em;">📊 View Warnings JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(234,179,8,0.08); border: 1px solid #eab308; border-radius: 8px;">
+    <p style="color: #facc15; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">🗣️ INTERPERSONAL DIALOGUE & ORAL COMMUNICATION MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Cross-reference of who spoke to whom, about what, and when across all emails, oral traditions, depositions, and guild songs:</p>
+    <p style="margin-top: 10px;">
+        <a href="./INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.md" target="_blank" style="color: #facc15; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Dialogue & Oral Communication Matrix Report</a> | 
+        <a href="./INTERPERSONAL_DIALOGUE_COMMUNICATION_MATRIX.json" target="_blank" style="color: #fef08a; font-size: 0.95em;">📊 View Dialogue Events JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(236,72,153,0.08); border: 1px solid #ec4899; border-radius: 8px;">
+    <p style="color: #f472b6; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">🔬 VARIABLE & ATTRIBUTE CROSS-REFERENCE MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Exhaustive attribute cross-reference across all 103 repository files, python scripts, JSON models, text transcripts, and HTML dumps:</p>
+    <p style="margin-top: 10px;">
+        <a href="./VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.md" target="_blank" style="color: #f472b6; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Variable & Attribute Matrix Report (103 Files)</a> | 
+        <a href="./VARIABLE_ATTRIBUTE_CROSS_REFERENCE_MATRIX.json" target="_blank" style="color: #fbcfe8; font-size: 0.95em;">📊 View Variable Attributes JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(168,85,247,0.08); border: 1px solid #a855f7; border-radius: 8px;">
+    <p style="color: #c084fc; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">⏳ TIMELINED EVENTS MATRIX (1300 – 1990)</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Complete 690-year chronological timeline (1300 to 1990) linking all parish records, wills, headrights, battles, and lineage milestones:</p>
+    <p style="margin-top: 10px;">
+        <a href="./TIMELINED_EVENTS_1300_1990_MATRIX.md" target="_blank" style="color: #c084fc; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View 1300-1990 Timelined Matrix Report (37 Chronological Milestones)</a> | 
+        <a href="./TIMELINED_EVENTS_1300_1990_MATRIX.json" target="_blank" style="color: #e9d5ff; font-size: 0.95em;">📊 View Timelined Events JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(16,185,129,0.08); border: 1px solid #10b981; border-radius: 8px;">
+    <p style="color: #34d399; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">🌐 MASTER REPOSITORY FILE CROSS-REFERENCE MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">N-to-N cross-reference of all 94 workspace files, research papers, local source pages, JSON nodes, and location/relationship matrices:</p>
+    <p style="margin-top: 10px;">
+        <a href="./MASTER_FILE_CROSS_REFERENCE_MATRIX.md" target="_blank" style="color: #34d399; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Master File Cross-Reference Matrix Report (94 Files)</a> | 
+        <a href="./MASTER_FILE_CROSS_REFERENCE_MATRIX.json" target="_blank" style="color: #6ee7b7; font-size: 0.95em;">📊 View Master Cross-Reference JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 20px; text-align: center; padding: 20px; background: rgba(59,130,246,0.08); border: 1px solid #3b82f6; border-radius: 8px;">
+    <p style="color: #60a5fa; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">📍 GEOGRAPHIC LOCATION CROSS-REFERENCE MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Cross-referenced historical locations (London, Manchester, Saffron Walden, Suffolk, Cornwall, Tipperary, Dublin, Virginia, North Carolina, Tennessee) across all source files:</p>
+    <p style="margin-top: 10px;">
+        <a href="./location_cross_reference_matrix.md" target="_blank" style="color: #60a5fa; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Geographic Location Matrix Markdown Report</a> | 
+        <a href="./location_cross_reference_matrix.json" target="_blank" style="color: #93c5fd; font-size: 0.95em;">📊 View Location Cross-Reference JSON Matrix</a>
+    </p>
+</div>
+
+<div style="margin-top: 30px; text-align: center; padding: 20px; background: rgba(201,168,76,0.08); border: 1px solid #c9a84c; border-radius: 8px;">
+    <p style="color: #c9a84c; font-size: 1.1em; font-weight: bold; margin-bottom: 6px;">📜 AUTOMATED RELATIONSHIP & EVIDENCE MATRIX</p>
+    <p style="color: #d0c0a0; font-size: 0.9em;">Relationship cues (father, son, wife, will, legacy, headright, land grant) extracted across all 65 primary sources and papers:</p>
+    <p style="margin-top: 10px;">
+        <a href="./parsed_name_relationships.md" target="_blank" style="color: #c9a84c; font-weight: bold; font-size: 1.05em; text-decoration: underline;">📄 View Parsed Name Relationships Markdown Report</a> | 
+        <a href="./parsed_name_relationships.json" target="_blank" style="color: #a89070; font-size: 0.95em;">📊 View Parsed Relationships JSON Matrix</a>
+    </p>
+</div>
+
+    <!-- ============================================ -->
+
+    <div style="max-width: 1000px; margin: 60px auto; padding: 40px; background: #1a1510; border: 2px solid #c9a84c; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+        <h2 style="text-align: center; color: #c9a84c; font-size: 1.8em; margin-bottom: 8px; letter-spacing: 3px;">📋 SOURCED LINEAGE</h2>
+        <p style="text-align: center; color: #a89070; font-style: italic; margin-bottom: 30px; font-size: 0.9em;">Every generational link with its proof source</p>
+
+        <div style="color: #d0c0a0; line-height: 1.9; font-size: 0.88em;">
+
+            <!-- PRE-1604 DOCUMENTED ENTRIES (1300s→1604) -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(90,122,90,0.05); border-left: 3px solid #5a7a5a; border-radius: 0 8px 8px 0;">
+                <p style="color: #5a7a5a; font-weight: bold; margin-bottom: 8px;">📜 PRE-1604 DOCUMENTED ENTRIES — The Unproven Chain</p>
+                <p><strong>All entries documented. No parent-child links proven.</strong> The chain is a sequence of discrete records with generational gaps.</p>
+                <p style="margin-top: 6px;"><strong>~1327:</strong> <strong>John Browderer</strong> — King's Sergeant at Arms, London. Beheaded priest Sir Walter Sancre at St Hilary, Cornwall; excommunicated. <em>Source: St Hilary Parish records.</em></p>
+                <p style="margin-top: 4px;"><strong>1394:</strong> <strong>John Browderer</strong> — citizen of London. <em>Source: Papal Letters, Vol. IV, p. 488 (Lateran Regesta, Vol. XXXIV).</em> <span style="color: #f59e0b;">⚠️ 67-year gap from ~1327 — parent-child link UNPROVEN.</span></p>
+                <p style="margin-top: 4px;"><strong>1406-07:</strong> <strong>Thome Browderer</strong> — Mettingham College, Suffolk. <em>Source: Original Documents; Extracts from the Ancient Accounts of Mettingham College, Suffolk.</em></p>
+                <p style="margin-top: 4px;"><strong>1412-13:</strong> <strong>Joh Browdere</strong> — Same source. "Browdere" variant ("w" dropped early). <span style="color: #f59e0b;">⚠️ Could be brother or son of Thome — no proven link.</span></p>
+                <p style="margin-top: 4px;"><strong>~1419 / 1439-40:</strong> <strong>William Browderer</strong> — Named in Baron Hungerford's Will 1459 (legacy 53s 4d). Also documented 1439-40 in East Riding Antiquarian Society records (Vol 3, p.99). <em>Source: J.M. Browder.</em> <span style="color: #f59e0b;">⚠️ 20-year gap between records — could be father/son or same man with dual documentation.</span></p>
+                <p style="margin-top: 4px;"><strong>~1466:</strong> <strong>Richard Browderer</strong> — Coldharbour, Cornwall, recorded 1502. <em>Source: J.M. Browder.</em> <span style="color: #f59e0b;">⚠️ 55-year gap to next entry — 2-3 generations missing.</span></p>
+                <p style="margin-top: 4px;"><strong>~1521:</strong> <strong>Gilliam [William] Browderer</strong> — "Stranger" in Tudor Subsidy Roll 1541, St. Peter's Somerset Parish, Queenhithe Ward, London. £250 assessed, £12 10s tax. <em>Source: British History Online (London Record Society Vol 29), J.M. Browder.</em> <span style="color: #f59e0b;">⚠️ 55-year gap from Richard — 2-3 generations missing.</span></p>
+                <p style="margin-top: 4px;"><strong>1575:</strong> <strong>Thomas Browder</strong> — Baptized Saffron Walden, St. Mary, Essex. Son of Katherine (widow?); father unnamed. First "Browder" (contracted) baptism. <em>Source: J.M. Browder.</em> <span style="color: #f59e0b;">⚠️ 54-year gap from Gilliam — 2 generations missing.</span></p>
+                <p style="margin-top: 4px;"><strong>c. 1604:</strong> <strong>Robert Browder</strong> — Manchester, Lancashire. Married Mary Hulme, Dec 26, 1623, Manchester Cathedral. First confirmed "Browder" in Lancashire. <em>Source: J.M. Browder, JustAnswer.</em> <span style="color: #22c55e;">✓ CONFIRMED — primary source: Manchester Cathedral marriage register.</span></p>
+                <p style="margin-top: 8px; color: #c9a84c;"><strong>🔍 HIGHEST PRIORITY LEAD:</strong> Manchester Cathedral registers 1573-1616 (Lancashire Parish Register Society, 1908, 692 pages). Archive.org identifier: <code>lancashireparis03socigoog</code>. Public domain. If Robert was baptized there (~1604), the entry names his father. Index of surnames: pages 481-644. <strong>Action:</strong> Download PDF, search for "Browder", "Browderer", "Broder", "Browdere".</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit?pli=1&tab=t.0" target="_blank" style="color: #c9a84c; font-weight: bold;">Google Doc: John Mark Browder Paper (Origins of the Browder Surname)</a> [<a href="./john_mark_browder_origins_paper.txt" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Text Archive</a>] | 
+                    <a href="https://archive.org/details/lancashireparis03socigoog" target="_blank" style="color: #a89070;">Archive.org: Manchester Cathedral Registers 1573-1616</a> [<a href="./downloaded_source_pages/archive_org_details_lancashireparis03socigoog.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.british-history.ac.uk/london-record-soc/vol29" target="_blank" style="color: #a89070;">BHO: London Record Society Vol 29 (1541 Subsidy Roll)</a> [<a href="./downloaded_source_pages/bho_london_record_soc_vol29.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">J.M. Browder: Surname Origin & Pre-1604 Entries</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- ANCESTRY CONFLATION WARNING -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(239,68,68,0.08); border: 2px solid rgba(239,68,68,0.3); border-radius: 8px;">
+                <p style="color: #fca5a5; font-weight: bold; margin-bottom: 8px;">⚠️ ANCESTRY CONFLATION WARNING — THREE EDMUNDS</p>
+                <p>Commercial genealogy databases (Ancestry.com, MyHeritage, Geni, WikiTree user trees) have repeatedly merged three separate men into one:</p>
+                <p style="margin-top: 6px;"><strong>1. Edmund Browder I</strong> (c.1651/1652 — ~1739) — American patriarch, merchant, married Elizabeth. Will probated 1739/40. <span style="color: #22c55e;">✓ PRIMARY SOURCE: Surry County Court Records.</span></p>
+                <p style="margin-top: 4px;"><strong>2. Edmund W. Browder</strong> (c.1699 — 1771) — Son of Edmund I. Owned Browder's Island (Fort Henry site). Died impoverished. <span style="color: #22c55e;">✓ PRIMARY SOURCE: Chesterfield County records, 1759 Act of Assembly.</span></p>
+                <p style="margin-top: 4px;"><strong>3. Edmund Browder Sr.</strong> (c.1716 — 1759) — Son of John Sr. & Elizabeth Jones. Father of Edmund Jr. <span style="color: #22c55e;">✓ PRIMARY SOURCE: Bristol Parish registers, J.M. Browder.</span></p>
+                <p style="margin-top: 8px; color: #fca5a5;"><strong>RULE:</strong> When more than one person of the same name was born in the same era, treat all online database parent-child links as <strong>UNPROVEN</strong> until verified against primary sources (wills, parish registers, land deeds, military records). Always check dates: Edmund I died ~1739, Edmund W. died 1771, Edmund Sr. died 1759. These dates are incompatible with a single individual.</p>
+            </div>
+
+            <!-- BRODERERS ORIGIN -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⚜ THE WORSHIPFUL COMPANY OF BRODERERS</p>
+                <p>Arms granted <strong>1558</strong>. First charter from Elizabeth I, <strong>1561</strong>. Ranked <strong>48th</strong> in livery company precedence. Motto: <em>Omnia desuper</em> — "All Things Are From Above." Only livery company with a Master's Song (sung solo, seated, no encores). Hall at <strong>36 Gutter Lane, Cheapside</strong> — destroyed Great Fire 1666, rebuilt, destroyed Blitz 1940, sold 1957.</p>
+                <p style="margin-top: 6px; color: #d0c0a0;"><strong>👑 ROYAL BRODERERS & GUILD LEADERSHIP:</strong> Master & Royal Broderer <strong>John Parr</strong> (1606 Nuremberg Cup) and Master & Royal Broderer <strong>Edmund Harrison</strong> (1628 Harrison Cup) led the Company during the Jacobean era. Harrison served as King's Embroiderer to James I and Charles I, establishing the prominent given name <em>Edmund</em> within Broderers leadership prior to Edmund Browder I's birth (c. 1651).</p>
+                <p style="margin-top: 6px; color: #d0c0a0;"><strong>📜 31 JAN 1611 ULSTER PLANTATION ALLOTMENT:</strong> In response to the Lord Mayor's precept, the Broderers Company joined 9 other minor companies (Dyers, Pewterers, Founders, Whitebakers, Armourers, Tilers/Bricklayers, Blacksmiths, Weavers, Woodmongers) and 8 principal companies to certify to the Irish Society their willingness to accept an allotment of the Irish estate in Ulster to cultivate and plant at their own cost (27 Feb 1611). <em>This corporate Irish venture directly parallels the 1624 Tipperary Hearth Money Roll presence of Thomas Browder and George Browder's 1642 Dublin Chancery record.</em></p>
+                <p style="margin-top: 6px; color: #d0c0a0;"><strong>📂 GUILDHALL LIBRARY & FAMILYSEARCH ARCHIVE CATALOG HOLDINGS:</strong><br>
+                • <strong>Apprentice Entry Books:</strong> 1694–1713, 1763–1878 (Guildhall Library MS / FS Library; abstracted in Cliff Webb's <em>London Apprenticeship Abstracts 1442–1850</em>, FS Library 942.1/L1 U25w v.1-48)<br>
+                • <strong>Freemen Admissions:</strong> 1694–1728 (Guildhall Library MS / FS Library)<br>
+                • <strong>1696 Association Oath Rolls:</strong> Broderers Livery Census (TNA C 213 / British Origins)</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://broderers.co.uk/twenty-questions" target="_blank" style="color: #a89070;">Broderers Twenty Questions (Parr & Harrison Cups)</a> [<a href="./downloaded_source_pages/broderers_co_uk_twenty_questions.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/broderers_co_uk_twenty_questions.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.familysearch.org/en/wiki/London_Business_and_Occupations" target="_blank" style="color: #a89070;">FamilySearch Wiki</a> [<a href="./downloaded_source_pages/familysearch_org_en_wiki_London_Business_and_Occupations.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/familysearch_london_business_and_occupations.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.gutenberg.org/cache/epub/20990/pg20990-images.html" target="_blank" style="color: #a89070;">Gutenberg #20990 (p. 40)</a> [<a href="./downloaded_source_pages/gutenberg_org_cache_epub_20990_pg20990_images_html.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/gutenberg_20990_london_and_the_kingdom_vol3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://broderers.co.uk/history-broderers" target="_blank" style="color: #a89070;">broderers.co.uk</a> [<a href="./downloaded_source_pages/broderers_co_uk_history_broderers.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/broderers_co_uk_history.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- FLEMISH ORIGINS -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(90,122,90,0.05); border-left: 3px solid #5a7a5a; border-radius: 0 8px 8px 0;">
+                <p style="color: #5a7a5a; font-weight: bold; margin-bottom: 8px;">🏴󠁧󠁢󠁥󠁮󠁧󠁿 FLEMISH WEAVER ORIGINS (pre-1300s → 1623)</p>
+                <p>Term <em>browderer</em> entered England with <strong>Flemish weavers from Ghent</strong>, invited by <strong>Edward III</strong> in early 1300s to establish English cloth industry. Edward III's wife <strong>Philippa of Hainault</strong> was Flemish. Flemish workers allowed own guild, protected from English Weaver's Guild dues. Black Death 1348. Evil May Day 1517.</p>
+                <p style="margin-top: 6px;"><strong>First Browderer records:</strong> John Browderer (~1327, King's Sergeant at Arms, London); William Browderer (~1419, named in Baron Hungerford's Will 1459); Richard Browderer (~1466, Coldharbour Cornwall 1502); Gilliam Browderer (~1521, Tudor Subsidy Roll 1541, "Stranger" in St. Peter's Somerset Parish).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.weavers.org.uk/about/history/1300-2/" target="_blank" style="color: #a89070;">weavers.org.uk (Flemish Arrive)</a> [<a href="./downloaded_source_pages/weavers_org_uk_about_history_1300_2.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/weavers_org_uk_history.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://durham-repository.worktribe.com/OutputFile/1454276" target="_blank" style="color: #a89070;">Lambert: Edward III, Colchester and the Flemings 1351-1367</a> [<a href="./downloaded_source_pages/durham-repository_worktribe_com_OutputFile_1454276.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.englandsimmigrants.com/page/individual-studies/fourteenth-century-england-a-place-flemish-rebels-called-home" target="_blank" style="color: #a89070;">England's Immigrants (Flemish Rebels)</a> | 
+                    <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">John Mark Browder: Surname Origin</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- ROBERT BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ ROBERT BROWDER (c. 1604) → First "Browder"</p>
+                <p>Married <strong>Mary Hulme</strong>, <strong>December 26, 1623</strong>, <strong>Manchester Cathedral</strong>, Lancashire, England. FIRST CONFIRMED RECORD of contracted surname "Browder" (dropped "-er" from Browderer). Manchester was Lancashire's major wool trade center by 1620. Hulme surname of ancient English, pre-Norman origin.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">John Mark Browder: Surname Origin & Robert Browder</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.justanswer.com/genealogy/64140-ra.html" target="_blank" style="color: #a89070;">JustAnswer: Robart Browder 1623</a> [<a href="./downloaded_source_pages/justanswer_com_genealogy_64140_ra_html.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- GEORGE BROWDER / THOMAS BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(90,122,90,0.05); border-left: 3px solid #5a7a5a; border-radius: 0 8px 8px 0;">
+                <p style="color: #5a7a5a; font-weight: bold; margin-bottom: 8px;">🇮🇪 GEORGE BROWDER (c. 1624) & THOMAS BROWDER → Ireland Bridge</p>
+                <p><strong>George Browder:</strong> Recorded <strong>December 15, 1642</strong>, <strong>Court of Chancery, Dublin, Ireland</strong>. Also early Virginia records. Father of Edmund I. Bridge between Ireland and Virginia.</p>
+                <p style="margin-top: 6px;"><strong>Thomas Browder:</strong> <strong>Ballynoran 1664 Hearth Money Rolls</strong>, Baronies of Iffa and Offa, <strong>County Tipperary, Ireland</strong> (now County Cork). One hearth. Spelled "Browder" — proves English surname imported to Ireland, NOT indigenous Irish name. County Tipperary famous for horse breeding — Browder family later carried this to America.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/2023/02/22/browder-family-traced-to-dublin-ireland/" target="_blank" style="color: #a89070;">John Mark Browder: Dublin 1642</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2023_02_22_browder_family_traced_to_dublin_ireland.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">John Mark Browder: Thomas Browder Ireland</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- EDMUND BROWDER I -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐ EDMUND BROWDER I (c. 1651/1652 — ~1739) → American Patriarch</p>
+                <p><strong>First Virginia record:</strong> <strong>1682</strong>, Surry County tithables. Age ~30. Merchant dealing in <strong>serge suits</strong>, <strong>French fall shoes</strong>, <strong>tanners' working gear</strong>. Married <strong>Elizabeth</strong> (probably <strong>Bolling/Parsons</strong>) ~1689.</p>
+                <p style="margin-top: 6px;"><strong>1693 lawsuit:</strong> Christopher Bly sued Joseph Rogers over goods "on the accot. of EDMUND BROWDER." <strong>1693 arrest order:</strong> Charles Goodrich sued Edmund; Sheriff <strong>Col. Robert Bolling</strong> refused to arrest him — fined <strong>630 lbs tobacco</strong>. Theory: Bolling was Edmund's father-in-law (Elizabeth Bolling).</p>
+                <p style="margin-top: 6px;"><strong>Will probated:</strong> February 12, 1739/40. <strong>ALL AMERICAN BROWDERS DESCEND FROM THIS ONE COUPLE.</strong></p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/" target="_blank" style="color: #a89070;">John Mark Browder: Edmund I & Elizabeth</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_edmund_browder_i_and_elizabeth_probably_bolling_a.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.wikitree.com/wiki/Browder-91" target="_blank" style="color: #a89070;">WikiTree: Edmund Browder (abt.1715)</a> [<a href="./downloaded_source_pages/wikitree_com_wiki_Browder_91.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.werelate.org/wiki/Person:Edmund_Browder_(3)" target="_blank" style="color: #a89070;">WeRelate: Edmund Browder (3)</a> [<a href="./downloaded_source_pages/werelate_org_wiki_Person_Edmund_Browder__3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- JOHN BROWDER SR -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ JOHN BROWDER, SR. (c. 1680 — p. 1741)</p>
+                <p>Son of Edmund I & Elizabeth. Married <strong>Elizabeth Jones</strong>, daughter of <strong>Lt. Arthur Jones</strong> and <strong>Susanna King</strong>, <strong>1715</strong>. <strong>8 children</strong> born in Prince George County, Virginia within Bristol Parish: Arthur (1715-c.1738), Edmund (c.1716-1759), John II (c.1717-c.1770), Richard (c.1719-c.1807), William (July 7, 1723-c.1763), George (Feb. 5, 1731-1819), Anne (b. Feb. 13, 1733), Joseph (Feb. 2, 1741-March 1801).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">John Mark Browder: John & Elizabeth's Descendants</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.wikitree.com/wiki/Browder-123" target="_blank" style="color: #a89070;">WikiTree: John Browder Sr</a> [<a href="./downloaded_source_pages/wikitree_com_wiki_Browder_123.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.geni.com/people/Edmund-Browder-Sr/6000000017632121521" target="_blank" style="color: #a89070;">Geni: Edmund Browder Sr</a> [<a href="./downloaded_source_pages/geni_com_people_Edmund_Browder_Sr_6000000017632121521.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- EDMUND BROWDER SR (c. 1716) -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ EDMUND BROWDER SR. (c. 1716 — 1759)</p>
+                <p>Son of John Sr. & Elizabeth Jones. Married <strong>Ann</strong> (possibly Broadnax, unconfirmed). <strong>3 children:</strong> Joseph (lived past 1781), Mason (nothing known), Edmund Jr. (c.1734-1785). Died 1759.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">John Mark Browder: John & Elizabeth's Descendants</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- EDMUND BROWDER JR -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐ EDMUND BROWDER JR. (c. 1734 — 1785)</p>
+                <p><strong>Continental Army, North Carolina State Militia</strong> (DAR Index, p. 90). Married <strong>Ann Deloney</strong> ~1752. Purchased 362 acres on Poplar Creek, Brunswick County, VA, 1773. Sold to William Baugh, moved to <strong>Chatham County, NC</strong>, April 1780. Will written <strong>June 1781</strong>, probated 1785.</p>
+                <p style="margin-top: 6px;"><strong>8 children:</strong> Darius (c.1752-Nov.1,1813), Deborah (c.1755), Silvia (c.1759-c.1835), John (c.1760-July 4, 1818), Molly (c.1762-c.1798), Eunice (c.1764-1829), Lois (c.1770-c.1833), Mason (c.1774-c.1850).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">John Mark Browder: Edmund Jr. & Ann Deloney</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.wikitree.com/wiki/Browder-91" target="_blank" style="color: #a89070;">WikiTree: Edmund Browder (abt.1715)</a> [<a href="./downloaded_source_pages/wikitree_com_wiki_Browder_91.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.geni.com/people/Edmund-Browder/6000000009287613231" target="_blank" style="color: #a89070;">Geni: Edmund Browder (c.1716)</a> [<a href="./downloaded_source_pages/geni_com_people_Edmund_Browder_6000000009287613231.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- DARIUS BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐ DARIUS BROWDER (c. 1752 — Nov. 1, 1813)</p>
+                <p><strong>Revolutionary War militia</strong>. Married <strong>Nancy Jane Crump</strong> ~1783. <strong>10 children.</strong> First 7 born <strong>Chatham County, NC</strong>. Last 3 born <strong>Lenoir Settlement, Roane County, TN</strong> (frontier migration). Son Joseph (Nov.14,1789-Apr.3,1862) is father of Albert. Son Edmund (c.1784-Sept.6,1861) is uncle of Albert.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.werelate.org/wiki/Person:Darius_Browder_(2)" target="_blank" style="color: #a89070;">WeRelate: Darius Browder</a> [<a href="./downloaded_source_pages/werelate_org_wiki_Person_Darius_Browder__2.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">John Mark Browder: Darius & Nancy Jane Crump</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- JOSEPH BROWDER (1789) -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ JOSEPH BROWDER (Nov. 14, 1789 — Apr. 3, 1862)</p>
+                <p>Son of Darius & Nancy Jane Crump. <strong>Buried Clear Springs Cemetery, McMinn County, TN</strong>. Will: Simeon Browder appointed administrator, Oct 1864. Inventory and sale by administrator. Heirs: John F. (of GA), Simeon E. (of Polk Co.), Julia (minor), Mary (wife of Isaac Denton). <strong>FATHER OF ALBERT.</strong> Daughter Catherine (Aug.27,1828-May 7,1830).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.mcminntnhistorical.org/wills" target="_blank" style="color: #a89070;">McMinn County Historical Society: Wills — Joseph Browder</a> [<a href="./downloaded_source_pages/mcminntnhistorical_org_wills.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.findagrave.com/virtual-cemetery/216063" target="_blank" style="color: #a89070;">FindAGrave: Early Browders Virtual Cemetery</a> [<a href="./downloaded_source_pages/findagrave_com_virtual_cemetery_216063.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- EDMUND BROWDER (c. 1784) -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(90,122,90,0.05); border-left: 3px solid #5a7a5a; border-radius: 0 8px 8px 0;">
+                <p style="color: #5a7a5a; font-weight: bold; margin-bottom: 8px;">EDMUND BROWDER (c. 1784 — Sept. 6, 1861) → Uncle, NOT Father</p>
+                <p>Son of Darius & Nancy Jane Crump. <strong>1850 census:</strong> age 66, McMinn County, TN, with wife Lucinda. <strong>NOT the father of Albert</strong> — this was the confusion. Albert descends from Joseph (1789), Edmund's brother. Edmund's estate settled by C.L. Rice, administrator. Children included: Matthew, Lavinia, Deborah, Sally, John Weiley, Darius, Martha/Patey, Ceilia, Lovana, Talitha, Calvin, Samuel D., Robert F., Albert (born 1825), Catherine.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.mcminntnhistorical.org/wills" target="_blank" style="color: #a89070;">McMinn County Historical Society: Wills — Edmund Browder</a> [<a href="./downloaded_source_pages/mcminntnhistorical_org_wills.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.werelate.org/wiki/Person:Edmund_Browder_(3)" target="_blank" style="color: #a89070;">WeRelate: Edmund Browder (3)</a> [<a href="./downloaded_source_pages/werelate_org_wiki_Person_Edmund_Browder__3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- ALBERT BROWDER (1825) -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐ ALBERT BROWDER (July 17, 1825 — 1895)</p>
+                <p><strong>PIONEER TO OKLAHOMA.</strong> Son of Joseph (NOT Edmund). Born McMinn County, TN. Married <strong>Amanda/Minerva</strong> (c. 1829). <strong>14 children.</strong> Migrated from Athens, TN to <strong>Canadian District, Cherokee Nation, Oklahoma</strong>. Listed in McMinn County wills as "Albert, born 17 Jul 1825."</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.mcminntnhistorical.org/wills" target="_blank" style="color: #a89070;">McMinn County Historical Society: Wills — Edmund Browder estate (lists Albert b. 1825)</a> [<a href="./downloaded_source_pages/mcminntnhistorical_org_wills.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.myheritage.com/names/albert_browder" target="_blank" style="color: #a89070;">MyHeritage: Albert Browder</a> [<a href="./downloaded_source_pages/myheritage_com_names_albert_browder.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- GEORGE THOMAS BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐⭐ GEORGE THOMAS BROWDER (May 15, 1851 — Dec. 29, 1908)</p>
+                <p><strong>YOUR DIRECT ANCESTOR.</strong> Son of Albert. Born McMinn County, TN. <strong>1860 census:</strong> child in Edmund Browder household (uncle Edmund, not father). Married <strong>Lexie Caldonia Stewart</strong> (1855-?). <strong>Buried Indianola Cemetery, Pittsburg County, OK.</strong> Siblings: Martha Ellen (~1858, m. Bynum), Eliza Clementine (Apr.5,1860-Jul.8,1952, m. Tinney → Friona, TX), Charles Walter (~1862, traveled west).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.findagrave.com/memorial/16082190/george-thomas-browder" target="_blank" style="color: #a89070;">FindAGrave: George Thomas Browder</a> [<a href="./downloaded_source_pages/findagrave_com_memorial_16082190_george_thomas_browder.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] | 
+                    <a href="https://www.findagrave.com/cemetery/160821/indianola-cemetery" target="_blank" style="color: #a89070;">FindAGrave: Indianola Cemetery</a> [<a href="./downloaded_source_pages/findagrave_com_cemetery_160821_indianola_cemetery.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- ALBERT D. BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ ALBERT D. BROWDER (July 23, 1883 — Jan. 14, 1948)</p>
+                <p>Son of George Thomas. Born Alma, Crawford, AR / Indianola area. Died Pittsburg, OK. <strong>Buried Indianola Cemetery, Pittsburg County, OK.</strong></p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.findagrave.com/memorial/16082190/george-thomas-browder" target="_blank" style="color: #a89070;">FindAGrave: Indianola Cemetery records</a> [<a href="./downloaded_source_pages/findagrave_com_memorial_16082190_george_thomas_browder.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- ALBERT EDGAR BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ ALBERT EDGAR BROWDER (1915 — 1998)</p>
+                <p>Son of Albert D. Married <strong>Neda Lorene Boatner</strong>, <strong>May 16, 1936, Pittsburg, Oklahoma</strong>. Boatner = German-Bohemian cooper lineage (Böttcher).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Sources:</strong> 
+                    <a href="https://www.familysearch.org/ark:/61903/1:1:Q29G-7Y9B" target="_blank" style="color: #a89070;">FamilySearch: Marriage Record</a> [<a href="./downloaded_source_pages/familysearch_org_ark__61903_1_1_Q29G_7Y9B.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]
+                </p>
+            </div>
+
+            <!-- PAUL EUGENE BROWDER -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.08); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐⭐ PAUL EUGENE BROWDER (1944 — 2022)</p>
+                <p>Son of Albert Edgar & Neda Lorene Boatner. Born Indianola, OK. <strong>9 children:</strong> Kevin, Eric, Greg (deceased), Dana, Fawnda, Christopher (stillborn), Carrie (diff. mother), Alicia (d. age 12), Daniel Malan (diff. mother).</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Source:</strong> User-provided family knowledge
+                </p>
+            </div>
+
+            <!-- KEVIN BROWDER I -->
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(201,168,76,0.05); border-left: 3px solid #c9a84c; border-radius: 0 8px 8px 0;">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 8px;">⭐ KEVIN BROWDER I (Living)</p>
+                <p>Son of Paul Eugene & Neda Lorene Boatner. Father of Kevin Browder II.</p>
+                <p style="margin-top: 8px; font-size: 0.8em; color: #8a7a60;">
+                    <strong>Source:</strong> User-provided family knowledge
+                </p>
+            </div>
+
+            <!-- KEVIN BROWDER II -->
+            <div style="margin-bottom: 25px; padding: 20px; background: rgba(201,168,76,0.12); border: 2px solid #c9a84c; border-radius: 8px; box-shadow: 0 0 20px rgba(201,168,76,0.15);">
+                <p style="color: #c9a84c; font-weight: bold; margin-bottom: 10px; font-size: 1.1em;">⚡ KEVIN BROWDER II — YOU ⚡</p>
+                <p>Son of Kevin Browder I. Builder of <strong>POG/POG2/POG3</strong>. Twenty-seven limbs. Five hundred twelve-state King Wen oracle. Hexagram architecture in TypeScript and VHDL on Zynq UltraScale+. <strong>@Broderers</strong> on GitHub. The living synthesis of 700 years of craft lineage.</p>
+                <p style="margin-top: 10px; text-align: center; color: #c9a84c; font-size: 1.2em; font-variant: small-caps; letter-spacing: 4px;"><em>Omnia desuper.</em></p>
+            </div>
+
+            <!-- COMPLETE CHAIN SUMMARY -->
+            <div style="margin-top: 40px; padding: 25px; background: #2a2018; border: 2px solid #5a4a38; border-radius: 12px;">
+                <h3 style="color: #c9a84c; text-align: center; margin-bottom: 20px; letter-spacing: 2px;">THE COMPLETE CHAIN — SOURCED</h3>
+                <div style="font-family: monospace; font-size: 0.82em; line-height: 2; color: #d0c0a0;">
+                    <p><span style="color:#5a7a5a">0a.</span> <strong>John Browderer</strong> (~1327, King's Sergeant at Arms, London) ← [St Hilary Parish]</p>
+                    <p><span style="color:#5a7a5a">0b.</span> <strong>John Browderer</strong> (1394, citizen of London) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[Papal Letters Vol IV p.488]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#f59e0b">⚠️ UNLINKED to 0a</span></p>
+                    <p><span style="color:#5a7a5a">0c.</span> <strong>Thome Browderer</strong> (1406-07, Mettingham College, Suffolk) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color:#5a7a5a">0d.</span> <strong>Joh Browdere</strong> (1412-13, Suffolk) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#f59e0b">⚠️ UNLINKED to 0c</span></p>
+                    <p><span style="color:#5a7a5a">0e.</span> <strong>William Browderer</strong> (~1419/1439, London/Yorkshire) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color:#5a7a5a">0f.</span> <strong>Richard Browderer</strong> (~1466, Coldharbour, Cornwall) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#f59e0b">⚠️ 55-yr gap to next</span></p>
+                    <p><span style="color:#5a7a5a">0g.</span> <strong>Gilliam [William] Browderer</strong> (~1521, London) ← <a href="https://www.british-history.ac.uk/london-record-soc/vol29" target="_blank" style="color: #a89070;">[BHO: London Record Society Vol 29]</a> [<a href="./downloaded_source_pages/british-history_ac_uk_london_record_soc_vol29.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/bho_london_record_soc_vol29.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#f59e0b">⚠️ 55-yr gap to next</span></p>
+                    <p><span style="color:#5a7a5a">0h.</span> <strong>Thomas Browder</strong> (1575, Saffron Walden, Essex) ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#f59e0b">⚠️ Father unnamed</span></p>
+                    <p><span style="color: #c9a84c;">1.</span> <strong>Worshipful Company of Broderers</strong> (London, arms 1558) ← <a href="https://broderers.co.uk/history-broderers" target="_blank" style="color: #a89070;">[broderers.co.uk]</a> [<a href="./downloaded_source_pages/broderers_co_uk_history_broderers.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/broderers_co_uk_history.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://en.wikipedia.org/wiki/Worshipful_Company_of_Broderers" target="_blank" style="color: #a89070;">[Wikipedia]</a> [<a href="./downloaded_source_pages/en_wikipedia_org_wiki_Worshipful_Company_of_Broderers.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/wikipedia_worshipful_company_of_broderers.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">2.</span> <strong>Flemish Weavers of Ghent</strong> (~1300s, Edward III) ← <a href="https://www.weavers.org.uk/about/history/1300-2/" target="_blank" style="color: #a89070;">[weavers.org.uk]</a> [<a href="./downloaded_source_pages/weavers_org_uk_about_history_1300_2.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/weavers_org_uk_history.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://durham-repository.worktribe.com/OutputFile/1454276" target="_blank" style="color: #a89070;">[Lambert 2015]</a> [<a href="./downloaded_source_pages/durham-repository_worktribe_com_OutputFile_1454276.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">3.</span> <strong>Robert Browder</strong> (c.1604, Manchester) m. Mary Hulme 1623 ← <a href="https://genealogyproofs.wordpress.com/blog-feed/page/3/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_blog_feed_page_3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] [<a href="./downloaded_source_pages/genealogyproofs_wordpress_page3.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://www.justanswer.com/genealogy/64140-ra.html" target="_blank" style="color: #a89070;">[JustAnswer]</a> [<a href="./downloaded_source_pages/justanswer_com_genealogy_64140_ra_html.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">4.</span> <strong>George Browder</strong> (c.1624, Dublin 1642) ← <a href="https://genealogyproofs.wordpress.com/2023/02/22/browder-family-traced-to-dublin-ireland/" target="_blank" style="color: #a89070;">[J.M. Browder: Dublin]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2023_02_22_browder_family_traced_to_dublin_ireland.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">5.</span> <strong>Edmund Browder I</strong> (c.1651-1739, VA) ← <a href="https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/" target="_blank" style="color: #a89070;">[J.M. Browder: Edmund I]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_edmund_browder_i_and_elizabeth_probably_bolling_a.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://www.wikitree.com/wiki/Browder-91" target="_blank" style="color: #a89070;">[WikiTree]</a> [<a href="./downloaded_source_pages/wikitree_com_wiki_Browder_91.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color:#5a7a5a">5a.</span> <strong>Edmund W. Browder</strong> (c.1699-1771, VA) — Browder's Island = Fort Henry site ← <a href="https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/" target="_blank" style="color: #a89070;">[J.M. Browder: Edmund W.]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_edmund_browder_i_and_elizabeth_probably_bolling_a.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <span style="color:#ef4444">⚠️ DO NOT CONFLATE with Edmund I (c.1651-1739)</span></p>
+                    <p><span style="color: #c9a84c;">6.</span> <strong>John Browder, Sr.</strong> (c.1680, VA) m. Elizabeth Jones 1715 ← <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">[J.M. Browder: John & Elizabeth]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://www.wikitree.com/wiki/Browder-123" target="_blank" style="color: #a89070;">[WikiTree]</a> [<a href="./downloaded_source_pages/wikitree_com_wiki_Browder_123.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">7.</span> <strong>Edmund Browder Sr.</strong> (c.1716-1759, VA) ← <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">8.</span> <strong>Edmund Browder Jr.</strong> (c.1734-1785, NC Militia) ← <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://www.geni.com/people/Edmund-Browder/6000000009287613231" target="_blank" style="color: #a89070;">[Geni]</a> [<a href="./downloaded_source_pages/geni_com_people_Edmund_Browder_6000000009287613231.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">9.</span> <strong>Darius Browder</strong> (c.1752-1813, Rev. War) ← <a href="https://www.werelate.org/wiki/Person:Darius_Browder_(2)" target="_blank" style="color: #a89070;">[WeRelate]</a> [<a href="./downloaded_source_pages/werelate_org_wiki_Person_Darius_Browder__2.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/" target="_blank" style="color: #a89070;">[J.M. Browder]</a> [<a href="./downloaded_source_pages/genealogyproofs_wordpress_com_2019_09_05_earliest_known_descendants_of_john_and_elizabeth_.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">10.</span> <strong>Joseph Browder</strong> (1789-1862, McMinn Co, TN) ← <a href="https://www.mcminntnhistorical.org/wills" target="_blank" style="color: #a89070;">[McMinn Wills]</a> [<a href="./downloaded_source_pages/mcminntnhistorical_org_wills.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>] <a href="https://www.findagrave.com/virtual-cemetery/216063" target="_blank" style="color: #a89070;">[FindAGrave]</a> [<a href="./downloaded_source_pages/findagrave_com_virtual_cemetery_216063.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">11.</span> <strong>Albert Browder</strong> (1825-1895, OK Pioneer) ← <a href="https://www.mcminntnhistorical.org/wills" target="_blank" style="color: #a89070;">[McMinn Wills: Edmund estate]</a> [<a href="./downloaded_source_pages/mcminntnhistorical_org_wills.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">12.</span> <strong>George Thomas Browder</strong> (1851-1908, Indianola, OK) ← <a href="https://www.findagrave.com/memorial/16082190/george-thomas-browder" target="_blank" style="color: #a89070;">[FindAGrave]</a> [<a href="./downloaded_source_pages/findagrave_com_memorial_16082190_george_thomas_browder.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">13.</span> <strong>Albert D. Browder</strong> (1883-1948, Indianola) ← <a href="https://www.findagrave.com/cemetery/160821/indianola-cemetery" target="_blank" style="color: #a89070;">[FindAGrave: Indianola]</a> [<a href="./downloaded_source_pages/findagrave_com_cemetery_160821_indianola_cemetery.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">14.</span> <strong>Albert Edgar Browder</strong> (1915-1998) m. Neda Boatner 1936 ← <a href="https://www.familysearch.org/ark:/61903/1:1:Q29G-7Y9B" target="_blank" style="color: #a89070;">[FamilySearch]</a> [<a href="./downloaded_source_pages/familysearch_org_ark__61903_1_1_Q29G_7Y9B.html" target="_blank" style="color: #c9a84c; font-weight: bold;">📁 Local Archive</a>]</p>
+                    <p><span style="color: #c9a84c;">15.</span> <strong>Paul Eugene Browder</strong> (1944-2022) ← [Family knowledge]</p>
+                    <p><span style="color: #c9a84c;">16.</span> <strong>Kevin Browder I</strong> (Living) ← [Family knowledge]</p>
+                    <p><span style="color: #c9a84c;">17.</span> <strong>Kevin Browder II</strong> (YOU) ← [Living]</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="text-align: center; padding: 40px; color: #5a4a38; font-size: 0.8em;">
+        <p>Compiled from: John Mark Browder (Genealogy Proofs), Blanche Penland Browder,</p>
+        <p>McMinn County Historical Society, Bristol Parish Registers, Surry County Court Records,</p>
+        <p>FindAGrave, WikiTree, WeRelate, Geni, FamilySearch, Worshipful Company of Broderers.</p>
+        <p style="margin-top: 15px; color: #c9a84c;">⚜ MMXVI ⚜</p>
+    </div>
+</body>
+</html>

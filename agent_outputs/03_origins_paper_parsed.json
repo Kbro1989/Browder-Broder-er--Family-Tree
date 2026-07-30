@@ -1,0 +1,53 @@
+{
+  "confirmed_facts": [
+    "John Browderer citizen of London documented 1394 in Papal Letters Vol IV p. 488.",
+    "Thome Browderer and Joh Browdere recorded 1406-1413 in Mettingham College Suffolk accounts.",
+    "William Browderer bequeathed 53s 4d legacy in Baron Hungerford's 1459 Will.",
+    "Gilliam Browderer assessed £250 in 1541 Tudor Subsidy Roll, Queenhithe Ward, London.",
+    "Thomas Browder baptized Nov 25, 1575 at Saffron Walden, Essex (son of Katherine).",
+    "Robert Browder married Marye Hulme on Dec 26, 1623 at Manchester Cathedral.",
+    "Thomas Browder recorded in 1664 Hearth Money Roll in Ballynoran, Tipperary, Ireland.",
+    "John Broadar [Browder] transported by William Havercomb in 1674 (VA Land Patents Bk 6 p. 526).",
+    "Edmund Browder I merchant suits in Surry Co. VA court records (1682, 1695); Will probated 1738/39."
+  ],
+  "inferred_connections": [
+    "Reconstructed lineage from John Browderer (c.1327) through William Browderer (c.1439) to Gilliam (c.1521).",
+    "Hypothesis that Robert Browder (c.1604) was a grandson of Gilliam Browderer.",
+    "Hypothesis that Thomas Browder of Tipperary (1664) was a son of Robert Browder & Mary Hulme.",
+    "Hypothesis that John Broadar (1674) was a son/brother of Thomas Browder of Ireland and father of Edmund I."
+  ],
+  "confidence_flags": [
+    {
+      "statement": "William Browderer might have married a member of the Hungerford family",
+      "confidence": "low / speculative",
+      "cue": "might have married"
+    },
+    {
+      "statement": "Robert Browder and Mary Hulme are the likeliest candidates for ancestors of Thomas Browder of Ireland",
+      "confidence": "moderate / plausible",
+      "cue": "likeliest candidates"
+    },
+    {
+      "statement": "Robert Browder's father may well have been named Edmund Browder",
+      "confidence": "low / unproven",
+      "cue": "may well have been"
+    },
+    {
+      "statement": "John Browder probably married a relative of William Havercomb",
+      "confidence": "moderate / unproven",
+      "cue": "probably married"
+    }
+  ],
+  "archive_references": [
+    "Papal Letters, Vol. IV (p. 488), Lateran Regesta Vol. XXXIV",
+    "Original Documents; Extracts from the Ancient Accounts of Mettingham College, Suffolk",
+    "Transactions of the East Riding Antiquarian Society, Vol 3, p. 99",
+    "Last Will and Testament of Sir Robert Hungerford (2nd Baron Hungerford, April 22, 1459)",
+    "Two Tudor Subsidy Rolls for the City of London: 1541 and 1582 (London Record Society Vol 29, p. 102)",
+    "Manchester Cathedral Registers (LPRS Vol 31, Roll 745)",
+    "1664 Hearth Money Rolls, Baronies of Iffa and Offa, Tipperary (Burke History of Clonmel)",
+    "Virginia Land Patents, Book 6, p. 526 (Sept 23, 1674)",
+    "Surry County Virginia Court Orders, Deeds, Dispositions (1682, 1695)",
+    "Charles City County Virginia Orders (1655-1665, p. 164 - Geo. Browder)"
+  ]
+}

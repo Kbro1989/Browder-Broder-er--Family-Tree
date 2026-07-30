@@ -1,0 +1,1315 @@
+{
+  "meta": {
+    "title": "Browder-Broderers Lineage — Structured Data",
+    "version": "2026-07-29",
+    "compiler": "POG3 Sovereign Stack",
+    "source_count": 2129,
+    "primary_source": "John Mark Browder, Genealogy Proofs (genealogyproofs.wordpress.com)",
+    "uncertainty_model": "certain | probable | possible | speculative | debunked",
+    "search_session": {
+      "date": "2026-07-29",
+      "queries_executed": 4,
+      "results_processed": 13,
+      "critical_discoveries": 4,
+      "new_sources_integrated": [
+        "Library of Congress: Isham Browder will reference",
+        "WeRelate: Person:Isham Browder (1)",
+        "John Mark Browder: Captain Isham Browder (confirmed)",
+        "John Mark Browder: Pvt. Isham Browder (distinguished)",
+        "Geni: Edmund Browder Sr. (Parsons theory)",
+        "WikiTree: Browder Genealogy (Guilford County cluster)"
+      ]
+    }
+  },
+  "nodes": {
+    "broderers_guild": {
+      "id": "broderers_guild",
+      "name": "Worshipful Company of Broderers",
+      "type": "institution",
+      "dates": {
+        "start": 1558,
+        "end": null
+      },
+      "location": "36 Gutter Lane, Cheapside, London",
+      "notes": "Arms granted 1558. Charter 1561. Ranked 48th livery company. Motto: Omnia desuper. Only livery company with Master's Song. Led by Royal Broderers Master John Parr (1606) and Master Edmund Harrison (1628, King's Embroiderer to James I/Charles I). On 31 Jan 1611, accepted allotment of Irish estate in Ulster from Irish Society to plant at own charge (Gutenberg #20990). Microfilmed archives: Apprentices (1694-1713, 1763-1878), Freemen (1694-1728) at Guildhall Library / FS Library (Cliff Webb Abstracts FS Library 942.1/L1 U25w v.1-48).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://broderers.co.uk/twenty-questions",
+          "label": "Broderers Twenty Questions (Parr & Harrison Cups)"
+        },
+        {
+          "url": "https://www.familysearch.org/en/wiki/London_Business_and_Occupations",
+          "label": "FamilySearch Wiki: London Business and Occupations (Broderers Microfilms)"
+        },
+        {
+          "url": "https://www.gutenberg.org/cache/epub/20990/pg20990-images.html",
+          "label": "Gutenberg #20990 (London and the Kingdom Vol 3, p. 40 - 1611 Irish Allotment)"
+        },
+        {
+          "url": "https://broderers.co.uk/history-broderers",
+          "label": "broderers.co.uk"
+        }
+      ]
+    },
+    "flemish_weavers": {
+      "id": "flemish_weavers",
+      "name": "Flemish Weavers of Ghent",
+      "type": "origin_group",
+      "dates": {
+        "start": 1300,
+        "end": 1350
+      },
+      "location": "Ghent, Flanders → London, England",
+      "notes": "Invited by Edward III (wife Philippa of Hainault was Flemish) to establish English cloth industry. Brought term 'browderer'. Allowed own guild, exempt from English Weaver's Guild dues. Survived Black Death 1348, Evil May Day 1517.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.weavers.org.uk/about/history/1300-2/",
+          "label": "weavers.org.uk"
+        },
+        {
+          "url": "https://durham-repository.worktribe.com/OutputFile/1454276",
+          "label": "Lambert 2015"
+        },
+        {
+          "url": "https://www.englandsimmigrants.com/page/individual-studies/fourteenth-century-england-a-place-flemish-rebels-called-home",
+          "label": "England's Immigrants"
+        }
+      ]
+    },
+    "john_browderer_1327": {
+      "id": "john_browderer_1327",
+      "name": "John Browderer",
+      "type": "person",
+      "dates": {
+        "birth": "~1327",
+        "death": null
+      },
+      "location": "London, England",
+      "notes": "King's Sergeant at Arms. First recorded Browderer in London. Beheaded priest Sir Walter Sancre with Roger Trewynnarde at St Hilary, Cornwall; both excommunicated.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.sthilaryparishcouncil.org.uk/",
+          "label": "St Hilary Parish"
+        },
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder"
+        }
+      ]
+    },
+    "william_browderer_1419": {
+      "id": "william_browderer_1419",
+      "name": "William Browderer",
+      "type": "person",
+      "dates": {
+        "birth": "~1419",
+        "death": null
+      },
+      "location": "London, England",
+      "notes": "Named in Baron Hungerford's Will, 1459. Legacy: 53s 4d. Connection to Robert/Edmund Hungerford may have introduced those given names to the Browder line.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder"
+        }
+      ]
+    },
+    "richard_browderer_1466": {
+      "id": "richard_browderer_1466",
+      "name": "Richard Browderer",
+      "type": "person",
+      "dates": {
+        "birth": "~1466",
+        "death": null
+      },
+      "location": "Coldharbour, Cornwall",
+      "notes": "Recorded 1502. Coldharbour was a major port.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder"
+        }
+      ]
+    },
+    "gilliam_browderer_1521": {
+      "id": "gilliam_browderer_1521",
+      "name": "Gilliam [William] Browderer",
+      "type": "person",
+      "dates": {
+        "birth": "~1521",
+        "death": null
+      },
+      "location": "London, England",
+      "notes": "'Stranger' in Tudor Subsidy Roll, 1541. Listed in St. Peter's Somerset Parish, London. £250 assessed, £12 10s tax. Likely grandfather of Robert Browder (c.1604).",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://www.british-history.ac.uk/no-series/london-subisdies/1541",
+          "label": "British History Online"
+        },
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder"
+        }
+      ]
+    },
+    "robert_browder_1604": {
+      "id": "robert_browder_1604",
+      "name": "Robert Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1604",
+        "death": null
+      },
+      "location": "Manchester, Lancashire, England",
+      "notes": "FIRST CONFIRMED 'BROWDER' — contracted from 'Browderer'. Married Mary Hulme, Dec 26, 1623, Manchester Cathedral. Manchester was Lancashire's major wool trade center by 1620. Flemish weaver community settled there in 1300s. Likely grandson of Gilliam Browderer.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder: Surname Origin"
+        },
+        {
+          "url": "https://www.justanswer.com/genealogy/64140-ra.html",
+          "label": "JustAnswer: Robart Browder 1623"
+        }
+      ],
+      "direct_line": true,
+      "generation": 1
+    },
+    "thomas_browder_1624_ireland": {
+      "id": "thomas_browder_1624_ireland",
+      "name": "Thomas Browder",
+      "type": "person",
+      "dates": {
+        "birth": "~1624",
+        "death": null
+      },
+      "location": "Ballynoran, County Tipperary (now Cork), Ireland",
+      "notes": "Ballynoran 1664 Hearth Money Rolls, Baronies of Iffa and Offa. One hearth. Spelled 'Browder' NOT 'O'Browder' — proves English surname imported to Ireland. Likely son of Robert & Mary. County Tipperary famous for horse breeding; Browders later carried this to America.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder: Thomas Browder Ireland"
+        }
+      ],
+      "direct_line": false
+    },
+    "george_browder_1624": {
+      "id": "george_browder_1624",
+      "name": "George Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1624",
+        "death": null
+      },
+      "location": "Dublin, Ireland → Virginia, USA",
+      "notes": "Court of Chancery records, Dec 15, 1642, Dublin. Also early Virginia records (Charles City County 1655-1665). Father of Edmund I. Bridge between Ireland and Virginia. NOT one of 'three brothers' — was Edmund I's father, not brother.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2023/02/22/browder-family-traced-to-dublin-ireland/",
+          "label": "J.M. Browder: Dublin 1642"
+        },
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder: Three Immigrants"
+        }
+      ],
+      "direct_line": true,
+      "generation": 2
+    },
+    "john_browder_1642": {
+      "id": "john_browder_1642",
+      "name": "John Browder",
+      "type": "person",
+      "dates": {
+        "birth": "~1642",
+        "death": "p.1701"
+      },
+      "location": "Virginia, USA",
+      "notes": "1674 headright as 'John Broadar' — brought by William Havercomb to Lower Norfolk County. Also received land by headright in 1701 (area later became North Carolina, near Roanoke). Possibly uncle or brother of Edmund I. Made 2-3 trips to/from colonies.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder: John Broadar 1674"
+        }
+      ],
+      "direct_line": false
+    },
+    "edmund_browder_I_1651": {
+      "id": "edmund_browder_I_1651",
+      "name": "Edmund Browder I",
+      "type": "person",
+      "dates": {
+        "birth": "c.1651/1652",
+        "death": "~1739"
+      },
+      "location": "Lawne's Creek Parish, Surry County → Prince George County, VA",
+      "notes": "FIRST AMERICAN PATRIARCH. Likely born Jamestown/James City County, VA (son of George, not immigrant). Merchant: serge suits, French fall shoes, tanners' gear. 1682: Surry County tithables. ~1689: m. Elizabeth (probably Parsons, daughter of Joseph Parsons; possibly Bolling). 1693: Christopher Bly sued Joseph Rogers over goods 'on accot. of EDMUND BROWDER.' 1693: Sheriff Col. Robert Bolling (likely father-in-law) refused arrest — fined 630 lbs tobacco. 1704: quit rent 100 acres Prince George County. 1711: purchased 129 acres from Henry Randolph III. Will probated Feb 12, 1739/40 by Theophilus Field. ALL AMERICAN BROWDERS DESCEND FROM THIS COUPLE.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder: Edmund I & Elizabeth"
+        },
+        {
+          "url": "https://www.wikitree.com/wiki/Browder-91",
+          "label": "WikiTree"
+        },
+        {
+          "url": "https://www.werelate.org/wiki/Person:Edmund_Browder_(3)",
+          "label": "WeRelate"
+        }
+      ],
+      "direct_line": true,
+      "generation": 3
+    },
+    "elizabeth_parsons": {
+      "id": "elizabeth_parsons",
+      "name": "Elizabeth [Parsons?]",
+      "type": "person",
+      "dates": {
+        "birth": "~1653",
+        "death": "~1721/22"
+      },
+      "location": "Prince George (later Dinwiddie) County, VA",
+      "notes": "Wife of Edmund I. John Mark Browder's firm belief: Elizabeth Parsons, daughter of Joseph Parsons. Previous theory: Elizabeth Bolling (daughter of Col. Robert Bolling). Sheriff Bolling's refusal to arrest Edmund (1693) suggests kinship. No marriage record found.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": true
+    },
+    "john_browder_sr_1680": {
+      "id": "john_browder_sr_1680",
+      "name": "John Browder, Sr.",
+      "type": "person",
+      "dates": {
+        "birth": "c.1680",
+        "death": "p.1741"
+      },
+      "location": "Bristol Parish, Prince George County, VA",
+      "notes": "Son of Edmund I & Elizabeth. Married Elizabeth Jones, daughter of Lt. Arthur Jones and Susanna King, 1715. 8 children in Bristol Parish. Your line descends through son Edmund (c.1716).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder: John & Elizabeth"
+        },
+        {
+          "url": "https://www.wikitree.com/wiki/Browder-123",
+          "label": "WikiTree"
+        }
+      ],
+      "direct_line": true,
+      "generation": 4
+    },
+    "elizabeth_jones": {
+      "id": "elizabeth_jones",
+      "name": "Elizabeth Jones",
+      "type": "person",
+      "dates": {
+        "birth": "c.1685",
+        "death": "p.1741"
+      },
+      "location": "Bristol Parish, Prince George County, VA",
+      "notes": "Daughter of Lt. Arthur Jones and Susanna King. Married John Browder Sr. 1715. The Jones family connected to Peter Jones of Fort Henry/Petersburg, Maj. Gen. Abraham Wood. Deep Virginia gentry network.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": true
+    },
+    "edmund_browder_sr_1716": {
+      "id": "edmund_browder_sr_1716",
+      "name": "Edmund Browder, Sr.",
+      "type": "person",
+      "dates": {
+        "birth": "c.1716",
+        "death": "1759"
+      },
+      "location": "Prince George County, VA",
+      "notes": "Son of John Sr. & Elizabeth Jones. Married Ann (possibly Broadnax, unconfirmed). 3 children: Joseph (lived past 1781), Mason (nothing known), Edmund Jr. (c.1734-1785). Died 1759.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": true,
+      "generation": 5
+    },
+    "edmund_browder_jr_1734": {
+      "id": "edmund_browder_jr_1734",
+      "name": "Edmund Browder, Jr.",
+      "type": "person",
+      "dates": {
+        "birth": "c.1734",
+        "death": "1785"
+      },
+      "location": "Brunswick County, VA → Chatham County, NC",
+      "notes": "Continental Army, North Carolina State Militia (DAR Index p.90). Married Ann Deloney ~1752. Purchased 362 acres Poplar Creek, Brunswick Co, 1773. Sold Dec 1779, moved to Chatham Co, NC, April 1780. Will written June 1781, probated 1785. 8 children: Darius (c.1752), Deborah (c.1755), Silvia (c.1759), John (c.1760), Molly (c.1762), Eunice (c.1764), Lois (c.1770), Mason (c.1774).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        },
+        {
+          "url": "https://www.geni.com/people/Edmund-Browder/6000000009287613231",
+          "label": "Geni"
+        }
+      ],
+      "direct_line": true,
+      "generation": 6
+    },
+    "darius_browder_1752": {
+      "id": "darius_browder_1752",
+      "name": "Darius Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1752",
+        "death": "Nov 1, 1813"
+      },
+      "location": "Chatham Co, NC → Lenoir Settlement, Roane Co, TN",
+      "notes": "Revolutionary War militia. Married Nancy Jane Crump ~1783. 10 children. First 7 born Chatham County, NC. Last 3 born Lenoir Settlement, Roane County, TN (frontier migration). Son Joseph (1789-1862) = father of Albert. Son Edmund (c.1784-1861) = uncle of Albert.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.werelate.org/wiki/Person:Darius_Browder_(2)",
+          "label": "WeRelate"
+        },
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": true,
+      "generation": 7
+    },
+    "joseph_browder_1789": {
+      "id": "joseph_browder_1789",
+      "name": "Joseph Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Nov 14, 1789",
+        "death": "Apr 3, 1862"
+      },
+      "location": "McMinn County, TN",
+      "notes": "Son of Darius & Nancy Jane Crump. Buried Clear Springs Cemetery. FATHER OF ALBERT. Will: Simeon Browder administrator, Oct 1864. Heirs: John F. (GA), Simeon E. (Polk Co.), Julia (minor), Mary (wife of Isaac Denton). Daughter Catherine (Aug 27, 1828 - May 7, 1830). CRITICAL CORRECTION: Albert descends from THIS Joseph, NOT from Edmund (c.1784) who was Joseph's brother.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.mcminntnhistorical.org/wills",
+          "label": "McMinn County Historical Society: Wills"
+        },
+        {
+          "url": "https://www.findagrave.com/virtual-cemetery/216063",
+          "label": "FindAGrave"
+        }
+      ],
+      "direct_line": true,
+      "generation": 8
+    },
+    "edmund_browder_1784": {
+      "id": "edmund_browder_1784",
+      "name": "Edmund Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1784",
+        "death": "Sept 6, 1861"
+      },
+      "location": "McMinn County, TN",
+      "notes": "Son of Darius & Nancy Jane Crump. 1850 census: age 66 with wife Lucinda. NOT father of Albert — uncle. Estate settled by C.L. Rice. Children: Matthew, Lavinia, Deborah, Sally, John Weiley, Darius, Martha/Patey, Ceilia, Lovana, Talitha, Calvin, Samuel D., Robert F., Albert (b.1825), Catherine. The Albert born 1825 in THIS household was nephew (son of brother Joseph), not son.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.mcminntnhistorical.org/wills",
+          "label": "McMinn County: Wills — Edmund"
+        },
+        {
+          "url": "https://www.werelate.org/wiki/Person:Edmund_Browder_(3)",
+          "label": "WeRelate"
+        }
+      ],
+      "direct_line": false
+    },
+    "albert_browder_1825": {
+      "id": "albert_browder_1825",
+      "name": "Albert Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Jul 17, 1825",
+        "death": "1895"
+      },
+      "location": "McMinn Co, TN → Canadian District, Cherokee Nation, OK",
+      "notes": "PIONEER TO OKLAHOMA. Son of Joseph (NOT Edmund). Married Amanda/Minerva (c.1829). 14 children. Migrated from Athens, TN to Canadian District, Cherokee Nation, OK. Listed in McMinn County wills as 'Albert, born 17 Jul 1825.' 1860 census: child in Edmund Browder household (uncle, not father).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.mcminntnhistorical.org/wills",
+          "label": "McMinn County: Wills — Edmund estate (lists Albert b.1825)"
+        },
+        {
+          "url": "https://www.myheritage.com/names/albert_browder",
+          "label": "MyHeritage"
+        }
+      ],
+      "direct_line": true,
+      "generation": 9
+    },
+    "george_thomas_browder_1851": {
+      "id": "george_thomas_browder_1851",
+      "name": "George Thomas Browder",
+      "type": "person",
+      "dates": {
+        "birth": "May 15, 1851",
+        "death": "Dec 29, 1908"
+      },
+      "location": "McMinn Co, TN → Indianola, Pittsburg Co, OK",
+      "notes": "YOUR DIRECT ANCESTOR. Son of Albert. Married Lexie Caldonia Stewart (1855-?). Buried Indianola Cemetery, Pittsburg County, OK. Siblings: Martha Ellen (~1858, m. Bynum), Eliza Clementine (Apr 5, 1860-Jul 8, 1952, m. Tinney → Friona, TX), Charles Walter (~1862, traveled west).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.findagrave.com/memorial/16082190/george-thomas-browder",
+          "label": "FindAGrave: George Thomas"
+        },
+        {
+          "url": "https://www.findagrave.com/cemetery/160821/indianola-cemetery",
+          "label": "FindAGrave: Indianola Cemetery"
+        }
+      ],
+      "direct_line": true,
+      "generation": 10
+    },
+    "albert_d_browder_1883": {
+      "id": "albert_d_browder_1883",
+      "name": "Albert D. Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Jul 23, 1883",
+        "death": "Jan 14, 1948"
+      },
+      "location": "Alma, AR / Indianola, OK",
+      "notes": "Son of George Thomas. Buried Indianola Cemetery, Pittsburg County, OK.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.findagrave.com/cemetery/160821/indianola-cemetery",
+          "label": "FindAGrave: Indianola"
+        }
+      ],
+      "direct_line": true,
+      "generation": 11
+    },
+    "albert_edgar_browder_1915": {
+      "id": "albert_edgar_browder_1915",
+      "name": "Albert Edgar Browder",
+      "type": "person",
+      "dates": {
+        "birth": "1915",
+        "death": "1998"
+      },
+      "location": "Oklahoma",
+      "notes": "Son of Albert D. Married Neda Lorene Boatner, May 16, 1936, Pittsburg, OK. Boatner = German-Bohemian cooper lineage (Böttcher).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://www.familysearch.org/ark:/61903/1:1:Q29G-7Y9B",
+          "label": "FamilySearch: Marriage Record"
+        }
+      ],
+      "direct_line": true,
+      "generation": 12
+    },
+    "paul_eugene_browder_1944": {
+      "id": "paul_eugene_browder_1944",
+      "name": "Paul Eugene Browder",
+      "type": "person",
+      "dates": {
+        "birth": "1944",
+        "death": "2022"
+      },
+      "location": "Indianola, OK",
+      "notes": "Son of Albert Edgar & Neda Lorene Boatner. 9 children: Kevin, Eric, Greg (deceased), Dana, Fawnda, Christopher (stillborn), Carrie (diff. mother), Alicia (d. age 12), Daniel Malan (diff. mother).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "label": "Family knowledge"
+        }
+      ],
+      "direct_line": true,
+      "generation": 13
+    },
+    "kevin_browder_I": {
+      "id": "kevin_browder_I",
+      "name": "Kevin Browder I",
+      "type": "person",
+      "dates": {
+        "birth": "Living",
+        "death": null
+      },
+      "location": "Oklahoma",
+      "notes": "Son of Paul Eugene & Neda Lorene Boatner. Father of Kevin Browder II.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "label": "Family knowledge"
+        }
+      ],
+      "direct_line": true,
+      "generation": 14
+    },
+    "kevin_browder_II": {
+      "id": "kevin_browder_II",
+      "name": "Kevin Browder II",
+      "type": "person",
+      "dates": {
+        "birth": "Living",
+        "death": null
+      },
+      "location": "United States",
+      "notes": "Builder of POG/POG2/POG3. 27-limb distributed neural pipeline. 512-state King Wen oracle. Hexagram architecture in TypeScript and VHDL on Zynq UltraScale+. @Broderers on GitHub. Living synthesis of 700 years of craft lineage.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "label": "Living"
+        }
+      ],
+      "direct_line": true,
+      "generation": 15
+    },
+    "edmund_w_browder_1699": {
+      "id": "edmund_w_browder_1699",
+      "name": "Edmund W. Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1699",
+        "death": "1771"
+      },
+      "location": "Prince George → Chesterfield County, VA",
+      "notes": "Son of Edmund I & Elizabeth. Married Martha ~1720. 'Browder's Island' on Appomattox River (also 'Flee Island', 'Long Island'). Bridge 'Browder's' erected 1752. 1759 Act of Assembly: Chesterfield County exempted from bridge repair costs. 1769: 'poor people of this parish, on sufferance.' 1771: grave digger paid 2/6. Died impoverished. Island was site of Fort Henry (southernmost English outpost, commanded by Maj. Gen. Abraham Wood, then Maj. Peter Jones).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder: Edmund W. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "george_andrew_browder_1701": {
+      "id": "george_andrew_browder_1701",
+      "name": "George Andrew Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1701",
+        "death": "p.1741"
+      },
+      "location": "Prince George County, VA",
+      "notes": "Son of Edmund I & Elizabeth. m. Elizabeth ~1724. Sexton of Hatcher's Run Chapel, 1739. 264 acres on Gravelly Run. 4 daughters: Mary (1725), Jean (1729), Priscilla (1735), Winifred (1741).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "william_browder_1702": {
+      "id": "william_browder_1702",
+      "name": "William Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1702",
+        "death": "~1788"
+      },
+      "location": "Dinwiddie County, VA",
+      "notes": "Probable son of Edmund I & Elizabeth. m. Dorothy ~1727. 100 acres Dinwiddie County. 2 daughters: Sarah (1727), Amy (1733).",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "joseph_browder_1741": {
+      "id": "joseph_browder_1741",
+      "name": "Lt. Joseph Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Feb 2, 1741",
+        "death": "Mar 1801"
+      },
+      "location": "Brunswick County, VA",
+      "notes": "Son of John Sr. & Elizabeth Jones. Lt. in Continental Army (qualified Feb 2, 1779). m. Susanna 'Sukey' Kelly (d.1818), daughter of Giles Kelly. Resided near Waqua Creek. 9 children. NOT the Joseph who was father of Albert (that was Joseph 1789-1862, son of Darius).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "richard_browder_1719": {
+      "id": "richard_browder_1719",
+      "name": "Richard Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1719",
+        "death": "~1807"
+      },
+      "location": "Prince George County, VA",
+      "notes": "Son of John Sr. & Elizabeth Jones. m. Mary Eppes Randolph (daughter of William Randolph Gent. and Mary Eppes, step-daughter of Dr. James Thompson). 11 children. Sons Harrison, Frederick, Samuel all died in Continental Army 1778 (Valley Forge, etc.). Son Jones inherited their bounty.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "john_browder_II_1717": {
+      "id": "john_browder_II_1717",
+      "name": "John Browder II",
+      "type": "person",
+      "dates": {
+        "birth": "c.1717",
+        "death": "~1770"
+      },
+      "location": "Brunswick County, VA",
+      "notes": "Son of John Sr. & Elizabeth Jones. m. Mary (possibly Cox). Acquired 1,300 acres in Brunswick County. Sold most by 1756. 2 known children: Mason (daughter, 1742), Frederick (1744-1815).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "william_browder_sr_1723": {
+      "id": "william_browder_sr_1723",
+      "name": "William Browder, Sr.",
+      "type": "person",
+      "dates": {
+        "birth": "Jul 7, 1723",
+        "death": "c.1763"
+      },
+      "location": "Prince George → Brunswick County, VA → Guilford Co, NC",
+      "notes": "Son of John Sr. & Elizabeth Jones. m. Margaret ~1742. Moved to Brunswick County by 1758. Died c.1763. Previously thought to have sons Jesse (1758-1783) and Charles (c.1760-1777) but NEW: Jesse and Charles now placed as sons of William Browder Sr. and Margaret (per Peter Eppes sworn testimony).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "george_browder_sr_1731": {
+      "id": "george_browder_sr_1731",
+      "name": "George Browder, Sr.",
+      "type": "person",
+      "dates": {
+        "birth": "Feb 5, 1731",
+        "death": "1819"
+      },
+      "location": "Dinwiddie County, VA",
+      "notes": "Son of John Sr. & Elizabeth Jones. m. Martha F. Parham (daughter of Nicholas Parham). 299 acres on Hatcher's Run, 1758. Sons: Isham Sr. (1767-1852), Uriah (1768-1849), George Jr. (1770-1818).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "isham_browder_captain_1732": {
+      "id": "isham_browder_captain_1732",
+      "name": "Captain Isham Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1732",
+        "death": "1784"
+      },
+      "location": "Guilford County, NC",
+      "notes": "PARALLEL LINE — NOT in direct descent from Darius. Delegate to Fifth Provincial Congress of NC, Nov 1776. Captain, Guilford County Militia, 1779-1782. 640-acre land grant (Entry #155, File #479, Grant #470), Jan 4, 1779. Survey mentions 'John Browder's Corner' — likely John (c.1760-1818), son of Edmund Jr., suggesting kinship proximity. Likely battles: Rutherford Expedition 1776, Battle of Guilford Courthouse March 1781. PARENTS UNKNOWN. Could be son of one of John Sr.'s other sons, or nephew through brother of John Sr. NOT father of 'Parthenia Thenie Browder-Bailey' (false Ancestry claim).",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/12/02/captain-isham-browder/",
+          "label": "J.M. Browder: Captain Isham"
+        }
+      ],
+      "direct_line": false
+    },
+    "jesse_browder_1758": {
+      "id": "jesse_browder_1758",
+      "name": "Jesse Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Nov 19, 1758",
+        "death": "Feb 7, 1783"
+      },
+      "location": "Virginia → North Carolina",
+      "notes": "Revolutionary War. Married cousin Mary A. Browder (daughter of Richard & Mary). Died in service. NEW PLACEMENT: Son of William Browder Sr. (b.1723) and Margaret (per Peter Eppes sworn testimony). Previously thought to be son of Richard & Mary — corrected.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "charles_browder_1760": {
+      "id": "charles_browder_1760",
+      "name": "Charles Browder",
+      "type": "person",
+      "dates": {
+        "birth": "c.1760",
+        "death": "Oct 1, 1777"
+      },
+      "location": "Virginia",
+      "notes": "Died in Revolutionary War. NEW PLACEMENT: Son of William Browder Sr. (b.1723) and Margaret (per Peter Eppes sworn testimony). Previously thought to be son of Richard & Mary — corrected.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/earliest-known-descendants-of-john-and-elizabeth-browder/",
+          "label": "J.M. Browder"
+        }
+      ],
+      "direct_line": false
+    },
+    "wilmuth_browder_theory": {
+      "id": "wilmuth_browder_theory",
+      "name": "Wilmuth Browder [THEORY]",
+      "type": "person",
+      "dates": {
+        "birth": null,
+        "death": null
+      },
+      "location": "Prince George County, VA",
+      "notes": "THEORETICAL daughter of Edmund I & Elizabeth. John Mark Browder's unproven but compelling theory: Wilmuth married Capt. John Banister (son of Rev. John Banister & Martha Batte). Their son Lt. Col. John Banister (b.Dec 26, 1734) was Continental Congressman, signer of Articles of Confederation. If true, a Browder line was at the founding of the United States. Wilmuth name common in early Browder family. NO PROOF.",
+      "uncertainty": "speculative",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/2019/09/05/edmund-browder-i-and-elizabeth-probably-bolling-and-their-earliest-descendants/",
+          "label": "J.M. Browder: Wilmuth theory"
+        }
+      ],
+      "direct_line": false
+    },
+    "martha_ellen_browder_1858": {
+      "id": "martha_ellen_browder_1858",
+      "name": "Martha Ellen 'Ellen' Browder",
+      "type": "person",
+      "dates": {
+        "birth": "~1858",
+        "death": null
+      },
+      "location": "Tennessee → ?",
+      "notes": "Daughter of Albert (1825). m. Bynum. One of 14 children of Albert.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "label": "Family knowledge"
+        }
+      ],
+      "direct_line": false
+    },
+    "eliza_clementine_browder_1860": {
+      "id": "eliza_clementine_browder_1860",
+      "name": "Eliza Clementine Browder",
+      "type": "person",
+      "dates": {
+        "birth": "Apr 5, 1860",
+        "death": "Jul 8, 1952"
+      },
+      "location": "Tennessee → Friona, TX",
+      "notes": "Daughter of Albert (1825). m. Charles Lewis Tinney. Texas branch. Lived to 92.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "label": "Family knowledge"
+        }
+      ],
+      "direct_line": false
+    },
+    "charles_walter_browder_1862": {
+      "id": "charles_walter_browder_1862",
+      "name": "Charles Walter Browder",
+      "type": "person",
+      "dates": {
+        "birth": "~1862",
+        "death": null
+      },
+      "location": "Traveled west",
+      "notes": "Son of Albert (1825). Post-Civil War migration. Destination unknown.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "label": "Family knowledge"
+        }
+      ],
+      "direct_line": false
+    },
+    "matthew_browder_1610": {
+      "id": "matthew_browder_1610",
+      "name": "Matthew Browder",
+      "type": "individual",
+      "dates": {
+        "birth": 1610,
+        "death": null
+      },
+      "location": "St. Giles Cripplegate, London, England",
+      "notes": "Father of Katherine Browder (bap. Oct 26, 1634, St. Giles Cripplegate, London). Documented 17th-century London Browder cluster.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit",
+          "label": "John Mark Browder Paper (p. 101)"
+        }
+      ]
+    },
+    "john_broadar_1674": {
+      "id": "john_broadar_1674",
+      "name": "John Broadar [Browder]",
+      "type": "individual",
+      "dates": {
+        "birth": 1642,
+        "death": null
+      },
+      "location": "Lower Norfolk County, Virginia",
+      "notes": "Headright transported by William Havercomb (950-acre grant on Elizabeth River, VA Land Patents Bk 6, p. 526, Sept 23, 1674). Likely father or uncle of Edmund I.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit",
+          "label": "John Mark Browder Paper (p. 113-124)"
+        }
+      ]
+    },
+    "adam_hulme_1575": {
+      "id": "adam_hulme_1575",
+      "name": "Adam Hulme",
+      "type": "individual",
+      "dates": {
+        "birth": 1575,
+        "death": null
+      },
+      "location": "Manchester Cathedral Parish, Lancashire, England",
+      "notes": "Father of Marye Hulme (christened Feb 4, 1601). Native Manchester parishioner whose daughter married Robert Browder on Dec 26, 1623.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://archive.org/details/lancashireparis03socigoog",
+          "label": "Manchester Cathedral Registers (LPRS Vol 31)"
+        }
+      ]
+    },
+    "elizabeth_parsons_1655": {
+      "id": "elizabeth_parsons_1655",
+      "name": "Elizabeth Parsons",
+      "type": "individual",
+      "dates": {
+        "birth": 1655,
+        "death": null
+      },
+      "location": "Surry County, Virginia",
+      "notes": "Wife of Edmund Browder I. Documented in Surry County court records and land transactions.",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "J.M. Browder Research"
+        }
+      ]
+    },
+    "lt_arthur_jones_1660": {
+      "id": "lt_arthur_jones_1660",
+      "name": "Lt. Arthur Jones",
+      "type": "individual",
+      "dates": {
+        "birth": 1660,
+        "death": null
+      },
+      "location": "Prince George County, Virginia",
+      "notes": "Father of Elizabeth Jones (who married John Browder Sr. in 1715). Landowner on Gravelly Run.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "Prince George Co. Deeds"
+        }
+      ]
+    },
+    "susanna_king_1665": {
+      "id": "susanna_king_1665",
+      "name": "Susanna King",
+      "type": "individual",
+      "dates": {
+        "birth": 1665,
+        "death": null
+      },
+      "location": "Prince George County, Virginia",
+      "notes": "Wife of Lt. Arthur Jones and mother of Elizabeth Jones.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "Prince George Co. Records"
+        }
+      ]
+    },
+    "col_robert_bolling_1646": {
+      "id": "col_robert_bolling_1646",
+      "name": "Col. Robert Bolling",
+      "type": "individual",
+      "dates": {
+        "birth": 1646,
+        "death": 1709
+      },
+      "location": "Prince George County, Virginia",
+      "notes": "Prominent Virginia planter, merchant, and justice. Father of Elizabeth Bolling (wife of Edmund I).",
+      "uncertainty": "probable",
+      "sources": [
+        {
+          "url": "https://genealogyproofs.wordpress.com/blog-feed/page/3/",
+          "label": "Virginia Historical Records"
+        }
+      ]
+    },
+    "william_havercomb_1630": {
+      "id": "william_havercomb_1630",
+      "name": "William Havercomb",
+      "type": "individual",
+      "dates": {
+        "birth": 1630,
+        "death": null
+      },
+      "location": "Lower Norfolk County, Virginia",
+      "notes": "Virginia planter who transported John Broadar [Browder] in 1674 (950-acre headright grant on Elizabeth River, VA Land Patents Bk 6 p. 526).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit",
+          "label": "VA Land Patents Bk 6 p. 526"
+        }
+      ]
+    },
+    "james_jopling_1635": {
+      "id": "james_jopling_1635",
+      "name": "James Jopling",
+      "type": "individual",
+      "dates": {
+        "birth": 1635,
+        "death": null
+      },
+      "location": "Lower Norfolk County, Virginia",
+      "notes": "Neighboring landowner on Elizabeth River, VA (marked gum tree bound to Havercomb/Browder 1674 grant).",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit",
+          "label": "VA Land Patents Bk 6 p. 526"
+        }
+      ]
+    },
+    "baron_hungerford_1404": {
+      "id": "baron_hungerford_1404",
+      "name": "Baron Robert Hungerford",
+      "type": "individual",
+      "dates": {
+        "birth": 1404,
+        "death": 1459
+      },
+      "location": "London / Wiltshire, England",
+      "notes": "Second Baron Hungerford. Bequeathed a legacy of 53s 4d to William Browderer in his 1459 Will.",
+      "uncertainty": "certain",
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/11JGUzWvoXJACDSofp-JVpTQJpD_eDOpYCMye2ge7cuk/edit",
+          "label": "Will of Baron Hungerford 1459"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from": "flemish_weavers",
+      "to": "john_browderer_1327",
+      "type": "cultural_origin"
+    },
+    {
+      "from": "john_browderer_1327",
+      "to": "william_browderer_1419",
+      "type": "possible_descent"
+    },
+    {
+      "from": "william_browderer_1419",
+      "to": "richard_browderer_1466",
+      "type": "possible_descent"
+    },
+    {
+      "from": "richard_browderer_1466",
+      "to": "gilliam_browderer_1521",
+      "type": "possible_descent"
+    },
+    {
+      "from": "gilliam_browderer_1521",
+      "to": "robert_browder_1604",
+      "type": "probable_descent"
+    },
+    {
+      "from": "robert_browder_1604",
+      "to": "george_browder_1624",
+      "type": "probable_descent"
+    },
+    {
+      "from": "robert_browder_1604",
+      "to": "thomas_browder_1624_ireland",
+      "type": "probable_descent"
+    },
+    {
+      "from": "george_browder_1624",
+      "to": "edmund_browder_I_1651",
+      "type": "probable_descent"
+    },
+    {
+      "from": "george_browder_1624",
+      "to": "john_browder_1642",
+      "type": "possible_descent"
+    },
+    {
+      "from": "edmund_browder_I_1651",
+      "to": "john_browder_sr_1680",
+      "type": "certain"
+    },
+    {
+      "from": "edmund_browder_I_1651",
+      "to": "edmund_w_browder_1699",
+      "type": "certain"
+    },
+    {
+      "from": "edmund_browder_I_1651",
+      "to": "george_andrew_browder_1701",
+      "type": "certain"
+    },
+    {
+      "from": "edmund_browder_I_1651",
+      "to": "william_browder_1702",
+      "type": "probable"
+    },
+    {
+      "from": "edmund_browder_I_1651",
+      "to": "wilmuth_browder_theory",
+      "type": "speculative"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "edmund_browder_sr_1716",
+      "type": "certain"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "joseph_browder_1741",
+      "type": "certain"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "richard_browder_1719",
+      "type": "certain"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "john_browder_II_1717",
+      "type": "certain"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "william_browder_sr_1723",
+      "type": "certain"
+    },
+    {
+      "from": "john_browder_sr_1680",
+      "to": "george_browder_sr_1731",
+      "type": "certain"
+    },
+    {
+      "from": "william_browder_sr_1723",
+      "to": "jesse_browder_1758",
+      "type": "probable"
+    },
+    {
+      "from": "william_browder_sr_1723",
+      "to": "charles_browder_1760",
+      "type": "probable"
+    },
+    {
+      "from": "edmund_browder_sr_1716",
+      "to": "edmund_browder_jr_1734",
+      "type": "certain"
+    },
+    {
+      "from": "edmund_browder_jr_1734",
+      "to": "darius_browder_1752",
+      "type": "certain"
+    },
+    {
+      "from": "darius_browder_1752",
+      "to": "joseph_browder_1789",
+      "type": "certain"
+    },
+    {
+      "from": "darius_browder_1752",
+      "to": "edmund_browder_1784",
+      "type": "certain"
+    },
+    {
+      "from": "joseph_browder_1789",
+      "to": "albert_browder_1825",
+      "type": "certain"
+    },
+    {
+      "from": "albert_browder_1825",
+      "to": "george_thomas_browder_1851",
+      "type": "certain"
+    },
+    {
+      "from": "albert_browder_1825",
+      "to": "martha_ellen_browder_1858",
+      "type": "probable"
+    },
+    {
+      "from": "albert_browder_1825",
+      "to": "eliza_clementine_browder_1860",
+      "type": "probable"
+    },
+    {
+      "from": "albert_browder_1825",
+      "to": "charles_walter_browder_1862",
+      "type": "probable"
+    },
+    {
+      "from": "george_thomas_browder_1851",
+      "to": "albert_d_browder_1883",
+      "type": "certain"
+    },
+    {
+      "from": "albert_d_browder_1883",
+      "to": "albert_edgar_browder_1915",
+      "type": "certain"
+    },
+    {
+      "from": "albert_edgar_browder_1915",
+      "to": "paul_eugene_browder_1944",
+      "type": "certain"
+    },
+    {
+      "from": "paul_eugene_browder_1944",
+      "to": "kevin_browder_I",
+      "type": "certain"
+    },
+    {
+      "from": "kevin_browder_I",
+      "to": "kevin_browder_II",
+      "type": "certain"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q001",
+      "question": "Who were the parents of Captain Isham Browder (c.1732-1784, Guilford County, NC)?",
+      "significance": "His land grant mentions 'John Browder's Corner' — likely John (c.1760-1818), son of Edmund Jr. If Isham is connected to this John, he may be a cousin or uncle in the direct Darius → Albert line.",
+      "status": "partially_resolved",
+      "priority": "high",
+      "new_evidence": [
+        "Library of Congress catalog confirms Isham Browder of Guilford County left a will",
+        "Will of Talitha Browder of Rockingham also catalogued (possible kin)",
+        "Two Isham Browders now distinguished: Captain (c.1732-1784) vs Private (1762-1830)",
+        "Private Isham = son of Frederick (1744-1815), grandson of John Browder II (1717-c.1814)",
+        "Captain Isham's parents remain unknown; 'John Browder's Corner' on survey is strongest clue"
+      ],
+      "next_action": "LOCATE WILL: Guilford County, NC courthouse or NC State Archives. The LoC reference (catdir.loc.gov/catdir/toc/fy044/84071250.html) confirms 'WILL OF ISHAM BROWDER OF GUILFORD COUNTY, N.C.' exists."
+    },
+    {
+      "id": "Q002",
+      "question": "Was Elizabeth, wife of Edmund I, a Parsons (daughter of Joseph Parsons) or a Bolling (daughter of Col. Robert Bolling)?",
+      "significance": "Determines whether Sheriff Bolling's refusal to arrest Edmund (1693) was nepotism. John Mark Browder favors Parsons; Bolling theory was earlier speculation.",
+      "status": "open",
+      "priority": "medium",
+      "new_evidence": [
+        "John Mark Browder's firm belief: Elizabeth Parsons, daughter of Joseph Parsons",
+        "Previous Elizabeth Bolling theory now doubted (no marriage record, no will reference)",
+        "Theophilus Field (merchant, Justice, Vestryman, founder of Blanford Church) probated Edmund's will — significant connection",
+        "Blanche Penland Browder's 'Notes on the Browder Family of Tidewater' cited as source for Parsons theory"
+      ],
+      "next_action": "LOCATE BOOK: Blanche Penland Browder's 'Notes on the Browder Family of Tidewater' — examine her evidence for Elizabeth Parsons. Also search Theophilus Field records (Brunswick County Deed Book 7) for Parsons/Field connections."
+    },
+    {
+      "id": "Q003",
+      "question": "Did Edmund I & Elizabeth have a daughter Wilmuth who married Capt. John Banister, making Lt. Col. John Banister (signer of Articles of Confederation) a Browder descendant?",
+      "significance": "Would place a Browder line at the founding of the United States. Purely theoretical — no proof.",
+      "status": "speculative",
+      "priority": "low"
+    },
+    {
+      "id": "Q004",
+      "question": "What was the exact birthplace of Edmund I — Jamestown/James City County, VA (favored theory) or Wales/Ireland (older theory)?",
+      "significance": "Determines whether Edmund I was born in Virginia (son of George) or immigrated as an adult.",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "Q005",
+      "question": "Can the skeletal Browderer line from John (~1327) to Gilliam (~1521) to Robert (1604) be proven through documentary evidence?",
+      "significance": "Connects the Browder surname to the Broderers guild through 300 years of records. Currently reconstructed from sparse references.",
+      "status": "open",
+      "priority": "high",
+      "new_evidence": [
+        "10+ baptismal records now documented: Thomas (1575), Alphonse (1610), Thomas (1634), Katherine (1634), Thomas (1659), William (1660), Tho. (1670), Maria (1673), Cather. (1686)",
+        "Surname evolution proven across 300+ years with primary sources",
+        "Preponderance of Thomas and Robert names suggests family continuity",
+        "Robert Browder (c.1604) almost certainly descendant of Flemish weavers; possibly grandson of Gilliam Browderer (1521)"
+      ],
+      "next_action": "MANCHESTER CATHEDRAL ARCHIVES: Search baptismal records ~1604 for Robert Browder and marriage records 1580-1620 for Browder/Browderer parents. This closes the 80-year gap between Gilliam (1521) and Robert (1604)."
+    },
+    {
+      "id": "Q006",
+      "question": "What happened to the children of Edmund W. Browder (Handstress, James, William) — do they have living descendants?",
+      "significance": "Edmund W. owned 'Browder's Island' (Fort Henry site). His descendants would carry that geographic legacy.",
+      "status": "open",
+      "priority": "low"
+    },
+    {
+      "id": "Q007",
+      "question": "Are there DNA matches connecting Oklahoma Browders to Virginia/NC Browders that could validate the Joseph → Albert line?",
+      "significance": "Genetic proof would close the loop on the 1860 census confusion (Albert in Edmund's household).",
+      "status": "open",
+      "priority": "medium"
+    }
+  ]
+}

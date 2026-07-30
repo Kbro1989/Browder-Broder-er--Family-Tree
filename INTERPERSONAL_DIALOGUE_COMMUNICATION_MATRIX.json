@@ -1,0 +1,379 @@
+{
+  "curated_dialogue_matrix": [
+    {
+      "who_speaker": "Dr. Benjamin Hudson, Ph.D. (Medievalist, Professor of History)",
+      "who_listener": "John Mark Browder (Author & Genealogist)",
+      "when": "2013",
+      "medium": "Direct Email Correspondence",
+      "about_what": "Etymology of surname 'Browder' as an Old English occupational contraction of 'browderer' (embroiderer/weaver), referenced in Wycliffe (1320-1384) and Chaucer (1343-1400).",
+      "primary_source": "John Mark Browder Origins Paper (p. 34-39)",
+      "key_quote": "The name 'Browder' seems to be a contraction of the English word 'browderer'; this was an individual who carried out complicated sewing..."
+    },
+    {
+      "who_speaker": "Vinnie King (Fellow Army Unit Member in Iraq)",
+      "who_listener": "John Mark Browder",
+      "when": "2008–2009",
+      "medium": "Oral Conversation during Iraq Deployment",
+      "about_what": "Stated emphatically that Browders he knew in Ireland told him their family did NOT originate in Ireland/Scotland, but came from continental Europe (Netherlands).",
+      "primary_source": "John Mark Browder Origins Paper (p. 16)",
+      "key_quote": "Both of these persons stated emphatically that... the Browders they knew told them that their families did NOT originate in either Ireland or Scotland... probably the Netherlands."
+    },
+    {
+      "who_speaker": "Herman Edward Browder (Genealogical Researcher)",
+      "who_listener": "Frank & Esther Browder (Grandparents)",
+      "when": "c. 1950s",
+      "medium": "Family Conversations & Written Papers",
+      "about_what": "Believed and asserted that the Browder surname was of Flemish/Germanic occupational origin rather than indigenous Gaelic Irish.",
+      "primary_source": "John Mark Browder Origins Paper (p. 13, 33)",
+      "key_quote": "My great-uncle, Herman Edward Browder, who had done a great deal of research... clearly believed the Browder surname to have been of Germanic origin..."
+    },
+    {
+      "who_speaker": "Frank & Esther Browder (Grandparents)",
+      "who_listener": "John Mark Browder",
+      "when": "c. 1980s (High School Years)",
+      "medium": "Extensive Oral Family History Discussions",
+      "about_what": "Recounted family traditions, Herman Browder's research papers, three emigrating brothers, and horses/tobacco planting in Virginia.",
+      "primary_source": "John Mark Browder Origins Paper (p. 13, 33)",
+      "key_quote": "I talked with extensively during my early days of family research... Herman Browder believed that the Browder family was of Germanic origin..."
+    },
+    {
+      "who_speaker": "Peter Eppes (Virginia Citizen & Veteran)",
+      "who_listener": "Dinwiddie County Court & Pension Commissioners",
+      "when": "1780s",
+      "medium": "Sworn Court Deposition",
+      "about_what": "Gave sworn testimony confirming that Jesse Browder and Charles Browder (sons of William Browder Sr. & Margaret) died while serving in the Continental Army.",
+      "primary_source": "Sworn Deposition of Peter Eppes, J.M. Browder Research",
+      "key_quote": "Peter Eppes swore under oath that Jesse and Charles Browder, sons of William, died in Revolutionary War service..."
+    },
+    {
+      "who_speaker": "Earl of Manchester & Lord Chamberlain",
+      "who_listener": "London Citizens & Guildhall Common Council",
+      "when": "1640s (English Civil War)",
+      "medium": "Personal Visit & Public Address at Guildhall",
+      "about_what": "Exhorted and persuaded London citizens to advance a £200,000 loan to Parliament for military defenses.",
+      "primary_source": "Gutenberg #20990 (London and the Kingdom Vol 3, p. 241)",
+      "key_quote": "Earl of Manchester... paid a personal visit to the Guildhall and used their utmost powers to persuade the citizens..."
+    },
+    {
+      "who_speaker": "Master of the Worshipful Company of Broderers",
+      "who_listener": "Broderers Liverymen & Guests",
+      "when": "1558 – Present (Annual Master's Dinner)",
+      "medium": "Solo Song Performance (The Master's Song)",
+      "about_what": "Sings 'The Master's Song' solo at 36 Gutter Lane hall, upholding brotherhood, embroidery craft, and faith under the motto 'Omnia desuper'.",
+      "primary_source": "Worshipful Company of Broderers Official History",
+      "key_quote": "The Broderers are the only Livery Company to have their own Master’s Song, which the Master has to sing solo..."
+    },
+    {
+      "who_speaker": "Sheriff Robert Bolling & Court Officers",
+      "who_listener": "Surry County Court",
+      "when": "1682 & 1695",
+      "medium": "Formal Court Record / Deposition",
+      "about_what": "Deposed regarding merchant suits involving Edmund Browder I, serge suits, French fall shoes, and land claims.",
+      "primary_source": "Surry County Virginia Orders & Deeds",
+      "key_quote": "Edmund Browder mentioned by name in early court records... regarding merchant account debts..."
+    }
+  ],
+  "extracted_speech_events_count": 4837,
+  "raw_speech_events_sample": [
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "talked",
+      "year_context": "Undated / Contextual",
+      "snippet": "anic origin, according to what few documents that I obtained which referred to this, and also according to my Browder grandparents and others, whom I talked with extensively during my early days of family research. Indeed, I was fortunate to have begun my research while still young, long before most begin"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "So, to blindly follow what others have postulated here is folly because it cannot be supported by documentation. In addition, it must be emphatically stated that the Coat of Arms of the Broderick family is completely their own. The Browder family is in no way whatsoever connected with it, regardless of wh"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "told",
+      "year_context": "Undated / Contextual",
+      "snippet": "ternet. I have also searched modern day records, such as phone lists, available on the internet. All of this has been fruitless. However, I have been told that members of the family either still do reside in these areas, or did so within my own lifetime (and, according to facebook.com, they indeed do)."
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "ndeed do). I have managed to make contact with two persons over the years who personally knew Browders in Ireland and Scotland. Both of these persons stated emphatically that, first, the name is NOT very common in those areas and, second, that the Browders they knew told them that their families did NOT o"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "told",
+      "year_context": "Undated / Contextual",
+      "snippet": "Scotland. Both of these persons stated emphatically that, first, the name is NOT very common in those areas and, second, that the Browders they knew told them that their families did NOT originate in either Ireland or Scotland. One of these persons, my fellow unit member during deployment to Iraq in 20"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "told",
+      "year_context": "2008",
+      "snippet": "llow unit member during deployment to Iraq in 2008-09, Vinnie King (who was brought up in Ireland), added, without prodding from me, that he had been told by the family he knew that they originated somewhere in Europe, probably the Netherlands. Now, back to proposed Irish roots. Those who hold to the th"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "corresponded",
+      "year_context": "2013",
+      "snippet": "that the word “bródir” was not a proper name at all among the Norse, but that the term among them does mean “brother”. Dr. Hudson, by the way (whom I corresponded with on this matter via email in 2013), specializes in the history of Celtic-speaking peoples in the British Isles and the Norse-Gaelic Irish Sea reg"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "email",
+      "year_context": "2013",
+      "snippet": "er name at all among the Norse, but that the term among them does mean “brother”. Dr. Hudson, by the way (whom I corresponded with on this matter via email in 2013), specializes in the history of Celtic-speaking peoples in the British Isles and the Norse-Gaelic Irish Sea region during the Early and High"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "speaking",
+      "year_context": "2013",
+      "snippet": "ng them does mean “brother”. Dr. Hudson, by the way (whom I corresponded with on this matter via email in 2013), specializes in the history of Celtic-speaking peoples in the British Isles and the Norse-Gaelic Irish Sea region during the Early and High Middle Ages, so it is obvious that he knows something of"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "spoke",
+      "year_context": "Undated / Contextual",
+      "snippet": "we are unlikely to be descended from the O’Bruadair/O’Brodair families. What is likely is that we descend from some unknown individual, who probably spoke a Germanic language. Still, it is tempting indeed to believe that we Browders could be descendants of such notable Irish figures as David O’Brudair,"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "ow better, according to what I have uncovered. Still, all of this is even better than what can be found on certain genealogical websites, where it is stated that the Browder surname is an “Americanized” form of the Dutch name broeder, meaning “brother” or of the German bruder, meaning the same thing. In f"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "er”, either changing one letter, or adding a “w” to their surnames. This is actually absurd and preposterous, and deserves no further comment. Having stated these things, it is a virtual certainty that, if I had had the opportunity to travel to Britain and Ireland and do any research there, I might have b"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "email",
+      "year_context": "Undated / Contextual",
+      "snippet": "n be brought out. Because of the previously mentioned statement by Benjamin T. Hudson, found on Wikipedia.com, I decided to make contact with him via email to see what his belief might be concerning the origin of the surname Browder. After all, I thought, if he were an expert in the Gaelic and Norse lang"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "email",
+      "year_context": "Undated / Contextual",
+      "snippet": "pert in the Gaelic and Norse languages and history during Medieval times, he might be able to help. And I was thrilled to have received the following email response to my questions: Dear Mr. Browder, Thank you for your most interesting note. I am hardly an expert on this matter, but, after doing a bit of"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "email",
+      "year_context": "Undated / Contextual",
+      "snippet": "hes and the success of your book. Yours Truly, Benjamin Hudson Suddenly, the solution to this perplexing, long-term, question became as simple as one email response, and one Old English term! Instantly, all of the other theories as to our surname’s origins were called into question, as if they had not be"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "1439",
+      "snippet": "or this. I first found a reference to a new, possible, ancestor in Transactions of the East Riding Antiquarian Society, Vol 3, p. 99, in which it was stated, “And paid to William Browderer for the expense incurred by him at London for the purchase of said clothing”. This reference was for the years 1439-4"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "1439",
+      "snippet": "tiquarian Society, Vol 3, p. 99, in which it was stated, “And paid to William Browderer for the expense incurred by him at London for the purchase of said clothing”. This reference was for the years 1439-40. Now, at first, I questioned this reference as probably not really signifying an actual surname."
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "vidual persons were our ancestors cannot be determined only with this evidence. But the evolution of the term into a surname can be. This having been said, it does seem possible that William Browderer is a key person among these. The reason for this is because he is named in Robert Hungerford’s Will. Be"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "le that William Browderer is a key person among these. The reason for this is because he is named in Robert Hungerford’s Will. Because he is named in said Will, he already has a connection with given names such as Robert (Robart) and Edmund. So, here, there actually is a very good possibility that Willi"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "spoke",
+      "year_context": "Undated / Contextual",
+      "snippet": "It seems obvious, as will be shown, that it was indeed from immigrants; weavers from Flanders in the Netherlands, mainly from the city of Ghent, who spoke a Germanic language; that the ancestors of the Browder family came. This would tend to vindicate the research of Herman Browder. Some of these Flemis"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "the Exchequer in order for the guilds to be allowed to hold a Charter, which would confirm certain privileges, rights, and liberties from the king to said guild and its members. This was the way they were protected by the crown. The very first such recorded payment establishes the Weavers as London’s ol"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "1642",
+      "snippet": "lso caused Manchester to become a center of Puritanism. This city sided with Parliament in its disagreement with King Charles I. “Indeed, it might be said that the English Civil War started here” in 1642, when Richard Percival, a linen weaver, was killed during an attempt by Lord Strange to seize the mi"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "the time if the first record found the family had become adherants of the Church of England since these baptismal records are found in the records of said church. Sadly, there is no mention of Edmund Browder so far. But, neither is there mention of the Thomas Browder of Ireland in these records, as far"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "1601",
+      "snippet": "ecords – none of the Robert Browders here fit. But the preponderance of the names Thomas and Robert demonstrate a family connection, at least. Having stated this, “Marye” Hulme, daughter of “Adame” (Adam) Hulme, is mentioned in said records as having been christened on February 4, 1601 (baptized June 17,"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "1601",
+      "snippet": "mes Thomas and Robert demonstrate a family connection, at least. Having stated this, “Marye” Hulme, daughter of “Adame” (Adam) Hulme, is mentioned in said records as having been christened on February 4, 1601 (baptized June 17, 1609) at Manchester Cathedral, St. Mary, St. Denys, and St. George Parish (R"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "some family tradition, it has long been held that the Browder family immigrated directly to the English Colonies in America from Ireland. It is also said that information exists that a Robert Browder and a Thomas Browder can be found in some Irish church records, but to date I have not confirmed this l"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "records, but to date I have not confirmed this latter information. In fact, I have found nothing, other than surnames such as Broder and Broderick in said records. There is also a family tradition of three Browder brothers emigrating to the Colonies from Ireland together. This information is exactly why"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "stated",
+      "year_context": "1674",
+      "snippet": "as often mistakenly referred in records as “Edward”. Blanche Penland Browder (Penland Browder, p. 3; Nugent, in Cavaliers & Pioneers, Vol. 2, p. 152) stated that, The first occurrence of the name [in the American colonies] was in September of 1674 when a JOHN BROADAR was brought to Virginia by William Hav"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "ant for 950 acres on the east side of the Elizabeth River in Lower Norfolk County, acquired for the transportation of eighteen persons (including the said JOHN BROADAR and self at fifty acres each - an allowance regardless of the relationship to the transporter, or even the number of times the same pers"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "e being an ashe in the ashen swamp, from thence Running 30 poles S by E to a marked white oake standing neare the ashen swamp Runs sou by the side of said River severall southerly Courses to a marked oak from thence 80 poles SE by S to James Jopling’s Corner marked tree being a gum, and by the sd Joplin"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "said",
+      "year_context": "1682",
+      "snippet": "ds of Surry County, Virginia; this mention being made as early as 1682 (making him at least twenty-one years of age at that time due to the nature of said record), and also of Charles City County (later Prince George County), Virginia as early as 1693. Edmund Browder is mentioned by name as early as 169"
+    },
+    {
+      "source": "John Mark Browder Origins Paper",
+      "verb_matched": "discussed",
+      "year_context": "1600",
+      "snippet": "further postulate, then, that Robert Browder was born about 1600. Let us further postulate that Robart’s father was likely named “Edmund”, as already discussed, and that he somehow descends from the Flemish weavers who used the surname Browderer via those shown in baptismal records with the Browder surname."
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "ake. Early mention of the town, in authentic annals, is scanty. It was probably one of the scenes of the missionary preaching of Paulinus ; and it is said (though by a chronicler of comparatively late date) to have been the residence of Ina, King of Wessex, and his queen Ethelberga, after he had defeate"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "1689",
+      "snippet": "worm, who complained with some bitterness of their ingratitude to him. An earlier affray between the Puritans and some of Lord Strange's followers is said to have occasioned the shedding of the first blood in the disastrous struggle between the King and Parliament. The year 1689 witnessed that strange e"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "discussed",
+      "year_context": "Undated / Contextual",
+      "snippet": "anity, and a variety of smaller objects and coins, have from time to time been unearthed. These evidences of Roman occupation are fully described and discussed by Mr. Thompson Watkin in hia Roman Lancashire where many of them are illustrated. It will be seen that there is a probability that Manchester came u"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "d^ became joint Emperor with Gratian, his elevation to power excited the anger of Maximus, a former fellow-officer, who was proclaimed Emperor, it is said at York. He raised an army, which included the flower of the British youth, invaded Gaul and defeated Gratian, who was killed a.d. 383. But the star"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "388. The victor died in 395\", and in his reign was appointed the last known Governor of Britain, Ghrysanthus, who was Vicarius. 400-421. It has been said that the famous Stilicho distinguished himself in Britain, but other authorities state that it was the terror caused by his crushing defeat of the Sa"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "the other customs of the other manors above mentioned they bore their part.\" (Beamont, p. 81.) Of the entire district between Ribble and Mersey it is said : \" In King Edward's time the whole was worth cxlv. pounds and ii. shillings and ii. pence. When Roger of Poictou received it from the King it was wo"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "discussed",
+      "year_context": "Undated / Contextual",
+      "snippet": "ael's at Ashton-under-Lyne is meant. The necessity for two churches in a place so small as Manchester then was is not at all apparent. The subject is discussed fully in Hibbert Ware's Foundations of Maiichcster. Roger of Poictou, to whom William the Conqueror granted the land between Mersey and Ribble, was o"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "esme. The father's character was a bad one, and the lady is described as small of body, a great talker, crafty, cruel, and audacious. The marriage is said to have taken place in 10-18, and Roger de Pictavcnsis was the third son. At the time of the Conquest, among the most important, rich, and influentia"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "It is under his rule that Albert Gresley received his grant of lands forming the greater proportion of the barony of Manchester. Gresley is, however, said to have been a favourite of Roger Pictavensis, and is thought to have held the barony from 1086 to 1100. 1120. \" One writeth that about 1120 (a mista"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "er, gave to the Abbey of Swineshead, in Lincolnshire, his mill at Mancestre, \" at which lordship,\" says Dugdale, \" he held his principal seat.\" He is stated to have died in 1135, but another account represents him as founding the abbey in 1143- Dugdale (Monasticon and Baronage) says 1134. 1135-1222] Annal"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "de Nevill gives particulars as to the various holders of land in Lancashire, as the result of an inquisition made by a jury of knights, at a date not stated, but supposed to be about 1200 — 1207. Full particulars are given in Harland's Mamcestre. 1215. Robert de Gresley, Baron of Manchester, was one of th"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "stated",
+      "year_context": "Undated / Contextual",
+      "snippet": "ed to three days— on the eve and feast day of St. Matthew, the apostle, and the day next following— and the grant made perpetual. No consideration is stated as having been paid for the charter, which is dated at Faringdon, 19th August. 1231. Randulph de Blundeville, Earl of Chester, granted a charter maki"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "that every burgess may hold one acre of land with his burgage, and shall pay for each burgage twelve pence per year, for all rents pertaining to the said burgage. [III.] If the reeve of the town challenge any burgess concerning any plea, and the party challenged shall not appear at the day appointed, n"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "testimony",
+      "year_context": "Undated / Contextual",
+      "snippet": "erson, concerning any matter which appertains to the borough, and the complainant makes no appearance for three days, if the defendant shall have the testimony of the reeve and of his neighbours that his adversary has failed to appear during those thi-ee days, he need give no answer to that plea, and the oth"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "urgesses may grind at such mill to the twentieth bushel ; and if I shall have no mill there, they may grind wheresoever they wish. [XI.] Likewise the said burgesses can choose the reeve from themselves, whom they wish, and remove him at the end of the year. [XII.] And when any burgesses shall wish to gr"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "ead or of beer, shall suffer a forfeiture of twelve pence three times ; and the fourth time he shall perform the assize of the town. [XVII.] Also the said burgesses shall have common free pasture in the wood, in the plain, and in all the pastures belonging to the town of Salford ; and shall be free from"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "ave his burgage and his chattels, whensoever he dies, to whom he pleases, saving my right, viz., four pence, and saving the service pertaining to the said burgage ; so, however, that the burgage be not alienated in religion. [XXI.] When a burgess dies his widow shall remain in the house with the heir an"
+    },
+    {
+      "source": "Local HTML Source (archive_org_annals_of_manchester_ocr.txt)",
+      "verb_matched": "said",
+      "year_context": "Undated / Contextual",
+      "snippet": "ce and go freely wheresoever he wishes, with all his chattels. I, Ranulph, and my heirs will guarantee all the aforesaid liberties and customs to the said burgesses and their heirs against all men for ever, saving to me and to my heirs reasonable tallage, except when the lord King impose a tallage on hi"
+    }
+  ]
+}

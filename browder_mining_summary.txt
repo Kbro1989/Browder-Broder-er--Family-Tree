@@ -1,0 +1,79 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║          BROWDER-BRODERERS DATA MINING & EXACT LINE TRACES                  ║
+║                    Session Report: 2026-07-29                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+ARTIFACTS GENERATED
+───────────────────
+1. browder_broderers_lineage.json  — Structured graph (35 nodes, 31 edges, 7 open questions)
+2. browder_research_brief.md       — Research brief with evidence chains and next traces
+
+SEARCH EXECUTION
+────────────────
+Queries:     4 parallel searches
+Results:     13 documents processed
+Authority:   1× S (Library of Congress), 4× A (J.M. Browder), 2× B (Geni/FindAGrave), 6× NA
+
+CRITICAL DISCOVERIES
+────────────────────
+🔴 WILL OF ISHAM BROWDER CONFIRMED
+   Library of Congress catalog (catdir.loc.gov) lists:
+   • "WILL OF ISHAM BROWDER OF GUILFORD COUNTY, N.C."
+   • "WILL OF TALITHA BROWDER OF ROCKINGHAM"
+   → HIGHEST PRIORITY: Locate this will. May name parents/children/siblings.
+
+🔴 TWO ISHAM BROWDERS DISTINGUISHED
+   Captain Isham (c.1732-1784) — Guilford County Militia — PARENTS UNKNOWN
+   Private Isham (1762-1830)   — 2nd Virginia Regiment — son of Frederick (1744-1815)
+   Ancestry.com conflates them. The Captain is NOT father of "Parthenia Thenie."
+
+🟡 ELIZABETH PARSONS THEORY STRENGTHENED
+   John Mark Browder's firm belief: Elizabeth = daughter of Joseph Parsons
+   Previous Bolling theory now doubted (no marriage record, no will reference)
+   Theophilus Field (founder of Blanford Church) probated Edmund's will — significant
+
+🟢 BROWDERER SKELETON CONFIRMED
+   10+ primary source references 1327-1686 prove surname evolution
+   Direct ancestor links reconstructed but not proven
+   Gap: Gilliam (1521) → Robert (1604) = 80 years, needs Manchester Cathedral records
+
+OPEN QUESTIONS — UPDATED PRIORITY
+───────────────────────────────────
+Q001  Isham's parents        HIGH     → Locate will at Guilford County/NC Archives
+Q005  Browderer line proof   HIGH     → Manchester Cathedral archives
+Q002  Elizabeth's identity   MEDIUM   → Locate Penland Browder's book
+Q004  Edmund I's birthplace  MEDIUM   → Charles City County records 1650-1660
+Q007  Genetic validation     MEDIUM   → Contact FamilyTreeDNA Browder project
+Q003  Wilmuth/Banister       LOW      → Banister family papers (VHS)
+Q006  Edmund W. descendants  LOW      → Chesterfield County deeds
+
+NEXT ACTIONS (RANKED)
+─────────────────────
+1. [HIGHEST] Contact NC State Archives for Isham Browder will (Guilford County)
+   Reference: LoC catalog number fy044/84071250
+
+2. [HIGH] Contact Manchester Cathedral archives for Robert Browder baptism ~1604
+   and Browder/Browderer marriages 1580-1620
+
+3. [MEDIUM] Locate Blanche Penland Browder's "Notes on the Browder Family of Tidewater"
+   Examine her evidence for Elizabeth Parsons theory
+
+4. [MEDIUM] Search Theophilus Field records (Brunswick County Deed Book 7, p.114, 122)
+   for Parsons/Field/Browder connections
+
+5. [MEDIUM] Contact FamilyTreeDNA Browder surname project for Y-DNA matches
+   Validate Joseph (1789) → Albert (1825) line genetically
+
+ARCHITECTURAL NOTE
+──────────────────
+Every node in this lineage has:
+  • Certainty score (certain → probable → possible → speculative → debunked)
+  • Source citations with URL, authority rating, and assessment
+  • Trace instructions for next evidence hunt
+  • Impact assessment for what changes if resolved
+
+This is the same architecture as POG3's hexagram state machine:
+  confidence values × evidence weights → convergence on truth.
+
+Omnia desuper.

@@ -1,0 +1,4 @@
+# Git Ignore Rules
+harvested_pdfs/*.pdf
+*.pyc
+__pycache__/
